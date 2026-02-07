@@ -1,33 +1,22 @@
-# Plugin Configuration
-# 
-# This file configures how your TRMNL plugin behaves:
-# - How data is fetched (polling_url, webhook, static)
-# - How often the display refreshes (refresh_frequency)
-# - Which layouts are available
-# - Plugin metadata
-
-# Strategy: How to fetch data
-# Options: "polling" (TRMNL fetches), "webhook" (you push), "static" (hardcoded)
-strategy: "polling"
-
-# Polling URL: Endpoint TRMNL calls to fetch data (required for polling strategy)
-# TRMNL will make GET requests at refresh_frequency intervals
-# Response should be JSON with your template variables
-polling_url: "https://your-api.example.com/plugin/data"
-
-# Refresh Frequency: How often to fetch data (in minutes)
-# Range: 1-1440 minutes (1 minute to 24 hours)
-# Lower = more frequent updates, higher = less battery drain
-refresh_frequency: 15
-
-# Available Layouts: Which template layouts this plugin supports
-# All plugins should provide at least the 'full' layout
-# Optional layouts: half_horizontal, half_vertical, quadrant
-layouts:
-  - full
-  - half_horizontal
-  - half_vertical
-  - quadrant
+---
+strategy: polling
+no_screen_padding: 'no'
+dark_mode: 'no'
+static_data: ''
+polling_verb: get
+polling_url: https://YOUR_GITHUB_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote.json
+polling_headers: ''
+polling_body: ''
+custom_fields:
+- keyname: kung_fu_panda_quotes
+  field_type: author_bio
+  name: Kung Fu Panda Quotes
+  description: Inspiring quotes from the Kung Fu Panda trilogy. Experience the wisdom of Master Oogway, the courage of Po, and the philosophy of the Valley of Peace. "There are no accidents..."
+  category: entertainment
+  github_url: https://github.com/YOUR_GITHUB_USERNAME/trmnl-kung-fu-panda-quotes
+  email_address: YOUR_EMAIL@example.com
+name: Kung Fu Panda Quotes
+refresh_interval: 1440
 
 # Plugin Metadata
 name: "Example Plugin"

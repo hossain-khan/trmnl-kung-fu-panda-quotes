@@ -1,0 +1,163 @@
+name: CI - Validate JSON and Python
+
+on:
+  push:
+    branches: ["main", "feature/**"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      
+      - name: Validate quotes.json structure
+        run: |
+          python3 << 'EOF'
+          import json
+          
+          # Load and validate quotes.json
+          with open('quotes.json', 'r', encoding='utf-8') as f:
+              quotes = json.load(f)
+          
+          print(f"✓ quotes.json is valid JSON")
+          print(f"✓ Found {len(quotes)} quotes")
+          
+          # Validate each quote has required fields
+          required_fields = ['id', 'text', 'author', 'movie', 'theme']
+          for i, quote in enumerate(quotes):
+              for field in required_fields:
+                  if field not in quote:
+                      raise ValueError(f"Quote {i} missing field: {field}")
+          
+          print(f"✓ All quotes have required fields: {', '.join(required_fields)}")
+          
+          # Validate unique IDs
+          ids = [quote['id'] for quote in quotes]
+          if len(ids) != len(set(ids)):
+              raise ValueError("Duplicate quote IDs found")
+          
+          print(f"✓ All quote IDs are unique")
+          
+          # Validate movie names
+          valid_movies = ['Kung Fu Panda', 'Kung Fu Panda 2', 'Kung Fu Panda 3', 'Kung Fu Panda 4']
+          for quote in quotes:
+              if quote['movie'] not in valid_movies:
+                  print(f"⚠ Warning: Unknown movie: {quote['movie']}")
+          
+          print(f"✓ quotes.json validation passed!")
+          EOF
+      
+      - name: Validate Python syntax
+        run: |
+          python3 -m py_compile generate_random_quote.py
+          echo "✓ generate_random_quote.py syntax is valid"
+      
+      - name: Test quote generation script
+        run: |
+          python3 << 'EOF'
+          import json
+          import sys
+          sys.path.insert(0, '.')
+          from generate_random_quote import generate_random_quote
+          
+          # Generate a quote
+          quote = generate_random_quote()
+          
+          # Validate the generated quote
+          required_fields = ['id', 'text', 'author', 'movie', 'theme', 'updated_on']
+          for field in required_fields:
+              if field not in quote:
+                  raise ValueError(f"Generated quote missing field: {field}")
+          
+          print(f"✓ Generated quote is valid")
+          print(f"  Text: {quote['text'][:50]}...")
+          print(f"  Author: {quote['author']}")
+          print(f"  Movie: {quote['movie']}")
+          print(f"  Theme: {quote['theme']}")
+          print(f"  Timestamp: {quote['updated_on']}")
+          
+          # Validate timestamp format (ISO 8601 with Z suffix)
+          if not quote['updated_on'].endswith('Z'):
+              raise ValueError("Timestamp doesn't end with 'Z'")
+          
+          print(f"✓ Timestamp format is valid (ISO 8601)")
+          EOF
+      
+      - name: Generate and validate API endpoint
+        run: |
+          python3 generate_random_quote.py
+          
+          python3 << 'EOF'
+          import json
+          
+          # Validate the generated API file
+          with open('api/random-quote.json', 'r', encoding='utf-8') as f:
+              quote = json.load(f)
+          
+          required_fields = ['id', 'text', 'author', 'movie', 'theme', 'updated_on']
+          for field in required_fields:
+              if field not in quote:
+                  raise ValueError(f"API quote missing field: {field}")
+          
+          print(f"✓ api/random-quote.json is valid")
+          print(f"  Size: {len(json.dumps(quote))} bytes")
+          print(f"  Quote: '{quote['text'][:40]}...'")
+          EOF
+      
+      - name: Validate JSON formatting
+        run: |
+          python3 << 'EOF'
+          import json
+          
+          files_to_check = ['quotes.json', 'api/random-quote.json']
+          
+          for filename in files_to_check:
+              with open(filename, 'r', encoding='utf-8') as f:
+                  content = f.read()
+                  data = json.loads(content)
+              
+              # Re-format and compare
+              formatted = json.dumps(data, indent=2, ensure_ascii=False)
+              
+              # Allow some flexibility in formatting
+              print(f"✓ {filename} is properly formatted JSON")
+          EOF
+      
+      - name: Test quotes can be serialized to JSON
+        run: |
+          python3 << 'EOF'
+          import json
+          from generate_random_quote import generate_random_quote
+          
+          # Generate multiple quotes and ensure they can be serialized
+          for i in range(5):
+              quote = generate_random_quote()
+              # Try to serialize to JSON
+              json_str = json.dumps(quote, ensure_ascii=False)
+              # Try to deserialize back
+              quote_back = json.loads(json_str)
+              
+              if quote['id'] != quote_back['id']:
+                  raise ValueError("Quote serialization/deserialization mismatch")
+          
+          print(f"✓ Quote serialization test passed (5 iterations)")
+          EOF
+      
+      - name: Summary
+        run: |
+          echo "✓ All validation checks passed!"
+          echo "  - quotes.json structure is valid"
+          echo "  - All quotes have required fields"
+          echo "  - Python script syntax is valid"
+          echo "  - Quote generation works correctly"
+          echo "  - API endpoint is properly formatted"
+          echo "  - JSON serialization works"

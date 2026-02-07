@@ -1,33 +1,31 @@
 # Custom Form Fields Configuration
 # 
-# This file defines the user-facing form fields that appear in the TRMNL
-# plugin configuration interface. Users enter values here which become
-# available in your templates via:
-#   {{ trmnl.plugin_settings.custom_fields_values.field_name }}
+# Kung Fu Panda Quotes Plugin
+# This file defines user-facing form fields for plugin configuration
 
-# Field Types:
-# - text: Single line text input
-# - long_text: Multi-line text area
-# - select: Dropdown with predefined options
-# - checkbox: Boolean toggle
-# - number: Numeric input
-# - url: URL input with validation
-# - email: Email input with validation
-
-# Example text field
-- key: "api_key"
-  type: "text"
-  label: "API Key"
-  placeholder: "Enter your API key"
-  required: true
-  description: "Required for authenticating with the data service"
-
-# Example select field
-- key: "data_source"
-  type: "select"
-  label: "Data Source"
-  required: true
-  options:
+# Currently, this quote plugin requires no additional configuration
+# All settings are managed through the main settings.yml file
+# 
+# If you want to add custom fields in the future, examples:
+#
+# - key: "theme"
+#   type: "select"
+#   label: "Quote Theme"
+#   required: false
+#   options:
+#     - label: "All Quotes"
+#       value: "all"
+#     - label: "Wisdom Only"
+#       value: "wisdom"
+#     - label: "Humor Only"  
+#       value: "humor"
+#   description: "Filter quotes by theme"
+#
+# - key: "include_author"
+#   type: "checkbox"
+#   label: "Show Character Names"
+#   required: false
+#   description: "Display which character said the quote"
     - label: "Source A"
       value: "source_a"
     - label: "Source B"

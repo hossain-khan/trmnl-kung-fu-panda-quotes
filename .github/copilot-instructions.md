@@ -1,82 +1,143 @@
 # TRMNL Plugin - Copilot Instructions Template
 
-> **Note**: This is a generic template for TRMNL plugin projects. Replace placeholders with your project-specific information.
+> **Note**: This is the Kung Fu Panda Quotes plugin for TRMNL - a daily quote display plugin featuring wisdom and humor from all four Kung Fu Panda films.
 
-> **Repository**: [your-username/your-repo-name](https://github.com/your-username/your-repo-name)  
-> **Author**: Your Name  
-> **Last Updated**: [Current Date]
+> **Repository**: [hossain-khan/trmnl-kung-fu-panda-quotes](https://github.com/hossain-khan/trmnl-kung-fu-panda-quotes)  
+> **Author**: Community Contributors  
+> **Last Updated**: February 7, 2026
 
 ## Project Overview
 
-[Provide a brief description of what your TRMNL plugin does, its key features, and the value it provides to users]
+The Kung Fu Panda Quotes plugin displays daily quotes from the Kung Fu Panda film franchise (all four movies) on TRMNL e-ink devices. Users receive curated quotes from characters like Master Oogway, Po, Shifu, and more—organized by theme (Wisdom, Humor, Combat, Growth, etc.). The plugin features multiple responsive layouts (full-screen, half-size horizontal/vertical, and quadrant), movie-specific poster colors, and daily automated quote updates.
 
 ### Key Goals
 
-1. **[Goal 1]**: [Description]
-2. **[Goal 2]**: [Description]
-3. **[Goal 3]**: [Description]
+1. **Daily Inspiration**: Deliver one curated Kung Fu Panda quote per day to TRMNL users
+2. **Multi-Layout Support**: Provide seamless display across all TRMNL device sizes (full, half-horizontal, half-vertical, quadrant)
+3. **Easy Setup**: Enable GitHub Pages-based deployment without server infrastructure requirements
 
 ### Current Status
 
-[Describe the current state of the project - what's complete, what's in progress, what's planned]
+**✅ Complete:**
+- All 4 responsive layouts designed and deployed (full, half_horizontal, half_vertical, quadrant)
+- Quote database with 80+ quotes from all four films organized by theme
+- Shared template with base64-encoded SVG assets (icon, quote marks, colored posters)
+- Python automation script (`generate_random_quote.py`) for daily quote generation
+- Configuration files (settings.yml, custom-fields.yml) production-ready
+- Comprehensive README with setup instructions for GitHub Pages, Cloudflare Workers, self-hosted
+
+**🔄 In Progress:**
+- GitHub Actions workflow for automated daily quote updates (optional enhancement)
+- Real poster images (currently SVG placeholders, ready for upgrade)
+
+**📋 Planned:**
+- Per-user theme filtering (Wisdom-only, Humor-only, etc.)
+- Quote history tracking
+- Custom locale/language support
+- Community quote submissions feature
 
 ## Getting Started
 
-For developers working on this project:
+For developers working on this Kung Fu Panda Quotes plugin:
 
-1. **Understand the Project**: Read this file completely for comprehensive context
+1. **Understand the Project**: Read this entire file for comprehensive context on architecture and patterns
 2. **Review Documentation**:
-   - `README.md` - Project overview and installation
-   - [List any other relevant documentation files]
-3. **Test Templates**: Preview layouts in TRMNL Markup Editor or locally
-4. **Review Framework**: Familiarize yourself with [TRMNL Framework](https://usetrmnl.com/framework)
+   - [README.md](../../README.md) - Plugin overview, setup instructions, and deployment options
+   - [quotes.json](../../quotes.json) - All 80 quotes with structure and examples
+3. **Test Templates**: 
+   - Copy `templates/full.liquid` + `templates/shared.liquid` to [TRMNL Markup Editor](https://editor.usetrmnl.com)
+   - Use sample data from [assets/demo/sample-data.json](../../assets/demo/sample-data.json)
+   - Test all device layouts (full, half-horizontal, half-vertical, quadrant)
+4. **Review Framework**: Familiarize yourself with [TRMNL Framework v2](https://usetrmnl.com/framework) for responsive patterns and utilities
+5. **Run Local Testing**: Execute `python3 generate_random_quote.py` to test quote generation
 
 ## Project Structure
 
 ```
-your-plugin-name/
+trmnl-kung-fu-panda-quotes/
 ├── .github/                      # GitHub configuration
-│   ├── workflows/               # GitHub Actions (if applicable)
-│   └── copilot-instructions.md  # This file
+│   ├── copilot-instructions.md  # This file (project context for AI)
 ├── assets/                       # Design assets
-│   ├── icon/                    # Plugin icons
-│   └── demo/                    # Demo screenshots
+│   ├── icon/                    # Plugin icons and images
+│   └── demo/                    # Demo screenshots and sample data
+├── quotes-store/                # Legacy quote storage (optional)
+│   ├── q1.json
+│   ├── q2.json
+│   └── q3.json
 ├── templates/                    # Template layouts (uploaded to TRMNL)
-│   ├── full.liquid              # Full-screen layout
-│   ├── half_horizontal.liquid   # Half-size horizontal layout
-│   ├── half_vertical.liquid     # Half-size vertical layout
-│   ├── quadrant.liquid          # Quarter-size layout
-│   └── shared.liquid            # Reusable templates and assets
-├── settings.yml                  # Plugin settings configuration
-├── custom-fields.yml            # Custom form fields configuration
-├── LICENSE                       # License file
-└── .gitignore                    # Git ignore patterns
+│   ├── full.liquid              # Full-screen layout (quote + poster grid)
+│   ├── half_horizontal.liquid   # Half-size horizontal (quote + details, responsive)
+│   ├── half_vertical.liquid     # Half-size vertical (quote + details stacked)
+│   ├── quadrant.liquid          # Quarter-size layout (minimalist quote-only)
+│   └── shared.liquid            # Reusable components & base64-encoded assets
+├── api/                          # Generated quote endpoints
+│   └── random-quote.json        # Daily quote (auto-generated by script)
+├── settings.yml                  # TRMNL plugin configuration
+├── custom-fields.yml            # User-facing form fields
+├── quotes.json                   # Quote database (80+ quotes from all 4 films)
+├── generate_random_quote.py      # Python script for daily quote generation
+├── README.md                     # Setup & deployment instructions
+├── LICENSE                       # License information
+└── .gitignore                   # Git ignore patterns
 ```
 
-## Key Files
+### Key Implementation Files
 
-- **templates/\*.liquid**: Layout templates that adapt to different display sizes (uploaded to TRMNL Markup Editor)
-- **templates/shared.liquid**: Reusable template components, variables, and assets
-- **settings.yml**: TRMNL plugin configuration (strategy, refresh frequency, layouts)
-- **custom-fields.yml**: User-facing form fields for plugin configuration
+**Data Source:**
+- **quotes.json**: Array of 80+ quotes with structure:
+  ```json
+  {
+    "id": 1,
+    "text": "Yesterday is history, tomorrow is a mystery...",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  }
+  ```
 
-### Template Structure and Best Practices
+**Quote Generation:**
+- **generate_random_quote.py**: Selects random quote, adds ISO timestamp, outputs to `api/random-quote.json`
+  - Callable: `python3 generate_random_quote.py`
+  - Output: JSON with quote data + `updated_on` field
+  - Used by: GitHub Pages polling or GitHub Actions automation
 
-**Main Templates** (`templates/*.liquid`):
+**Templates:**
+- **shared.liquid**: 6 base64-encoded SVG capture blocks:
+  - `icon_kfp`: Plugin icon (100x100px placeholder)
+  - `opening_quote`, `closing_quote`: Quotation mark SVGs
+  - `poster_kfp_1/2/3/4`: Movie-specific colored posters for conditional display
+  - **Note**: SVGs are placeholders; can be upgraded to real JPEG/PNG movie posters
 
-- Use template variables from your data source (e.g., API, webhook, static data)
-- Include conditionals for handling missing data
-- Always provide error states for unconfigured plugins
-- These are uploaded to TRMNL Markup Editor and used in production
+- **full.liquid**: 
+  - 2-column grid: poster image (left), quote text (right)
+  - Conditional poster selection based on `movie` field
+  - Character attribution right-aligned
+  - Maximum visual impact for full-screen displays
 
-**Shared Templates** (`templates/shared.liquid`):
+- **half_horizontal.liquid**: 
+  - Quote on left (flex: 1), character details right (max-width 200px)
+  - Responsive: breaks to column layout in portrait mode
+  - Shows: quote, author, movie, theme
 
-- Define reusable components using `{% template %}...{% endtemplate %}`
-- Store base64-encoded icons and assets
-- Include common variables and logic
-- Use `{% render %}` to include shared templates in main layouts
+- **half_vertical.liquid**: 
+  - Quote fills space (flex: 1), character info below
+  - Compact layout for height-constrained displays
 
-**Critical Rule**: Keep templates DRY (Don't Repeat Yourself). Extract common patterns into shared templates.
+- **quadrant.liquid**: 
+  - Centered quote only, auto-scaled text
+  - Minimal padding for quarter-size displays
+  - Uses `data-value-fit` for responsive text sizing
+
+**Configuration:**
+- **settings.yml**: TRMNL plugin metadata
+  - Strategy: `polling` (TRMNL fetches new quotes via HTTP GET)
+  - URL: `https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote.json`
+  - Refresh: 1440 minutes (24 hours / daily updates)
+  - Custom field: `kung_fu_panda_quotes` (TRMNL registry name)
+
+- **custom-fields.yml**: User configuration form fields
+  - Currently: minimal (no required fields)
+  - Future: theme filtering, character selection, auto-play
 
 ## TRMNL Framework v2
 
@@ -923,43 +984,58 @@ Based on [TRMNL Plugin Guides](https://help.usetrmnl.com/en/collections/7820559-
 
 ## Workflow
 
-[Describe your plugin's workflow - how data flows from source to display]
+The Kung Fu Panda Quotes plugin uses a **polling strategy** with GitHub Pages hosting:
 
-Example workflow for polling strategy:
+1. **Quote Selection**: Python script (`generate_random_quote.py`) randomly selects a quote from `quotes.json`
+2. **API Endpoint Generation**: Script outputs JSON to `api/random-quote.json` with:
+   - Quote text, author, movie, theme
+   - ISO timestamp (`updated_on` field)
+3. **GitHub Pages Hosting**: JSON file served via GitHub Pages URL
+4. **TRMNL Polling**: Every 24 hours, TRMNL fetches the endpoint URL
+5. **Template Rendering**: TRMNL merges quote data into template variables
+6. **E-ink Display**: Rendered template sent to TRMNL device for display
+7. **Optional Automation**: GitHub Actions can auto-run `generate_random_quote.py` daily
 
-1. **User Setup**: User configures plugin settings in TRMNL
-2. **TRMNL Polling**: Platform sends GET request to your endpoint (per refresh_frequency)
-3. **Data Fetch**: Your backend fetches/generates data
-4. **JSON Response**: Return JSON with template variables
-5. **TRMNL Rendering**: TRMNL platform merges JSON into templates
-6. **Display**: TRMNL sends rendered content to device for e-ink display
+**Data Flow:**
+```
+quotes.json → generate_random_quote.py → api/random-quote.json (GitHub Pages)
+                                              ↓
+                                    TRMNL polls daily
+                                              ↓
+                            Templates (full/half/quadrant)
+                                              ↓
+                                      E-ink Display
+```
+
+**Update Frequency:**
+- Default: 24 hours (configured in `settings.yml` as `refresh_interval: 1440`)
+- Can be changed by user in TRMNL plugin settings
+- Optional: GitHub Actions workflow for exact daily updates at specific time
 
 ## Technical Stack
 
-[List your plugin's technical stack]
-
-Example for polling-based plugin:
-
-- **Backend**: [Your backend technology - Cloudflare Workers, Node.js, Python, etc.]
-- **Framework**: [If applicable - Express, Hono, Flask, etc.]
-- **Language**: [TypeScript, JavaScript, Python, etc.]
-- **Caching**: [If applicable - Redis, KV, etc.]
-- **Monitoring**: [If applicable - Analytics, logging]
-- **Deployment**: [Where/how deployed]
+- **Backend**: GitHub Pages (static file hosting)
+- **Data Format**: JSON (quotes.json + generated api/random-quote.json)
+- **Scripting**: Python 3 (generate_random_quote.py)
+- **Templating**: Liquid (TRMNL Framework)
+- **Configuration**: YAML (settings.yml, custom-fields.yml)
+- **Deployment**: Git push to GitHub (automatic Pages publishing)
+- **Optional Automation**: GitHub Actions (daily cron job)
 
 ## Future Considerations
 
-[List potential future enhancements or considerations]
-
-Example ideas:
-
-- Additional layout options
-- More configuration options
-- Enhanced error handling
-- Performance optimizations
-- Additional data sources
-- Multi-language support
-- Accessibility improvements
+**Enhancement Ideas:**
+- **Theme Filtering**: Allow users to select quote themes (Wisdom-only, Humor-only, etc.)
+- **Character Selection**: Let users filter by specific characters
+- **Real Poster Images**: Replace SVG placeholders with actual movie poster JPEGs/PNGs
+- **Quote History**: Track and display previously shown quotes
+- **Custom Quotes**: Community submissions feature for user-created quotes
+- **Multi-Language Support**: Translate quotes and UI to other languages
+- **Author Filter**: Show quotes only from specific characters
+- **Streak Tracking**: Count consecutive days of quote viewing
+- **Email Digest**: Send weekly quote collection to users
+- **Social Sharing**: Share favorite quotes on social media
+- **Mobile Webapp**: Browse full quote database via web interface
 
 ---
 

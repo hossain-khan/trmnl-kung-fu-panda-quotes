@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kung Fu Panda Quotes - TRMNL Plugin</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #1a1410 0%, #2d2416 100%);
+            color: #f5f5f0;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .header-icon {
+            width: 120px;
+            height: 120px;
+            flex-shrink: 0;
+            background: rgba(218, 72, 37, 0.2);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 80px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        }
+        
+        .header-content h1 {
+            color: #da4825;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+            letter-spacing: 1px;
+        }
+        
+        .header-content p {
+            color: #ccc;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        
+        .todays-quote {
+            background: linear-gradient(135deg, rgba(218, 72, 37, 0.15) 0%, rgba(218, 72, 37, 0.05) 100%);
+            border: 3px solid #da4825;
+            border-radius: 12px;
+            padding: 40px;
+            margin: 40px 0;
+            box-shadow: 0 12px 24px rgba(218, 72, 37, 0.2);
+        }
+        
+        .todays-quote h2 {
+            color: #da4825;
+            font-size: 1.8em;
+            text-align: center;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .quote-text {
+            font-size: 1.6em;
+            font-style: italic;
+            text-align: center;
+            color: #fff;
+            margin: 25px 0;
+            line-height: 1.8;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .quote-meta {
+            text-align: center;
+            color: #bbb;
+            font-size: 1.1em;
+            margin-top: 20px;
+        }
+        
+        .movie-theme {
+            text-align: center;
+            color: #999;
+            font-size: 0.95em;
+            margin-top: 10px;
+        }
+        
+        .loading {
+            text-align: center;
+            color: #888;
+            font-style: italic;
+            padding: 20px;
+        }
+        
+        section {
+            margin: 50px 0;
+        }
+        
+        section h2 {
+            color: #da4825;
+            font-size: 1.6em;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #da4825;
+            padding-bottom: 10px;
+        }
+        
+        .info-box {
+            background: rgba(218, 72, 37, 0.1);
+            border-left: 4px solid #da4825;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .info-box p {
+            line-height: 1.8;
+            color: #ddd;
+            margin-bottom: 15px;
+        }
+        
+        .info-box p:last-child {
+            margin-bottom: 0;
+        }
+        
+        code {
+            background: rgba(0,0,0,0.5);
+            padding: 4px 10px;
+            border-radius: 4px;
+            color: #4af;
+            font-family: 'Courier New', monospace;
+            font-size: 0.95em;
+            word-break: break-all;
+        }
+        
+        a {
+            color: #da4825;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        a:hover {
+            color: #ff6b42;
+            text-decoration: underline;
+        }
+        
+        ol, ul {
+            margin-left: 30px;
+            color: #ddd;
+            line-height: 1.8;
+        }
+        
+        li {
+            margin: 12px 0;
+        }
+        
+        li strong {
+            color: #f5f5f0;
+        }
+        
+        .quote-card {
+            background: rgba(0,0,0,0.3);
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 4px solid #da4825;
+            border-radius: 4px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .quote-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 8px 16px rgba(218, 72, 37, 0.2);
+        }
+        
+        .quote-card .text {
+            font-size: 1.05em;
+            font-style: italic;
+            color: #f5f5f0;
+            margin-bottom: 10px;
+        }
+        
+        .quote-card .meta {
+            color: #888;
+            font-size: 0.9em;
+        }
+        
+        .quote-card .theme {
+            display: inline-block;
+            background: rgba(218, 72, 37, 0.3);
+            color: #da4825;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            margin-top: 8px;
+        }
+        
+        .resources {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .resource-card {
+            background: rgba(218, 72, 37, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid rgba(218, 72, 37, 0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .resource-card:hover {
+            background: rgba(218, 72, 37, 0.2);
+            border-color: #da4825;
+        }
+        
+        .resource-card h3 {
+            color: #da4825;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        
+        .resource-card p {
+            color: #ccc;
+            font-size: 0.95em;
+            margin-bottom: 12px;
+        }
+        
+        .resource-card a {
+            display: inline-block;
+            font-weight: bold;
+        }
+        
+        footer {
+            text-align: center;
+            color: #666;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(218, 72, 37, 0.2);
+        }
+        
+        @media (max-width: 600px) {
+            .header {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .header-content h1 {
+                font-size: 1.8em;
+                text-align: center;
+            }
+            
+            .header-icon {
+                width: 100px;
+                height: 100px;
+                font-size: 60px;
+            }
+            
+            .quote-text {
+                font-size: 1.2em;
+            }
+            
+            .todays-quote {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-icon">🥋</div>
+            <div class="header-content">
+                <h1>Kung Fu Panda Quotes</h1>
+                <p>A TRMNL plugin that displays daily wisdom and inspiration from all four Kung Fu Panda movies. Get motivational quotes from Master Oogway, Po, Shifu, and more on your e-ink display.</p>
+            </div>
+        </div>
+
+        <div class="todays-quote">
+            <h2>✨ Today's Quote</h2>
+            <div id="todays-quote-container">
+                <p class="loading">Loading today's quote...</p>
+            </div>
+        </div>
+
+        <section>
+            <h2>📡 API Endpoints</h2>
+            <div class="info-box">
+                <p><strong>All Quotes:</strong></p>
+                <code id="all-quotes-url">Loading...</code>
+                
+                <p style="margin-top: 15px;"><strong>Today's Random Quote:</strong></p>
+                <code id="random-quote-url">Loading...</code>
+            </div>
+        </section>
+
+        <section>
+            <h2>🚀 Quick Start (3 Steps)</h2>
+            <div class="info-box">
+                <ol>
+                    <li><strong>Fork/Clone Repository</strong> - Get the code from <a href="https://github.com/hossain-khan/trmnl-kung-fu-panda-quotes">GitHub</a></li>
+                    <li><strong>Enable GitHub Pages</strong> - Go to Settings → Pages, select main branch, and wait for deployment</li>
+                    <li><strong>Add to TRMNL</strong> - In TRMNL, select "Add Custom Plugin", choose Polling strategy, and paste your GitHub Pages URL</li>
+                </ol>
+                <p style="margin-top: 20px;"><strong>Daily Auto-Updates:</strong> Enable the "Update Random Quote" GitHub Actions workflow in your fork to automatically refresh quotes daily.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>⚙️ Configuration</h2>
+            <div class="info-box">
+                <p><strong>Polling URL Format:</strong></p>
+                <code>https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote.json</code>
+                
+                <p style="margin-top: 15px;"><strong>Refresh Rate:</strong> 1440 minutes (24 hours) - Get a new quote every day</p>
+                
+                <p style="margin-top: 15px;"><strong>Available Layouts:</strong>
+                <ul style="margin-top: 10px;">
+                    <li>Full - Quote with movie poster (full screen)</li>
+                    <li>Half Horizontal - Quote and character details side-by-side</li>
+                    <li>Half Vertical - Quote and details stacked vertically</li>
+                    <li>Quadrant - Minimal quote-only display</li>
+                </ul>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>📜 Sample Quotes</h2>
+            <div id="quotes-container">
+                <p class="loading">Loading quotes...</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>📚 Resources</h2>
+            <div class="resources">
+                <div class="resource-card">
+                    <h3>📖 TRMNL Framework</h3>
+                    <p>Learn about responsive layouts, responsive utilities, and best practices.</p>
+                    <a href="https://usetrmnl.com/framework">View Framework Docs</a>
+                </div>
+                <div class="resource-card">
+                    <h3>🔧 GitHub Repository</h3>
+                    <p>Fork, contribute, or customize the quotes and templates.</p>
+                    <a href="https://github.com/hossain-khan/trmnl-kung-fu-panda-quotes">View Repository</a>
+                </div>
+                <div class="resource-card">
+                    <h3>🎬 About the Quotes</h3>
+                    <p>80+ quotes from all four Kung Fu Panda movies, organized by theme.</p>
+                    <a href="quotes.json">View All Quotes</a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>🥋 Kung Fu Panda Quotes - A TRMNL Plugin | Quotes from DreamWorks Animation | <a href="https://github.com/hossain-khan/trmnl-kung-fu-panda-quotes">Source Code</a></p>
+        </footer>
+    </div>
+
+    <script>
+        // Get the current page URL
+        const baseUrl = window.location.origin + window.location.pathname.replace('index.html', '');
+        
+        // Update API endpoint displays
+        document.getElementById('all-quotes-url').textContent = baseUrl + 'quotes.json';
+        document.getElementById('random-quote-url').textContent = baseUrl + 'api/random-quote.json';
+        
+        // Load and display today's random quote
+        fetch(baseUrl + 'api/random-quote.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('todays-quote-container');
+                container.innerHTML = `
+                    <div class="quote-text">"${data.text}"</div>
+                    <div class="quote-meta">— ${data.author}</div>
+                    <div class="movie-theme">${data.movie} • ${data.theme}</div>
+                `;
+            })
+            .catch(error => {
+                console.error('Error loading today\'s quote:', error);
+                document.getElementById('todays-quote-container').innerHTML = '<p class="loading">Error loading today\'s quote. Please refresh the page.</p>';
+            });
+        
+        // Load and display sample quotes
+        fetch(baseUrl + 'quotes.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('quotes-container');
+                container.innerHTML = '';
+                
+                // Display first 6 quotes as samples
+                data.slice(0, 6).forEach(quote => {
+                    const quoteDiv = document.createElement('div');
+                    quoteDiv.className = 'quote-card';
+                    quoteDiv.innerHTML = `
+                        <div class="text">"${quote.text}"</div>
+                        <div class="meta">— ${quote.author} • ${quote.movie}</div>
+                        <span class="theme">${quote.theme}</span>
+                    `;
+                    container.appendChild(quoteDiv);
+                });
+                
+                const moreQuotes = document.createElement('p');
+                moreQuotes.style.textAlign = 'center';
+                moreQuotes.style.marginTop = '20px';
+                moreQuotes.innerHTML = `<a href="quotes.json">View all ${data.length} quotes →</a>`;
+                container.appendChild(moreQuotes);
+            })
+            .catch(error => {
+                console.error('Error loading quotes:', error);
+                document.getElementById('quotes-container').innerHTML = '<p class="loading">Error loading quotes.</p>';
+            });
+    </script>
+</body>
+</html>
