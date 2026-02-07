@@ -26,44 +26,6 @@
 #   label: "Show Character Names"
 #   required: false
 #   description: "Display which character said the quote"
-    - label: "Source A"
-      value: "source_a"
-    - label: "Source B"
-      value: "source_b"
-    - label: "Source C"
-      value: "source_c"
-  description: "Select which data source to display"
-
-# Example URL field
-- key: "webhook_url"
-  type: "url"
-  label: "Webhook URL"
-  placeholder: "https://example.com/webhook"
-  required: false
-  description: "Optional: Receive updates via webhook (if using webhook strategy)"
-
-# Example checkbox field
-- key: "show_details"
-  type: "checkbox"
-  label: "Show Additional Details"
-  required: false
-  description: "Display extra information in the layout"
-
-# Example number field
-- key: "refresh_interval"
-  type: "number"
-  label: "Refresh Interval (minutes)"
-  placeholder: "15"
-  required: false
-  description: "How often to refresh data (1-1440)"
-
-# Example custom title
-- key: "custom_title"
-  type: "text"
-  label: "Custom Plugin Title"
-  placeholder: "Enter a custom title (optional)"
-  required: false
-  description: "Leave blank to use plugin's default title"
 
 # Developer Notes:
 #

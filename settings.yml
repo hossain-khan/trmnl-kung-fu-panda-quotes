@@ -4,7 +4,7 @@ no_screen_padding: 'no'
 dark_mode: 'no'
 static_data: ''
 polling_verb: get
-polling_url: https://YOUR_GITHUB_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote.json
+polling_url: https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes/api/random-quote.json
 polling_headers: ''
 polling_body: ''
 custom_fields:
@@ -13,8 +13,8 @@ custom_fields:
   name: Kung Fu Panda Quotes
   description: Inspiring quotes from the Kung Fu Panda trilogy. Experience the wisdom of Master Oogway, the courage of Po, and the philosophy of the Valley of Peace. "There are no accidents..."
   category: entertainment
-  github_url: https://github.com/YOUR_GITHUB_USERNAME/trmnl-kung-fu-panda-quotes
-  email_address: YOUR_EMAIL@example.com
+  github_url: https://github.com/hossain-khan/trmnl-kung-fu-panda-quotes
+  email_address: trmnl@hossain.dev
 name: Kung Fu Panda Quotes
 refresh_interval: 1440
 
