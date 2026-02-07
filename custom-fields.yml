@@ -3,6 +3,15 @@
 # Kung Fu Panda Quotes Plugin
 # This file defines user-facing form fields for plugin configuration
 
+# Author Bio field - appears on plugin marketplace page
+- keyname: "kung_fu_panda_quotes"
+  field_type: "author_bio"
+  name: "Kung Fu Panda Quotes"
+  description: "Inspiring quotes from the Kung Fu Panda franchise (all 4 movies). Experience the wisdom of Master Oogway, the courage of Po, and the philosophy of the Valley of Peace. Features 80+ quotes organized by theme (Wisdom, Humor, Growth, Combat, Identity, Confidence, Iconic, Villainy) with daily updates and beautiful movie poster displays. \"There are no accidents...\" - Master Oogway"
+  category: "entertainment,humor"
+  github_url: "https://github.com/hossain-khan/trmnl-kung-fu-panda-quotes"
+  email_address: "trmnl@hossain.dev"
+
 # Theme selection field
 - keyname: "theme"
   field_type: "select"
