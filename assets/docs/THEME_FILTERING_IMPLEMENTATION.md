@@ -18,9 +18,9 @@ Your Kung Fu Panda Quotes plugin now supports **theme-based filtering** using TR
    - Run with theme argument: `python3 generate_random_quote.py wisdom`
 
 3. **[settings.yml](settings.yml)** - Dynamic polling URL:
-   - Changed from: `api/random-quote.json`
-   - Changed to: `api/random-quote-##{{ theme }}.json`
+   - Uses: `api/random-quote-##{{ theme }}.json`
    - TRMNL automatically substitutes `##{{ theme }}` with the user's selection
+   - Generates theme-specific files: `random-quote-all.json`, `random-quote-wisdom.json`, etc.
 
 ### Generated Files:
 ```
@@ -84,7 +84,7 @@ You asked about **multi-select** theme filtering. Unfortunately, this is **not p
 
 ### Example of the challenge:
 If user selects "Wisdom" + "Humor":
-- ❌ Can't use: `random-quote.json?themes=wisdom,humor` (GitHub Pages ignores query params)
+- ❌ Can't use: `random-quote-all.json?themes=wisdom,humor` (GitHub Pages ignores query params)
 - ❌ Can't use: `random-quote-wisdom,humor.json` (ordering issues: `wisdom,humor` vs `humor,wisdom`)
 - ❌ Can't generate all combinations (too many files)
 
