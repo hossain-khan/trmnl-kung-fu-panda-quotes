@@ -17,6 +17,9 @@ This plugin shows inspiring quotes from all four Kung Fu Panda movies featuring 
 - **Daily Updates**: Configurable refresh frequency via TRMNL settings
 - **Personalized Experience**: Each user gets quotes matching their selected theme
 
+### Demo
+![](assets/demo/kfp-tile.png)
+
 ## Setup Instructions
 
 ### Option 1: Deploy to GitHub Pages (Recommended)
