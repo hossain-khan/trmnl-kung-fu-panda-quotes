@@ -23,4 +23,5 @@
 <div class="title_bar">
   <img class="image" src="{{ icon_kfp }}">
   <span class="title">{{ trmnl.plugin_settings.instance_name }}</span>
+  {% if theme and theme != "all" %}<span class="instance">{{ theme | capitalize }}</span>{% endif %}
 </div>
