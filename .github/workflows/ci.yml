@@ -69,7 +69,7 @@ jobs:
           sys.path.insert(0, '.')
           from generate_random_quote import generate_random_quote
           
-          # Generate a quote
+          # Test 1: Generate a quote without theme filter (all quotes)
           quote = generate_random_quote()
           
           # Validate the generated quote
@@ -78,7 +78,7 @@ jobs:
               if field not in quote:
                   raise ValueError(f"Generated quote missing field: {field}")
           
-          print(f"✓ Generated quote is valid")
+          print(f"✓ Generated quote (all themes) is valid")
           print(f"  Text: {quote['text'][:50]}...")
           print(f"  Author: {quote['author']}")
           print(f"  Movie: {quote['movie']}")
@@ -90,35 +90,84 @@ jobs:
               raise ValueError("Timestamp doesn't end with 'Z'")
           
           print(f"✓ Timestamp format is valid (ISO 8601)")
+          
+          # Test 2: Generate quotes with theme filters
+          themes = ['wisdom', 'humor', 'growth', 'combat']
+          for theme in themes:
+              theme_quote = generate_random_quote(theme_filter=theme)
+              if theme_quote['theme'].lower() != theme:
+                  raise ValueError(f"Theme filter failed: expected {theme}, got {theme_quote['theme']}")
+              print(f"✓ Theme filter '{theme}' works correctly")
+          
+          print(f"✓ All theme filters working correctly")
           EOF
       
-      - name: Generate and validate API endpoint
+      - name: Generate and validate all theme-specific API endpoints
         run: |
+          # Generate all theme-specific quote files
           python3 generate_random_quote.py
           
           python3 << 'EOF'
           import json
+          import os
           
-          # Validate the generated API file
-          with open('api/random-quote.json', 'r', encoding='utf-8') as f:
-              quote = json.load(f)
+          # List of all theme files that should be generated
+          expected_themes = ['all', 'wisdom', 'humor', 'growth', 'combat', 'identity', 'confidence', 'iconic', 'villainy']
           
           required_fields = ['id', 'text', 'author', 'movie', 'theme', 'updated_on']
-          for field in required_fields:
-              if field not in quote:
-                  raise ValueError(f"API quote missing field: {field}")
           
-          print(f"✓ api/random-quote.json is valid")
-          print(f"  Size: {len(json.dumps(quote))} bytes")
-          print(f"  Quote: '{quote['text'][:40]}...'")
+          for theme in expected_themes:
+              filename = f'api/random-quote-{theme}.json'
+              
+              # Check if file exists
+              if not os.path.exists(filename):
+                  raise FileNotFoundError(f"Missing expected file: {filename}")
+              
+              # Validate the file
+              with open(filename, 'r', encoding='utf-8') as f:
+                  quote = json.load(f)
+              
+              for field in required_fields:
+                  if field not in quote:
+                      raise ValueError(f"{filename} missing field: {field}")
+              
+              # Validate theme matches (except for 'all' which can be any theme)
+              if theme != 'all' and quote['theme'].lower() != theme:
+                  raise ValueError(f"{filename} has wrong theme: expected {theme}, got {quote['theme']}")
+              
+              print(f"✓ {filename} is valid")
+              print(f"  Theme: {quote['theme']}, Quote: '{quote['text'][:40]}...'")
+          
+          print(f"\n✓ All {len(expected_themes)} theme-specific API files validated successfully")
+          EOF
+      
+      - name: Test single theme generation
+        run: |
+          # Test generating a specific theme only
+          python3 generate_random_quote.py humor
+          
+          python3 << 'EOF'
+          import json
+          
+          # Validate the humor-specific file was updated
+          with open('api/random-quote-humor.json', 'r', encoding='utf-8') as f:
+              quote = json.load(f)
+          
+          if quote['theme'].lower() != 'humor':
+              raise ValueError(f"Single theme generation failed: expected humor, got {quote['theme']}")
+          
+          print(f"✓ Single theme generation works (humor theme)")
+          print(f"  Quote: '{quote['text'][:50]}...'")
           EOF
       
       - name: Validate JSON formatting
         run: |
           python3 << 'EOF'
           import json
+          import glob
           
-          files_to_check = ['quotes.json', 'api/random-quote.json']
+          # Check quotes.json and all theme-specific API files
+          files_to_check = ['quotes.json'] + glob.glob('api/random-quote-*.json')
           
           for filename in files_to_check:
               with open(filename, 'r', encoding='utf-8') as f:
@@ -130,6 +179,8 @@ jobs:
               
               # Allow some flexibility in formatting
               print(f"✓ {filename} is properly formatted JSON")
+          
+          print(f"\n✓ All {len(files_to_check)} JSON files are properly formatted")
           EOF
       
       - name: Test quotes can be serialized to JSON
@@ -159,5 +210,6 @@ jobs:
           echo "  - All quotes have required fields"
           echo "  - Python script syntax is valid"
           echo "  - Quote generation works correctly"
-          echo "  - API endpoint is properly formatted"
+          echo "  - Theme filtering works for all 9 themes"
+          echo "  - All 9 theme-specific API endpoints are valid"
           echo "  - JSON serialization works"
