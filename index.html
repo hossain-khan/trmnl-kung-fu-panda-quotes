@@ -246,6 +246,31 @@
             font-weight: bold;
         }
         
+        .hero-banner {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin: 30px 0 40px 0;
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+            border: 3px solid rgba(255, 184, 28, 0.3);
+            background: rgba(255, 184, 28, 0.05);
+            display: block;
+            overflow: hidden;
+        }
+        
+        .hero-banner img {
+            width: 100%;
+            height: auto;
+            display: block;
+            opacity: 0.95;
+            transition: opacity 0.3s ease;
+        }
+        
+        .hero-banner:hover img {
+            opacity: 1;
+        }
+        
         footer {
             text-align: center;
             color: #888;
@@ -271,6 +296,11 @@
                 font-size: 60px;
             }
             
+            .hero-banner {
+                margin: 20px 0 30px 0;
+                border-radius: 8px;
+            }
+            
             .quote-text {
                 font-size: 1.2em;
             }
@@ -289,6 +319,10 @@
                 <h1>Kung Fu Panda Quotes</h1>
                 <p>A TRMNL plugin that displays daily wisdom and inspiration from all four Kung Fu Panda movies. Get motivational quotes from Master Oogway, Po, Shifu, and more on your e-ink display. Features theme filtering and smart history tracking to prevent repeat quotes.</p>
             </div>
+        </div>
+
+        <div class="hero-banner">
+            <img src="assets/banner/kung-fun-panda-banner-small.png" alt="Kung Fu Panda Quotes - Daily wisdom and inspiration from the Valley of Peace">
         </div>
 
         <div class="todays-quote">
