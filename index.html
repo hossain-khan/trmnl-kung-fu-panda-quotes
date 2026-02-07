@@ -531,13 +531,13 @@
                 
                 // Map movie name to poster filename
                 const posterMap = {
-                    'Kung Fu Panda': 'kung-fu-panda-1-poster-bw-outline-webp.webp',
-                    'Kung Fu Panda 2': 'kung-fu-panda-2-poster-bw-outline-webp.webp',
-                    'Kung Fu Panda 3': 'kung-fu-panda-3-poster-bw-outline-webp.webp',
-                    'Kung Fu Panda 4': 'kung-fu-panda-4-poster-bw-outline-webp.webp'
+                    'Kung Fu Panda': 'kung-fu-panda-1-poster-bw-outline.png',
+                    'Kung Fu Panda 2': 'kung-fu-panda-2-poster-bw-outline.png',
+                    'Kung Fu Panda 3': 'kung-fu-panda-3-poster-bw-outline.png',
+                    'Kung Fu Panda 4': 'kung-fu-panda-4-poster-bw-outline.png'
                 };
                 
-                const posterFilename = posterMap[data.movie] || 'kung-fu-panda-1-poster-bw-outline-webp.webp';
+                const posterFilename = posterMap[data.movie] || 'kung-fu-panda-1-poster-bw-outline.png';
                 const posterPath = baseUrl + 'assets/posters-small-bw-outline/' + posterFilename;
                 
                 container.innerHTML = `
