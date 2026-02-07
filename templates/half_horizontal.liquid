@@ -1,39 +1,19 @@
-{% comment %}
-  Half Horizontal Layout - Kung Fu Panda Quotes Plugin
-  
-  Displays quote on left, character info on right
-  Portrait mode: stacks vertically
-  
-  Template Variables Expected:
-  - text: The quote text
-  - author: Character who said the quote
-  - movie: Which Kung Fu Panda movie
-  - theme: Optional theme category
-{% endcomment %}
-
 <div class="layout">
-  <div class="flex flex--row gap--medium portrait:flex--col flex--center-y h--full">
-    
-    {% comment %} Quote text - left side on landscape {% endcomment %}
-    <div class="flex flex--center-x flex--center-y" style="flex: 1;">
-      <span class="value value--medium md:value--large" style="font-family: 'Courier New', monospace;" data-value-fit="true" data-value-fit-max-height="180">
-        {{ text }}
-      </span>
-    </div>
-
-    {% comment %} Character details - right side on landscape {% endcomment %}
-    <div class="flex flex--col gap--xsmall portrait:gap--small" style="max-width: 200px; portrait:max-width: 100%;">
-      <div class="text--center">
-        <div class="title title--small md:title--medium">{{ author }}</div>
-      </div>
-      <div class="text--center">
-        <div class="label label--small">{{ movie }}</div>
-      </div>
-      {% if theme %}
-      <div class="text--center">
-        <div class="description">{{ theme }}</div>
-      </div>
+  <div class="grid gap--medium">
+    <div class="col--span-1 col col--center">
+      {% if movie == "Kung Fu Panda" %}
+        <img class="image image--contain" src="{{ poster_kfp_1 }}" height="180px" />
+      {% elsif movie == "Kung Fu Panda 2" %}
+        <img class="image image--contain" src="{{ poster_kfp_2 }}" height="180px" />
+      {% elsif movie == "Kung Fu Panda 3" %}
+        <img class="image image--contain" src="{{ poster_kfp_3 }}" height="180px" />
+      {% elsif movie == "Kung Fu Panda 4" %}
+        <img class="image image--contain" src="{{ poster_kfp_4 }}" height="180px" />
       {% endif %}
+    </div>
+    <div class="col--span-2 col col--center text--black">
+      <span class="value value--xxxlarge" style="font-family: 'Courier New', monospace; font-weight: bold; word-wrap: break-word; overflow-wrap: break-word;" data-value-fit="true" data-value-fit-max-height="130"><img class="image" height="18px" width="18px" src='{{ opening_quote }}' style="vertical-align: top;">{{ text }}<img class="image" height="18px" width="18px" src='{{ closing_quote }}' style="vertical-align: top;"></span>
+      <span class="description text--right pt--xsmall" style="font-family: 'Courier New', monospace;">— {{ author }}</span>
     </div>
   </div>
 </div>

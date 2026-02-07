@@ -1,38 +1,18 @@
-{% comment %}
-  Full Layout - Kung Fu Panda Quotes Plugin
-  
-  Displays a full-screen quote with character name and movie title
-  Shows opening/closing quote marks and properly formatted text
-  
-  Template Variables Expected:
-  - text: The quote text
-  - author: Character who said the quote
-  - movie: Which Kung Fu Panda movie (1, 2, 3, or 4)
-  - theme: Optional theme category
-{% endcomment %}
-
 <div class="layout">
   <div class="grid gap--large">
     <div class="col--span-1 col col--center">
-      {% comment %} Display poster based on movie {% endcomment %}
-      {% if movie contains "Kung Fu Panda 4" %}
-        <img class="image" src="{{ poster_kfp_4 }}" />
-      {% elsif movie contains "Kung Fu Panda 3" %}
-        <img class="image" src="{{ poster_kfp_3 }}" />
-      {% elsif movie contains "Kung Fu Panda 2" %}
-        <img class="image" src="{{ poster_kfp_2 }}" />
-      {% else %}
+      {% if movie == "Kung Fu Panda" %}
         <img class="image" src="{{ poster_kfp_1 }}" />
+      {% elsif movie == "Kung Fu Panda 2" %}
+        <img class="image" src="{{ poster_kfp_2 }}" />
+      {% elsif movie == "Kung Fu Panda 3" %}
+        <img class="image" src="{{ poster_kfp_3 }}" />
+      {% elsif movie == "Kung Fu Panda 4" %}
+        <img class="image" src="{{ poster_kfp_4 }}" />
       {% endif %}
     </div>
     <div class="col--span-2 col col--center text--black">
-      {% comment %} Quote text with styling {% endcomment %}
-      <span class="value value--xxxlarge" style="font-family: 'Courier New', monospace; font-weight: normal; word-wrap: break-word; overflow-wrap: break-word;" data-value-fit="true" data-value-fit-max-height="280">
-        <img class="image" height="25px" width="25px" src='{{ opening_quote }}' style="vertical-align: top;">
-        {{ text }}
-        <img class="image" height="25px" width="25px" src='{{ closing_quote }}' style="vertical-align: top;">
-      </span>
-      {% comment %} Character attribution {% endcomment %}
+      <span class="value value--xxxlarge" style="font-family: 'Courier New', monospace; font-weight: bold; word-wrap: break-word; overflow-wrap: break-word;" data-value-fit="true" data-value-fit-max-height="280"><img class="image" height="25px" width="25px" src='{{ opening_quote }}' style="vertical-align: top;">{{ text }}<img class="image" height="25px" width="25px" src='{{ closing_quote }}' style="vertical-align: top;"></span>
       <span class="title text--right pt--xsmall" style="font-family: 'Courier New', monospace;">— {{ author }}</span>
     </div>
   </div>
@@ -42,24 +22,3 @@
   <img class="image" src="{{ icon_kfp }}">
   <span class="title">{{ trmnl.plugin_settings.instance_name }}</span>
 </div>
-
-    {% comment %} Optional secondary content area with improved styling {% endcomment %}
-    <div class="grid grid--cols-2 gap--medium md:gap--large">
-      <div class="item">
-        <div class="meta"></div>
-    <div class="item">
-        <div class="meta"></div>
-        <div class="content text--center">
-          <div class="value value--medium md:value--large">📊</div>
-          <div class="label">Stat 1</div>
-        </div>
-      </div>
-      <div class="item">
-        <div class="meta"></div>
-        <div class="content text--center">
-          <div class="value value--medium md:value--large">📈</div>
-          <div class="label">Stat 2</div>
-        </div>
-      </div>
-    </div>
-  </div>
