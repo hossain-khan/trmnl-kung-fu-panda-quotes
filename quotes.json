@@ -36,7 +36,7 @@
   },
   {
     "id": 6,
-    "text": "If you only do what you can do, you'll never be better than what you are.",
+    "text": "If you only do what you can do, you will never be more than you are now.",
     "author": "Master Shifu",
     "movie": "Kung Fu Panda 3",
     "theme": "Growth"
@@ -78,10 +78,10 @@
   },
   {
     "id": 12,
-    "text": "I don't need a sword. I don't need a shield. I don't need armor. I just need this.",
+    "text": "My fist hungers for justice! That was my... fist.",
     "author": "Po",
     "movie": "Kung Fu Panda 2",
-    "theme": "Confidence"
+    "theme": "Combat"
   },
   {
     "id": 13,
@@ -295,7 +295,7 @@
   },
   {
     "id": 43,
-    "text": "If you only do what you can do, you'll never be better than what you are.",
+    "text": "If you only do what you can do, you will never be more than you are now.",
     "author": "Master Shifu",
     "movie": "Kung Fu Panda 3",
     "theme": "Growth"
@@ -400,7 +400,7 @@
   },
   {
     "id": 58,
-    "text": "If you only do what you can do, you will never be more.",
+    "text": "If you only do what you can do, you will never be more than you are now.",
     "author": "Master Shifu",
     "movie": "Kung Fu Panda 3",
     "theme": "Growth"
@@ -416,7 +416,7 @@
     "id": 60,
     "text": "Inner peace. Inner peace.",
     "author": "Master Shifu",
-    "movie": "Kung Fu Panda",
+    "movie": "Kung Fu Panda 2",
     "theme": "Humor"
   },
   {
