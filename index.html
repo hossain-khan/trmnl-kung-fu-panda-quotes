@@ -301,11 +301,19 @@
         <section>
             <h2>📡 API Endpoints</h2>
             <div class="info-box">
-                <p><strong>All Quotes:</strong></p>
+                <p><strong>All Quotes Database:</strong></p>
                 <code id="all-quotes-url">Loading...</code>
                 
-                <p style="margin-top: 15px;"><strong>Today's Random Quote:</strong></p>
+                <p style="margin-top: 15px;"><strong>Theme-Specific Quote Endpoints:</strong></p>
                 <code id="random-quote-url">Loading...</code>
+                
+                <p style="margin-top: 15px;"><strong>Available Themes:</strong></p>
+                <ul style="margin-top: 10px; color: #666;">
+                    <li>All Themes: <code style="font-size: 0.85em;">/api/random-quote-all.json</code></li>
+                    <li>Wisdom: <code style="font-size: 0.85em;">/api/random-quote-wisdom.json</code></li>
+                    <li>Humor: <code style="font-size: 0.85em;">/api/random-quote-humor.json</code></li>
+                    <li>Growth, Combat, Identity, Confidence, Iconic, Villainy...</li>
+                </ul>
             </div>
         </section>
 
@@ -325,7 +333,21 @@
             <h2>⚙️ Configuration</h2>
             <div class="info-box">
                 <p><strong>Polling URL Format:</strong></p>
-                <code>https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote.json</code>
+                <code>https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-##{{ theme }}.json</code>
+                
+                <p style="margin-top: 15px;"><strong>Theme Selection:</strong> Users can choose from 9 themes in TRMNL plugin settings:
+                <ul style="margin-top: 10px;">
+                    <li><strong>All Themes</strong> (default) - Mixed quotes from all categories</li>
+                    <li><strong>Wisdom</strong> - Philosophical quotes from Master Oogway, Shifu</li>
+                    <li><strong>Humor</strong> - Funny moments and comedic quotes</li>
+                    <li><strong>Growth</strong> - Self-improvement and personal development</li>
+                    <li><strong>Combat</strong> - Action-packed kung fu quotes</li>
+                    <li><strong>Identity</strong> - Finding yourself and your purpose</li>
+                    <li><strong>Confidence</strong> - Believing in yourself</li>
+                    <li><strong>Iconic</strong> - Most memorable lines</li>
+                    <li><strong>Villainy</strong> - Quotes from the antagonists</li>
+                </ul>
+                </p>
                 
                 <p style="margin-top: 15px;"><strong>Refresh Rate:</strong> 1440 minutes (24 hours) - Get a new quote every day</p>
                 

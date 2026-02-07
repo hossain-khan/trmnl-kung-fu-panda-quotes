@@ -9,11 +9,12 @@ This plugin shows inspiring quotes from all four Kung Fu Panda movies featuring 
 ## Features
 
 - **80+ Quotes** from all four Kung Fu Panda movies  
+- **Theme Filtering** 🎯: Users can filter quotes by theme (Wisdom, Humor, Growth, Combat, Identity, Confidence, Iconic, Villainy)
 - **Multiple Layouts**: Full, Half Horizontal, Half Vertical, and Quadrant
 - **Beautifully Formatted**: Quotes displayed with proper attribution
 - **Movie Posters**: Different poster colors based on which movie the quote is from
 - **Daily Updates**: Configurable refresh frequency via TRMNL settings
-- **Theme Categories**: Quotes organized by theme (Wisdom, Humor, Combat, etc.)
+- **Personalized Experience**: Each user gets quotes matching their selected theme
 
 ## Setup Instructions
 
@@ -34,24 +35,33 @@ This is the simplest method and requires no server infrastructure.
    - Folder: `/ (root)`
    - Save
 
-3. **Generate the API endpoint**
+3. **Generate all theme-specific API endpoints**
    ```bash
    python3 generate_random_quote.py
    ```
-   This creates `api/random-quote.json` with today's quote.
+   This creates 9 theme-specific quote files in `api/` directory:
+   - `api/random-quote-all.json` (all themes)
+   - `api/random-quote-wisdom.json`, `api/random-quote-humor.json`, etc.
+   
+   To generate a specific theme only:
+   ```bash
+   python3 generate_random_quote.py wisdom
+   ```
 
 4. **Commit and push the changes**
    ```bash
-   git add api/random-quote.json
-   git commit -m "chore: update daily quote"
+   git add api/*.json
+   git commit -m "chore: update daily quotes for all themes"
    git push
    ```
 
 5. **Update settings.yml**
    Replace `YOUR_GITHUB_USERNAME` in `settings.yml` with your actual GitHub username:
    ```yaml
-   polling_url: https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote.json
+   polling_url: https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-##{{ theme }}.json
    ```
+   
+   **Note**: The `##{{ theme }}` variable is automatically replaced by TRMNL based on the user's theme selection.
 
 6. **Setup GitHub Actions for Daily Updates** (Optional)
    This will automatically update the quote daily:

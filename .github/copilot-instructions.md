@@ -27,12 +27,14 @@ The Kung Fu Panda Quotes plugin displays daily quotes from the Kung Fu Panda fil
 - Configuration files (settings.yml, custom-fields.yml) production-ready
 - Comprehensive README with setup instructions for GitHub Pages, Cloudflare Workers, self-hosted
 - Real movie poster images (JPEG format, optimized for e-ink displays)
+- **Theme-based filtering**: Users can filter quotes by theme (Wisdom, Humor, Growth, Combat, Identity, Confidence, Iconic, Villainy)
+- Dynamic polling URL with `##{{ theme }}` substitution for per-user theme selection
 
 **🔄 In Progress:**
 - GitHub Actions workflow for automated daily quote updates (optional enhancement)
 
 **📋 Planned:**
-- Per-user theme filtering (Wisdom-only, Humor-only, etc.)
+- Multi-select theme filtering (requires dynamic backend like Cloudflare Workers)
 - Quote history tracking
 - Custom locale/language support
 - Community quote submissions feature

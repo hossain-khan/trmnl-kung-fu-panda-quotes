@@ -18,12 +18,6 @@ custom_fields:
 name: Kung Fu Panda Quotes
 refresh_interval: 1440
 
-# Plugin Metadata
-name: "Example Plugin"
-description: "A template plugin for TRMNL devices"
-author: "Your Name"
-version: "1.0.0"
-
 # Tap Action: URL to open when user taps plugin (optional)
 # Leave empty or remove if not needed
 tap_action_url: ""
