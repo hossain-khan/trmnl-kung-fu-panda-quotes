@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "text": "Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 2,
+    "text": "There is no secret ingredient. It's just you.",
+    "author": "Mr. Ping",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 3,
+    "text": "One often meets his destiny on the road he takes to avoid it.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 4,
+    "text": "Skadoosh.",
+    "author": "Po",
+    "movie": "Kung Fu Panda",
+    "theme": "Iconic"
+  },
+  {
+    "id": 5,
+    "text": "There are no accidents.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 6,
+    "text": "If you only do what you can do, you will never be more than you are now.",
+    "author": "Master Shifu",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Growth"
+  },
+  {
+    "id": 7,
+    "text": "Your story may not have such a happy beginning, but that does not make you who you are. It is the rest of your story, who you choose to be.",
+    "author": "Soothsayer",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Identity"
+  },
+  {
+    "id": 8,
+    "text": "Inner peace... inner peace...",
+    "author": "Master Shifu",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Humor"
+  },
+  {
+    "id": 9,
+    "text": "I'm not a big fat panda. I'm THE big fat panda.",
+    "author": "Po",
+    "movie": "Kung Fu Panda",
+    "theme": "Confidence"
+  },
+  {
+    "id": 10,
+    "text": "Finally, a worthy opponent! Our battle will be legendary!",
+    "author": "Tai Lung",
+    "movie": "Kung Fu Panda",
+    "theme": "Combat"
+  },
+  {
+    "id": 11,
+    "text": "The more you take, the less you have.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 12,
+    "text": "I don't need a sword. I don't need a shield. I don't need armor. I just need this.",
+    "author": "Po",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Confidence"
+  },
+  {
+    "id": 13,
+    "text": "You must let go of the illusion of control.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 14,
+    "text": "You are the master of your destiny: No one and nothing can come in between you and your destiny except you. Take destiny by the horns and have fun.",
+    "author": "Po",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Growth"
+  },
+  {
+    "id": 15,
+    "text": "Happiness must be taken, and I will take mine.",
+    "author": "Lord Shen",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Villainy"
+  },
+  {
+    "id": 16,
+    "text": "Quit, don't quit? Noodles, don't noodles?",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Humor"
+  },
+  {
+    "id": 17,
+    "text": "The real warrior never quits.",
+    "author": "Po",
+    "movie": "Kung Fu Panda",
+    "theme": "Combat"
+  },
+  {
+    "id": 18,
+    "text": "It matters not what someone is born, but what they grow to be.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Identity"
+  },
+  {
+    "id": 19,
+    "text": "My time has come.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Iconic"
+  },
+  {
+    "id": 20,
+    "text": "Everything is possible when you have inner peace.",
+    "author": "Master Shifu",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 21,
+    "text": "I am the Dragon Warrior!",
+    "author": "Po",
+    "movie": "Kung Fu Panda",
+    "theme": "Iconic"
+  },
+  {
+    "id": 22,
+    "text": "Your mind is like this water, my friend. When it is agitated, it becomes difficult to see. But if you allow it to settle, the answer becomes clear.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 23,
+    "text": "Before the battle of the fist, comes the battle of the mind.",
+    "author": "Master Shifu",
+    "movie": "Kung Fu Panda",
+    "theme": "Combat"
+  },
+  {
+    "id": 24,
+    "text": "Every master must find his path to inner peace.",
+    "author": "Master Shifu",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Growth"
+  },
+  {
+    "id": 25,
+    "text": "Who are you? ... I've been asking the same question. Am I the son of a panda? The son of a goose? A student? A teacher? Turns out, I'm all of them.",
+    "author": "Po",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Identity"
+  },
+  {
+    "id": 26,
+    "text": "You can chain my body, but you will never chain my spirit!",
+    "author": "Po",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Combat"
+  },
+  {
+    "id": 27,
+    "text": "When will you realize? The more you take, the less you have.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 28,
+    "text": "Ah, Shifu. There is just news. There is no good or bad.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 29,
+    "text": "Look at this tree, Shifu. I cannot make it blossom when it suits me, nor make it bear fruit before its time.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 30,
+    "text": "I'm not hungry... Master.",
+    "author": "Po",
+    "movie": "Kung Fu Panda",
+    "theme": "Growth"
+  }
+]
