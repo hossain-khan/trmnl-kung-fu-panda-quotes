@@ -10,6 +10,7 @@ This plugin shows inspiring quotes from all four Kung Fu Panda movies featuring 
 
 - **80+ Quotes** from all four Kung Fu Panda movies  
 - **Theme Filtering** 🎯: Users can filter quotes by theme (Wisdom, Humor, Growth, Combat, Identity, Confidence, Iconic, Villainy)
+- **Quote History Tracking** 📜: Prevents repeat quotes within 30 days for a fresh experience
 - **Multiple Layouts**: Full, Half Horizontal, Half Vertical, and Quadrant
 - **Beautifully Formatted**: Quotes displayed with proper attribution
 - **Movie Posters**: Different poster colors based on which movie the quote is from

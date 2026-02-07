@@ -203,6 +203,11 @@ jobs:
           print(f"✓ Quote serialization test passed (5 iterations)")
           EOF
       
+      - name: Run quote history tracking tests
+        run: |
+          python3 test_quote_history.py
+          echo "✓ All 11 quote history tests passed"
+      
       - name: Summary
         run: |
           echo "✓ All validation checks passed!"
@@ -213,3 +218,4 @@ jobs:
           echo "  - Theme filtering works for all 9 themes"
           echo "  - All 9 theme-specific API endpoints are valid"
           echo "  - JSON serialization works"
+          echo "  - Quote history tracking tests passed (11 tests)"
