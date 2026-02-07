@@ -1,315 +1,300 @@
-# Getting Started with This Template
+# Getting Started with Kung Fu Panda Quotes
 
-This guide walks you through setting up your TRMNL plugin using this template.
+This guide will walk you through setting up the Kung Fu Panda Quotes plugin for your TRMNL device.
 
-## Step 1: Clone the Repository
+## What You'll Need
 
-This template is already in place. You can now customize it for your specific plugin.
+- A GitHub account (for hosting)
+- A TRMNL device or account
+- Python 3.x (for local testing/modifications)
+- Git (for version control)
 
-## Step 2: Customize Configuration Files
+## Quick Setup (5 minutes)
 
-### Update `settings.yml`
+### Step 1: Fork the Repository
 
-1. Change the `polling_url` to your backend API endpoint:
-   ```yaml
-   polling_url: "https://your-api.example.com/plugin/data"
+1. Go to [https://github.com/hossain-khan/trmnl-kung-fu-panda-quotes](https://github.com/hossain-khan/trmnl-kung-fu-panda-quotes)
+2. Click **Fork** to create your own copy
+3. Clone to your local machine:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/trmnl-kung-fu-panda-quotes.git
+   cd trmnl-kung-fu-panda-quotes
    ```
 
-2. Adjust `refresh_frequency` based on your data update frequency:
-   - Fast data: 5-15 minutes
-   - Medium: 15-30 minutes
-   - Slow changing: 30-60+ minutes
+### Step 2: Enable GitHub Pages
 
-3. Update the `name` and `description`:
-   ```yaml
-   name: "My Cool Plugin"
-   description: "Displays important information from my service"
-   ```
+1. Go to your repository **Settings** → **Pages**
+2. Under **Source**, select:
+   - Branch: `main` (or your default branch)
+   - Folder: `/ (root)`
+3. Click **Save**
+4. Wait 1-2 minutes for deployment
 
-4. Keep or remove layout types based on what you want to support:
-   ```yaml
-   layouts:
-     - full                    # Always keep full
-     - half_horizontal         # Optional
-     - half_vertical           # Optional
-     - quadrant                # Optional
-   ```
+Your quotes will be available at:
+```
+https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-all.json
+```
 
-### Update `custom-fields.yml`
+### Step 3: Generate Quote Files
 
-1. Remove example fields you don't need
-2. Add your required fields (API keys, preferences, etc.)
-3. Use appropriate field types for validation
+Generate all theme-specific quote files:
 
-Example:
+```bash
+python3 generate_random_quote.py
+```
+
+This creates 9 files in the `api/` directory:
+- `random-quote-all.json` (all themes)
+- `random-quote-wisdom.json` (wisdom quotes only)
+- `random-quote-humor.json` (humor quotes only)
+- And 6 more theme-specific files...
+
+Commit and push:
+```bash
+git add api/*.json
+git commit -m "Generate initial quotes"
+git push
+```
+
+### Step 4: Add to TRMNL
+
+1. Open your TRMNL app or dashboard
+2. Go to **Plugins** → **Add Plugin** → **Custom Plugin**
+3. Configure:
+   - **Strategy**: Polling
+   - **URL**: `https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-##{{ theme }}.json`
+   - **Refresh**: 1440 minutes (24 hours)
+4. Select your preferred layouts (Full, Half Horizontal, Half Vertical, Quadrant)
+5. Choose your **Quote Theme** from the dropdown
+6. Save!
+
+## Understanding the Setup
+
+### How It Works
+
+1. **Quote Database**: `quotes.json` contains 80+ quotes from all Kung Fu Panda movies
+2. **Generation Script**: `generate_random_quote.py` randomly selects quotes and creates theme-specific JSON files
+3. **GitHub Pages**: Serves the static JSON files to TRMNL
+4. **Theme Filtering**: The `##{{ theme }}` variable in the URL is replaced by TRMNL with the user's selection
+5. **Daily Updates**: TRMNL polls your endpoint every 24 hours (configurable)
+
+### Theme Options
+
+When users configure the plugin, they can choose from:
+- **All** - Random quotes from any theme
+- **Wisdom** - Profound life lessons (Master Oogway, Shifu)
+- **Humor** - Funny and lighthearted moments (Po, Mantis)
+- **Growth** - Personal development themes
+- **Combat** - Battle wisdom and warrior spirit
+- **Identity** - Finding oneself
+- **Confidence** - Self-belief and determination
+- **Iconic** - Most memorable quotes
+- **Villainy** - Antagonist perspectives
+
+## Customization
+
+### Updating Quotes Daily (Optional)
+
+Set up GitHub Actions for automatic daily updates:
+
+Create `.github/workflows/update-daily-quote.yml`:
+
 ```yaml
-- key: "api_key"
-  type: "text"
-  label: "OpenWeather API Key"
-  required: true
-  description: "Get from openweathermap.org"
+name: Daily Quote Update
 
-- key: "city"
-  type: "text"
-  label: "City Name"
-  required: true
-  placeholder: "New York"
+on:
+  schedule:
+    - cron: '0 6 * * *'  # 6 AM UTC daily
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Generate new quotes
+        run: python3 generate_random_quote.py
+      
+      - name: Commit and push
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add api/*.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Daily quote update"
+          git push
 ```
 
-## Step 3: Edit Template Files
+### Adding Your Own Quotes
 
-### 1. Start with `shared.liquid`
-
-Update or add reusable components:
-
-```liquid
-{% template my_custom_component %}
-<div class="flex flex--col gap--small">
-  <span class="value value--large">{{ value }}</span>
-  <span class="label">{{ label }}</span>
-</div>
-{% endtemplate %}
-```
-
-### 2. Update `full.liquid`
-
-Replace the example content with your actual plugin display:
-
-```liquid
-<div class="layout">
-  {% if has_data %}
-    <!-- Your main content here -->
-    <div class="flex flex--center-x flex--center-y h--full">
-      <div class="text--center">
-        <div class="value value--large md:value--xlarge">
-          {{ your_data }}
-        </div>
-        <div class="title title--medium">
-          {{ your_title }}
-        </div>
-      </div>
-    </div>
-  {% else %}
-    {% render "shared", template_name: "error_state", size: "full" %}
-  {% endif %}
-</div>
-
-<div class="title_bar">
-  <span class="title md:title--large">{{ plugin_name }}</span>
-</div>
-```
-
-### 3. Update Other Layouts
-
-- `half_horizontal.liquid` - Side-by-side content
-- `half_vertical.liquid` - Stacked content
-- `quadrant.liquid` - Minimal compact display
-
-## Step 4: Test in TRMNL Markup Editor
-
-1. Go to [editor.usetrmnl.com](https://editor.usetrmnl.com)
-2. Copy your template code into the editor
-3. Add your sample JSON data:
+1. Edit `quotes.json` and add new entries:
    ```json
    {
-     "has_data": true,
-     "your_data": "42",
-     "your_title": "Example"
+     "id": 85,
+     "text": "Your awesome quote here",
+     "author": "Character Name",
+     "movie": "Kung Fu Panda 1|2|3|4",
+     "theme": "Wisdom"
    }
    ```
-4. Preview on different device sizes
-5. Verify responsive behavior
 
-## Step 5: Set Up Your Backend
-
-Create an API endpoint that returns JSON:
-
-### Example with Node.js/Express:
-
-```javascript
-app.get('/plugin/data', (req, res) => {
-  const data = {
-    has_data: true,
-    your_data: "42",
-    your_title: "Example Value",
-    status: "success"
-  };
-  res.json(data);
-});
-```
-
-### Example with Python/Flask:
-
-```python
-@app.route('/plugin/data')
-def get_plugin_data():
-    return {
-        'has_data': True,
-        'your_data': '42',
-        'your_title': 'Example Value',
-        'status': 'success'
-    }
-```
-
-**Important**: 
-- ✅ Return valid JSON
-- ✅ Use HTTPS only
-- ✅ Respond in <3 seconds
-- ✅ Include error handling
-
-## Step 6: Update Documentation
-
-Update `.github/copilot-instructions.md`:
-
-1. Replace the placeholder header:
-   ```markdown
-   > **Repository**: [your-username/your-repo]
-   > **Author**: Your Name
-   > **Last Updated**: January 2026
+2. Regenerate quote files:
+   ```bash
+   python3 generate_random_quote.py
    ```
 
-2. Fill in your project overview section
+3. Commit and push:
+   ```bash
+   git add quotes.json api/*.json
+   git commit -m "Add new quotes"
+   git push
+   ```
 
-3. Document your data structure
+### Customizing Templates
 
-4. Add any project-specific patterns
+Templates are in the `templates/` directory:
 
-See [TEMPLATE_USAGE.md](TEMPLATE_USAGE.md) for detailed customization instructions.
+- `full.liquid` - Full-screen layout with movie poster
+- `half_horizontal.liquid` - Side-by-side layout
+- `half_vertical.liquid` - Stacked layout
+- `quadrant.liquid` - Minimal compact layout
+- `shared.liquid` - Reusable components
+- `shared-posters.liquid` - Base64-encoded poster images
 
-## Step 7: Test Everything
+**To test changes:**
 
-### Manual Testing Checklist
+1. Go to [editor.usetrmnl.com](https://editor.usetrmnl.com)
+2. Copy your template code
+3. Add sample JSON data from `api/random-quote-all.json`
+4. Preview across different device sizes
 
-- [ ] Layouts render correctly in markup editor
-- [ ] Responsive behavior works (test sm, md, lg)
-- [ ] Error state displays when `has_data: false`
-- [ ] Text truncation works with long content
-- [ ] Images display correctly
-- [ ] Portrait mode rendering works
-- [ ] Backend API returns valid data
-- [ ] Data updates at correct frequency
+## Testing
 
-### Edge Cases to Test
+### Local Testing
 
-- Empty/minimal data
-- Very long text (100+ characters)
-- Special characters and unicode
-- Null/undefined values
-- Missing optional fields
-- API timeout/error responses
+Test quote generation:
+```bash
+# Generate all themes
+python3 generate_random_quote.py
 
-## Step 8: Ready to Deploy!
+# Generate specific theme
+python3 generate_random_quote.py wisdom
 
-When everything is tested:
-
-1. Push your code to GitHub
-2. Create a plugin recipe in TRMNL Dashboard
-3. Upload your templates and assets
-4. Submit for review
-5. Deploy your backend API
-
-## Useful Variables
-
-### TRMNL Platform Variables
-
-```liquid
-<!-- User info -->
-{{ trmnl.user.first_name }}
-{{ trmnl.user.timezone }}
-
-<!-- Plugin settings -->
-{{ trmnl.plugin_settings.instance_name }}
-{{ trmnl.plugin_settings.custom_fields_values.field_key }}
-
-<!-- Device info -->
-{{ trmnl.device.model }}
-{{ trmnl.device.orientation }}
+# View output
+cat api/random-quote-wisdom.json
 ```
 
-### Data Filters
-
-```liquid
-<!-- Formatting -->
-{{ text | truncate: 50 }}
-{{ number | number_with_delimiter }}
-{{ date | date: "%B %d, %Y" }}
-{{ date | relative_time }}
-
-<!-- Default values -->
-{{ missing_field | default: "N/A" }}
+Test quote history tracking:
+```bash
+python3 test_quote_history.py
 ```
 
-## Framework Classes Reference
+### Testing in Browser
 
-### Layout
-```liquid
-<!-- Flexbox -->
-<div class="flex flex--row flex--center-x flex--center-y gap--medium h--full">
-
-<!-- Grid -->
-<div class="grid grid--cols-2 gap--small">
-
-<!-- Spacing -->
-<div class="p--2 mb--small">
+After pushing to GitHub, test your endpoints:
+```
+https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-all.json
+https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-wisdom.json
+https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-humor.json
 ```
 
-### Typography
-```liquid
-<span class="value value--large md:value--xlarge">42</span>
-<span class="title title--medium md:title--large">Heading</span>
-<span class="label">Label</span>
-<span class="description">Description text</span>
-```
+### TRMNL Markup Editor Testing
 
-### Visual
-```liquid
-<div class="bg--white rounded outline text--center">
-<img class="image image--contain image-dither">
-```
-
-### Responsive
-```liquid
-<!-- Size breakpoints -->
-sm: (600px+)
-md: (800px+)
-lg: (1024px+)
-
-<!-- Orientation -->
-portrait:
-
-<!-- Bit-depth -->
-1bit: 2bit: 4bit: 8bit:
-```
+1. Visit [editor.usetrmnl.com](https://editor.usetrmnl.com)
+2. Copy content from `templates/full.liquid` (or any layout)
+3. Paste sample data from your generated JSON
+4. Test across device sizes: TRMNL X, TRMNL OG V2, TRMNL OG
+5. Check portrait and landscape orientations
 
 ## Troubleshooting
 
-**Templates not rendering?**
-- Check for syntax errors (unmatched tags, quotes)
+### GitHub Pages Not Working
+
+- Wait 1-2 minutes after enabling Pages
+- Check Settings → Pages for the published URL
+- Ensure your repository is public (or you have GitHub Pro for private Pages)
+- Verify the JSON files exist in the `api/` directory
+
+### Quotes Not Updating
+
+- Check that quote files exist: `ls api/*.json`
+- Verify GitHub Pages is enabled
+- Test the URL directly in your browser
+- Check TRMNL plugin settings for correct URL
+- Verify the `##{{ theme }}` variable is in the URL
+
+### Quote Generation Errors
+
+- Ensure Python 3.x is installed: `python3 --version`
+- Check `quotes.json` syntax (valid JSON)
+- Verify all quotes have required fields: id, text, author, movie, theme
+- Look for duplicate IDs in `quotes.json`
+
+### Templates Not Rendering
+
 - Verify JSON data structure matches template variables
-- Test in markup editor first before publishing
+- Check for Liquid syntax errors (unmatched tags, quotes)
+- Test in TRMNL Markup Editor first
+- Ensure `shared.liquid` and `shared-posters.liquid` are uploaded
 
-**Layout breaks on some devices?**
-- Test on all device sizes in markup editor
-- Use responsive classes: `sm:`, `md:`, `lg:`
-- Avoid fixed widths - use `flex: 1` or percentages
+## Project Structure
 
-**Data not displaying?**
-- Verify backend API returns valid JSON
-- Check custom field names match template variables
-- Add error states to handle missing data
+```
+trmnl-kung-fu-panda-quotes/
+├── .github/
+│   └── copilot-instructions.md     # AI development context
+├── api/                            # Generated quote files (GitHub Pages serves these)
+│   ├── random-quote-all.json
+│   ├── random-quote-wisdom.json
+│   └── ...
+├── assets/                         # Images and documentation
+│   ├── docs/
+│   ├── icon/
+│   └── posters-small/
+├── templates/                      # TRMNL Liquid templates
+│   ├── full.liquid
+│   ├── half_horizontal.liquid
+│   ├── half_vertical.liquid
+│   ├── quadrant.liquid
+│   ├── shared.liquid
+│   └── shared-posters.liquid
+├── quotes.json                     # Master quote database
+├── generate_random_quote.py        # Quote generation script
+├── embed_posters.py                # Poster embedding script
+├── settings.yml                    # TRMNL plugin configuration
+├── custom-fields.yml               # User form fields
+└── README.md                       # Complete documentation
+```
 
-**Text overflowing?**
-- Use `data-clamp="2"` to limit lines
-- Set `max-width` on containers
-- Use `truncate` filter for single lines
+## Next Steps
+
+- ✅ Configure your preferred theme in TRMNL
+- ✅ Test different layouts on your device
+- ✅ Set up GitHub Actions for daily updates (optional)
+- ✅ Customize templates if desired
+- ✅ Add your own favorite quotes
+- ✅ Share with other Kung Fu Panda fans!
+
+## Resources
+
+- [TRMNL Framework Docs](https://usetrmnl.com/framework) - Design system reference
+- [TRMNL Plugin Guides](https://help.usetrmnl.com/en/collections/7820559-plugin-guides) - How-to guides
+- [Liquid Documentation](https://shopify.github.io/liquid/) - Template language
+- [GitHub Pages Docs](https://docs.github.com/en/pages) - Hosting documentation
+- [Project README](README.md) - Complete plugin documentation
 
 ## Need Help?
 
-- Check [TRMNL Framework Docs](https://usetrmnl.com/framework)
-- Read [Plugin Guides](https://help.usetrmnl.com/en/collections/7820559-plugin-guides)
-- Review [Liquid Documentation](https://shopify.github.io/liquid/)
-- Check `.github/copilot-instructions.md` for project-specific guidance
+- Check [README.md](README.md) for comprehensive documentation
+- Review [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines
+- Look at [assets/docs/THEME_FILTERING_IMPLEMENTATION.md](assets/docs/THEME_FILTERING_IMPLEMENTATION.md) for theme filtering details
+- Open an issue on GitHub for bugs or questions
 
 ---
 
-**Good luck building your TRMNL plugin! 🎉**
+**Enjoy your daily dose of Kung Fu Panda wisdom! 🐼**

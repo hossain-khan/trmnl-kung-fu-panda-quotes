@@ -485,19 +485,18 @@ Template accesses via:
 - Provide helpful error messages
 - Test unconfigured state
 
-## 📝 Customization Checklist
+## 📝 Customization Options
 
-When creating your plugin:
+When using this plugin:
 
-- [ ] Customize `.github/copilot-instructions.md` with your project details
-- [ ] Update `settings.yml` with your endpoint and configuration
-- [ ] Update `custom-fields.yml` with your form fields
-- [ ] Edit all 5 template files (`full.liquid`, etc.)
-- [ ] Create your asset files (icons, demo images)
-- [ ] Update this `README.md` with project-specific info
-- [ ] Test in TRMNL Markup Editor with sample data
-- [ ] Deploy your backend API
-- [ ] Test with real data before publishing
+- [ ] Fork the repository to your GitHub account
+- [ ] Enable GitHub Pages for hosting
+- [ ] Choose your preferred **Quote Theme** in TRMNL settings
+- [ ] Select layouts that work best for your display
+- [ ] (Optional) Set up GitHub Actions for automatic daily updates
+- [ ] (Optional) Add your own favorite quotes to `quotes.json`
+- [ ] (Optional) Customize templates for unique layouts
+- [ ] (Optional) Modify movie poster colors or styling
 
 ## 🚢 Deployment
 
@@ -527,17 +526,20 @@ Ensure:
 
 ## 📄 License
 
-This template is provided under the MIT License - see [LICENSE](LICENSE) for details.
+This plugin is provided under the MIT License - see [LICENSE](LICENSE) for details.
+
+**Note**: Quotes are from the Kung Fu Panda film franchise (DreamWorks Animation). This plugin is a fan project and not officially affiliated with DreamWorks.
 
 ## 🤝 Contributing
 
-Improvements and contributions welcome! If you:
-- Find better patterns
-- Improve documentation
-- Fix bugs
-- Add features
+Contributions welcome! Ways to help:
+- **Add new quotes** - Found a great quote we missed? Submit it!
+- **Improve layouts** - Better designs for different screen sizes
+- **Fix bugs** - Found an issue? Open a PR
+- **Documentation** - Help make setup clearer
+- **New themes** - Suggest additional quote categories
 
-Please open an issue or pull request.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines on submitting quotes and code changes.
 
 ## 📞 Getting Help
 
@@ -549,5 +551,3 @@ Please open an issue or pull request.
 ---
 
 **Happy building! 🎉**
-
-For questions about the template, see [TEMPLATE_USAGE.md](.github/TEMPLATE_USAGE.md).

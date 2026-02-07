@@ -1,4 +1,4 @@
-# TRMNL Plugin - Copilot Instructions Template
+# TRMNL Plugin - Kung Fu Panda Quotes
 
 > **Note**: This is the Kung Fu Panda Quotes plugin for TRMNL - a daily quote display plugin featuring wisdom and humor from all four Kung Fu Panda films.
 
@@ -977,13 +977,13 @@ Based on [TRMNL Plugin Guides](https://help.usetrmnl.com/en/collections/7820559-
 
 ## Development Notes
 
-**About This Template**: These copilot instructions provide a comprehensive starting point for any TRMNL plugin project. Customize this template for your specific plugin by:
+**About This Project**: These copilot instructions provide comprehensive context for AI assistants and developers working on the Kung Fu Panda Quotes plugin. The documentation includes:
 
-1. Replacing placeholder text with your project details
-2. Adding project-specific patterns and conventions
-3. Documenting your data structure and API endpoints
-4. Adding examples relevant to your plugin type
-5. Removing sections that don't apply to your project
+1. Complete project structure and file organization
+2. Plugin-specific patterns and conventions
+3. Quote data structure and generation workflow
+4. Layout examples and responsive design patterns
+5. Theme filtering implementation details
 
 **Key Principles**:
 
