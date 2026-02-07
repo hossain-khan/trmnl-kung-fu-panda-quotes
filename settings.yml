@@ -4,7 +4,7 @@ no_screen_padding: 'no'
 dark_mode: 'no'
 static_data: ''
 polling_verb: get
-polling_url: https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes/api/random-quote.json
+polling_url: https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-##{{ theme }}.json
 polling_headers: ''
 polling_body: ''
 custom_fields:
@@ -17,12 +17,6 @@ custom_fields:
   email_address: trmnl@hossain.dev
 name: Kung Fu Panda Quotes
 refresh_interval: 1440
-
-# Plugin Metadata
-name: "Example Plugin"
-description: "A template plugin for TRMNL devices"
-author: "Your Name"
-version: "1.0.0"
 
 # Tap Action: URL to open when user taps plugin (optional)
 # Leave empty or remove if not needed

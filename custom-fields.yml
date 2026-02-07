@@ -3,23 +3,41 @@
 # Kung Fu Panda Quotes Plugin
 # This file defines user-facing form fields for plugin configuration
 
-# Currently, this quote plugin requires no additional configuration
-# All settings are managed through the main settings.yml file
-# 
-# If you want to add custom fields in the future, examples:
-#
-# - key: "theme"
-#   type: "select"
-#   label: "Quote Theme"
-#   required: false
+# Theme selection field
+- keyname: "theme"
+  field_type: "select"
+  name: "Quote Theme"
+  optional: false
+  options:
+    - "All Themes": "all"
+    - "Wisdom": "wisdom"
+    - "Humor": "humor"
+    - "Growth": "growth"
+    - "Combat": "combat"
+    - "Identity": "identity"
+    - "Confidence": "confidence"
+    - "Iconic": "iconic"
+    - "Villainy": "villainy"
+  default: "all"
+  description: "Select which type of quotes you'd like to see"
+  help_text: "Choose 'All Themes' for a mix of all quote types, or pick a specific theme"
+
+# For future multi-select implementation (requires dynamic backend):
+# To enable multi-select, you would need to:
+# 1. Use Cloudflare Workers or similar dynamic backend
+# 2. Change field_type to "select" with "multiple: true"
+# 3. Update the endpoint to parse the comma-separated values
+# Example:
+# - keyname: "themes"
+#   field_type: "select"
+#   name: "Quote Themes"
+#   optional: false
+#   multiple: true
 #   options:
-#     - label: "All Quotes"
-#       value: "all"
-#     - label: "Wisdom Only"
-#       value: "wisdom"
-#     - label: "Humor Only"  
-#       value: "humor"
-#   description: "Filter quotes by theme"
+#     - "Wisdom"
+#     - "Humor"
+#   description: "Select one or more themes"
+#   help_text: "Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>ctrl</kbd>+<kbd>click</kbd> to select multiple"
 #
 # - key: "include_author"
 #   type: "checkbox"
