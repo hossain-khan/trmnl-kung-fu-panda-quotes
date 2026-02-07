@@ -6,7 +6,7 @@ This script is used to create the API endpoint data for TRMNL
 
 import json
 import random
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -21,7 +21,7 @@ def generate_random_quote():
             "author": "Master Oogway",
             "movie": "Kung Fu Panda",
             "theme": "Wisdom",
-            "updated_on": datetime.utcnow().isoformat() + "Z"
+            "updated_on": datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')
         }
     
     with open(quotes_file, 'r', encoding='utf-8') as f:
@@ -30,7 +30,7 @@ def generate_random_quote():
     quote = random.choice(quotes)
     
     # Add timestamp
-    quote['updated_on'] = datetime.utcnow().isoformat() + "Z"
+    quote['updated_on'] = datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')
     
     return quote
 
