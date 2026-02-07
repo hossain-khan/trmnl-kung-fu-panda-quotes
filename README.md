@@ -68,38 +68,6 @@ Get inspired every day with memorable quotes from all four Kung Fu Panda movies.
 | **Iconic** | Memorable catchphrases | *"Skadoosh."* |
 | **Villainy** | Villain wisdom | *"The dead exist in the past..."* |
 
-## 📱 Layouts
-
-The plugin adapts to your TRMNL screen configuration:
-
-- **Full Layout**: Large quote with movie poster
-- **Half Horizontal**: Side-by-side display
-- **Half Vertical**: Stacked vertical display  
-- **Quadrant**: Compact quote-only view
-
-All layouts automatically adjust for portrait/landscape orientation.
-
-## ❓ Troubleshooting
-
-### Quote Not Updating
-
-- Check your refresh interval in TRMNL settings
-- Verify internet connection on your device
-- Try manually refreshing the plugin
-
-### Wrong Theme Quotes Appearing
-
-- Double-check your theme selection in plugin settings
-- Save settings again to ensure they're applied
-- Allow 24 hours for changes to take effect
-
-### Display Issues
-
-- Try a different layout option in settings
-- Ensure your TRMNL firmware is up to date
-- Check device orientation matches your preferred layout
-
-> **Need more help?** Visit [TRMNL Help Center](https://help.usetrmnl.com) or contact support.
 
 ## 🛠️ For Developers
 
@@ -108,23 +76,6 @@ Want to customize this plugin or contribute? See our technical documentation:
 - [Technical Guide](assets/docs/TECHNICAL_GUIDE.md) - Deployment, development, and API details
 - [Theme Filtering](assets/docs/THEME_FILTERING_IMPLEMENTATION.md) - How theme filtering works
 - [Contributing Guidelines](CONTRIBUTING.md) - How to contribute quotes or code
-
-## 📚 Quote Examples
-
-Here are some quotes you might see:
-
-> *"Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present."*  
-> — Master Oogway
-
-> *"There's no charge for awesomeness... or attractiveness."*  
-> — Po
-
-> *"If you only do what you can do, you will never be more than you are now."*  
-> — Master Shifu
-
-> *"Your story may not have such a happy beginning, but that doesn't make you who you are. It is the rest of your story, who you choose to be."*  
-> — Soothsayer
-
 
 
 ## 📄 License
