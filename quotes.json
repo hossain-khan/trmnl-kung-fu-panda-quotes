@@ -8,7 +8,7 @@
   },
   {
     "id": 2,
-    "text": "There is no secret ingredient. It's just you.",
+    "text": "There is no secret ingredient.",
     "author": "Mr. Ping",
     "movie": "Kung Fu Panda",
     "theme": "Wisdom"
@@ -36,14 +36,14 @@
   },
   {
     "id": 6,
-    "text": "If you only do what you can do, you will never be more than you are now.",
+    "text": "If you only do what you can do, you'll never be better than what you are.",
     "author": "Master Shifu",
     "movie": "Kung Fu Panda 3",
     "theme": "Growth"
   },
   {
     "id": 7,
-    "text": "Your story may not have such a happy beginning, but that does not make you who you are. It is the rest of your story, who you choose to be.",
+    "text": "Your story may not have such a happy beginning, but that doesn't make you who you are. It is the rest of your story, who you choose to be.",
     "author": "Soothsayer",
     "movie": "Kung Fu Panda 2",
     "theme": "Identity"
@@ -71,7 +71,7 @@
   },
   {
     "id": 11,
-    "text": "The more you take, the less you have.",
+    "text": "When will you realize? The more you take, the less you have.",
     "author": "Master Oogway",
     "movie": "Kung Fu Panda 3",
     "theme": "Wisdom"
@@ -92,7 +92,7 @@
   },
   {
     "id": 14,
-    "text": "You are the master of your destiny: No one and nothing can come in between you and your destiny except you. Take destiny by the horns and have fun.",
+    "text": "See, that's the thing, Shen. Scars heal.",
     "author": "Po",
     "movie": "Kung Fu Panda 2",
     "theme": "Growth"
@@ -106,7 +106,7 @@
   },
   {
     "id": 16,
-    "text": "Quit, don't quit? Noodles, don't noodles?",
+    "text": "Quit, don't quit. Noodles, don't noodles.",
     "author": "Master Oogway",
     "movie": "Kung Fu Panda",
     "theme": "Humor"
@@ -120,10 +120,10 @@
   },
   {
     "id": 18,
-    "text": "It matters not what someone is born, but what they grow to be.",
-    "author": "Master Oogway",
+    "text": "The dead exist in the past, and I must tend to the future.",
+    "author": "Lord Shen",
     "movie": "Kung Fu Panda 2",
-    "theme": "Identity"
+    "theme": "Villainy"
   },
   {
     "id": 19,
@@ -134,7 +134,7 @@
   },
   {
     "id": 20,
-    "text": "Everything is possible when you have inner peace.",
+    "text": "Anything is possible when you have inner peace.",
     "author": "Master Shifu",
     "movie": "Kung Fu Panda 2",
     "theme": "Wisdom"
@@ -176,9 +176,9 @@
   },
   {
     "id": 26,
-    "text": "You can chain my body, but you will never chain my spirit!",
-    "author": "Po",
-    "movie": "Kung Fu Panda 3",
+    "text": "You can chain my body, but you will never chain my warrior spirit!",
+    "author": "Crane",
+    "movie": "Kung Fu Panda 2",
     "theme": "Combat"
   },
   {
@@ -205,14 +205,14 @@
   {
     "id": 30,
     "text": "My friend, the panda will never fulfill his destiny, nor you yours, until you let go of the illusion of control.",
-    "author": "Oogway",
+    "author": "Master Oogway",
     "movie": "Kung Fu Panda",
     "theme": "Wisdom"
   },
   {
     "id": 31,
     "text": "Quit, don't quit. Noodles, don't noodles... You are too concerned with what was and what will be. There's a saying: Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.",
-    "author": "Oogway",
+    "author": "Master Oogway",
     "movie": "Kung Fu Panda",
     "theme": "Wisdom"
   },
@@ -232,7 +232,7 @@
   },
   {
     "id": 34,
-    "text": "There is no charge for awesomeness... or attractiveness.",
+    "text": "There's no charge for awesomeness... or attractiveness.",
     "author": "Po",
     "movie": "Kung Fu Panda",
     "theme": "Humor"
@@ -246,7 +246,7 @@
   },
   {
     "id": 36,
-    "text": "He was so deadly, in fact, that his enemies would go blind from over-exposure to pure awesomeness!",
+    "text": "He was so deadly, in fact, his enemies would go blind from over-exposure to pure awesomeness!",
     "author": "Po",
     "movie": "Kung Fu Panda",
     "theme": "Humor"
@@ -261,7 +261,7 @@
   {
     "id": 38,
     "text": "No they don't. Wounds heal.",
-    "author": "Shen",
+    "author": "Lord Shen",
     "movie": "Kung Fu Panda 2",
     "theme": "Combat"
   },
@@ -296,7 +296,7 @@
   {
     "id": 43,
     "text": "If you only do what you can do, you'll never be better than what you are.",
-    "author": "Shifu",
+    "author": "Master Shifu",
     "movie": "Kung Fu Panda 3",
     "theme": "Growth"
   },
@@ -310,21 +310,21 @@
   {
     "id": 45,
     "text": "You don't even know who you are!",
-    "author": "Shifu",
+    "author": "Master Shifu",
     "movie": "Kung Fu Panda 3",
     "theme": "Identity"
   },
   {
     "id": 46,
     "text": "Time is just an illusion, there is only the now.",
-    "author": "Shifu",
+    "author": "Master Shifu",
     "movie": "Kung Fu Panda 3",
     "theme": "Wisdom"
   },
   {
     "id": 47,
-    "text": "I am not trying to turn you into me, I am turning you into you.",
-    "author": "Shifu",
+    "text": "I'm not trying to turn you into me. I'm trying to turn you into you.",
+    "author": "Master Shifu",
     "movie": "Kung Fu Panda 3",
     "theme": "Growth"
   },
@@ -402,12 +402,12 @@
     "id": 58,
     "text": "If you only do what you can do, you will never be more.",
     "author": "Master Shifu",
-    "movie": "Kung Fu Panda",
+    "movie": "Kung Fu Panda 3",
     "theme": "Growth"
   },
   {
     "id": 59,
-    "text": "There is no charge for awesomeness.",
+    "text": "There's no charge for awesomeness.",
     "author": "Po",
     "movie": "Kung Fu Panda",
     "theme": "Humor"
@@ -415,20 +415,20 @@
   {
     "id": 60,
     "text": "Inner peace. Inner peace.",
-    "author": "Po",
+    "author": "Master Shifu",
     "movie": "Kung Fu Panda",
     "theme": "Humor"
   },
   {
     "id": 61,
     "text": "You just need to believe.",
-    "author": "Master Shifu",
+    "author": "Master Oogway",
     "movie": "Kung Fu Panda",
     "theme": "Growth"
   },
   {
     "id": 62,
-    "text": "One often meets his destiny on the road he avoids it.",
+    "text": "One often meets his destiny on the road he takes to avoid it.",
     "author": "Master Oogway",
     "movie": "Kung Fu Panda",
     "theme": "Wisdom"
@@ -463,10 +463,10 @@
   },
   {
     "id": 67,
-    "text": "Inner peace comes from accepting your past.",
+    "text": "So, who are you, panda?",
     "author": "Soothsayer",
     "movie": "Kung Fu Panda 2",
-    "theme": "Growth"
+    "theme": "Identity"
   },
   {
     "id": 68,
@@ -512,7 +512,7 @@
   },
   {
     "id": 74,
-    "text": "I came from humble beginnings.",
+    "text": "I too came from humble beginnings.",
     "author": "The Chameleon",
     "movie": "Kung Fu Panda 4",
     "theme": "Identity"
@@ -526,7 +526,7 @@
   },
   {
     "id": 76,
-    "text": "You are not as useless as you look.",
+    "text": "You aren't completely useless after all.",
     "author": "Tai Lung",
     "movie": "Kung Fu Panda 4",
     "theme": "Humor"
