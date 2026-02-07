@@ -34,7 +34,7 @@ Common improvement areas:
 
 1. **Fork the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/trmnl-kung-fu-panda-quotes.git
+   git clone https://github.com/hossain-khan/trmnl-kung-fu-panda-quotes.git
    ```
 
 2. **Create a feature branch**
