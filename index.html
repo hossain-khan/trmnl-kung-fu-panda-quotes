@@ -80,28 +80,48 @@
             letter-spacing: 2px;
         }
         
+        .quote-container {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+        
+        .quote-poster {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            border: 2px solid rgba(100, 100, 100, 0.3);
+        }
+        
+        .quote-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
         .quote-text {
             font-size: 1.6em;
             font-style: italic;
-            text-align: center;
             color: #2c2c2c;
-            margin: 25px 0;
+            margin: 0 0 25px 0;
             line-height: 1.8;
             font-family: 'Courier New', monospace;
         }
         
         .quote-meta {
-            text-align: center;
             color: #666;
             font-size: 1.1em;
-            margin-top: 20px;
+            margin-top: 10px;
+            text-align: right;
         }
         
         .movie-theme {
-            text-align: center;
             color: #777;
             font-size: 0.95em;
-            margin-top: 10px;
+            margin-top: 8px;
+            text-align: right;
         }
         
         .loading {
@@ -307,12 +327,38 @@
                 border-radius: 8px;
             }
             
+            .quote-container {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+            
+            .quote-poster {
+                max-width: 250px;
+                margin: 0 auto;
+            }
+            
             .quote-text {
                 font-size: 1.2em;
             }
             
+            .quote-meta,
+            .movie-theme {
+                text-align: center;
+            }
+            
             .todays-quote {
                 padding: 25px;
+            }
+        }
+        
+        @media (min-width: 601px) and (max-width: 900px) {
+            .quote-container {
+                grid-template-columns: 250px 1fr;
+                gap: 30px;
+            }
+            
+            .quote-text {
+                font-size: 1.4em;
             }
         }
     </style>
@@ -450,10 +496,27 @@
             .then(response => response.json())
             .then(data => {
                 const container = document.getElementById('todays-quote-container');
+                
+                // Map movie name to poster filename
+                const posterMap = {
+                    'Kung Fu Panda': 'kung-fu-panda-1-poster-bw-outline-webp.webp',
+                    'Kung Fu Panda 2': 'kung-fu-panda-2-poster-bw-outline-webp.webp',
+                    'Kung Fu Panda 3': 'kung-fu-panda-3-poster-bw-outline-webp.webp',
+                    'Kung Fu Panda 4': 'kung-fu-panda-4-poster-bw-outline-webp.webp'
+                };
+                
+                const posterFilename = posterMap[data.movie] || 'kung-fu-panda-1-poster-bw-outline-webp.webp';
+                const posterPath = baseUrl + 'assets/posters-small-bw-outline/' + posterFilename;
+                
                 container.innerHTML = `
-                    <div class="quote-text">"${data.text}"</div>
-                    <div class="quote-meta">— ${data.author}</div>
-                    <div class="movie-theme">${data.movie} • ${data.theme}</div>
+                    <div class="quote-container">
+                        <img src="${posterPath}" alt="${data.movie} Poster" class="quote-poster">
+                        <div class="quote-content">
+                            <div class="quote-text">"${data.text}"</div>
+                            <div class="quote-meta">— ${data.author}</div>
+                            <div class="movie-theme">${data.movie} • ${data.theme}</div>
+                        </div>
+                    </div>
                 `;
             })
             .catch(error => {
