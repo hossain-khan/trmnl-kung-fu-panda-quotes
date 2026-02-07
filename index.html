@@ -443,10 +443,10 @@
         
         // Update API endpoint displays
         document.getElementById('all-quotes-url').textContent = baseUrl + 'quotes.json';
-        document.getElementById('random-quote-url').textContent = baseUrl + 'api/random-quote.json';
+        document.getElementById('random-quote-url').textContent = baseUrl + 'api/random-quote-all.json';
         
         // Load and display today's random quote
-        fetch(baseUrl + 'api/random-quote.json')
+        fetch(baseUrl + 'api/random-quote-all.json')
             .then(response => response.json())
             .then(data => {
                 const container = document.getElementById('todays-quote-container');
