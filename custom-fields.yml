@@ -3,6 +3,33 @@
 # Kung Fu Panda Quotes Plugin
 # This file defines user-facing form fields for plugin configuration
 
+# Author Bio field - appears on plugin marketplace page
+- keyname: "kung_fu_panda_quotes"
+  field_type: "author_bio"
+  name: "Kung Fu Panda Quotes"
+  category: "entertainment,humor"
+  description: |
+    Kung Fu Panda Quotes brings the wisdom, humor, and philosophy from all four Kung Fu Panda films directly to your TRMNL device.
+    <br><br>
+    <strong>Features:</strong><br>
+    🐼 80+ authentic quotes from all 4 Kung Fu Panda movies<br>
+    🎭 8 themed collections: Wisdom, Humor, Growth, Combat, Identity, Confidence, Iconic, Villainy<br>
+    🎨 Beautiful movie poster displays optimized for e-ink<br>
+    🔄 Daily automatic quote updates with intelligent rotation<br>
+    <br><br>
+    <strong>Setup:</strong><br>
+    1. Install or Fork this recipe<br>
+    2. Choose your preferred quote theme (or "All Themes" for variety)<br>
+    3. The plugin automatically polls for a new quote every 24 hours<br>
+    4. Add to your playlist and experience daily wisdom from the Valley of Peace
+    <br><br>
+    Experience the timeless wisdom of Master Oogway, the humor of Po, the discipline of Master Shifu, and memorable quotes from all your favorite characters across the entire franchise.
+    <br><br>
+    <em>"Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present."</em> - Master Oogway
+  github_url: "https://github.com/hossain-khan/trmnl-kung-fu-panda-quotes"
+  website_url: "https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes"
+  email_address: "trmnl@hossain.dev"
+
 # Theme selection field
 - keyname: "theme"
   field_type: "select"
