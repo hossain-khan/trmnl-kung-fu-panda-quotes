@@ -94,8 +94,8 @@ This is the simplest method and requires no server infrastructure.
            run: |
              git config --local user.email "action@github.com"
              git config --local user.name "GitHub Action"
-             git add api/random-quote.json
-             git commit -m "chore: update daily quote [automated]" || echo "No changes to commit"
+             git add api/random-quote-*.json
+             git commit -m "chore: update daily quotes for all themes [automated]" || echo "No changes to commit"
              git push
    ```
 
@@ -197,8 +197,8 @@ Templates receive the following data:
 
 ### Quote not updating
 - Check that your API endpoint is accessible from the internet
-- Verify the URL in TRMNL settings
-- Ensure `api/random-quote.json` exists on your server
+- Verify the URL in TRMNL settings matches `api/random-quote-##{{ theme }}.json` format
+- Ensure theme-specific files exist: `api/random-quote-all.json`, `api/random-quote-wisdom.json`, etc.
 - If using GitHub Actions, check that the workflow is enabled
 
 ### Movie poster not showing
@@ -244,7 +244,9 @@ trmnl-kung-fu-panda-quotes/
 │   ├── half_vertical.liquid        # Stacked layout
 │   └── quadrant.liquid             # Compact layout
 ├── api/
-│   └── random-quote.json           # Generated daily quote
+│   ├── random-quote-all.json       # Generated quote (all themes)
+│   ├── random-quote-wisdom.json    # Generated quote (wisdom theme)
+│   └── random-quote-*.json         # Theme-specific quotes (9 files)
 ├── assets/                         # Icons & images
 ├── README.md                       # This file
 └── LICENSE
