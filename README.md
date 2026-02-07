@@ -25,7 +25,7 @@ This is the simplest method and requires no server infrastructure.
 
 1. **Fork or clone this repository** to your GitHub account
    ```bash
-   git clone https://github.com/YOUR_USERNAME/trmnl-kung-fu-panda-quotes.git
+   git clone https://github.com/hossain-khan/trmnl-kung-fu-panda-quotes.git
    cd trmnl-kung-fu-panda-quotes
    ```
 
@@ -59,7 +59,7 @@ This is the simplest method and requires no server infrastructure.
 5. **Update settings.yml**
    Replace `YOUR_GITHUB_USERNAME` in `settings.yml` with your actual GitHub username:
    ```yaml
-   polling_url: https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-##{{ theme }}.json
+   polling_url: https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-##{{ theme }}.json
    ```
    
    **Note**: The `##{{ theme }}` variable is automatically replaced by TRMNL based on the user's theme selection.

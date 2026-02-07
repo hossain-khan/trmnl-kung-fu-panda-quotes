@@ -17,7 +17,7 @@ This guide will walk you through setting up the Kung Fu Panda Quotes plugin for 
 2. Click **Fork** to create your own copy
 3. Clone to your local machine:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/trmnl-kung-fu-panda-quotes.git
+   git clone https://github.com/hossain-khan/trmnl-kung-fu-panda-quotes.git
    cd trmnl-kung-fu-panda-quotes
    ```
 
@@ -32,7 +32,7 @@ This guide will walk you through setting up the Kung Fu Panda Quotes plugin for 
 
 Your quotes will be available at:
 ```
-https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-all.json
+https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-all.json
 ```
 
 ### Step 3: Generate Quote Files
@@ -62,7 +62,7 @@ git push
 2. Go to **Plugins** → **Add Plugin** → **Custom Plugin**
 3. Configure:
    - **Strategy**: Polling
-   - **URL**: `https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-##{{ theme }}.json`
+   - **URL**: `https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-##{{ theme }}.json`
    - **Refresh**: 1440 minutes (24 hours)
 4. Select your preferred layouts (Full, Half Horizontal, Half Vertical, Quadrant)
 5. Choose your **Quote Theme** from the dropdown
@@ -198,9 +198,9 @@ python3 test_quote_history.py
 
 After pushing to GitHub, test your endpoints:
 ```
-https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-all.json
-https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-wisdom.json
-https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-humor.json
+https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-all.json
+https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-wisdom.json
+https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-humor.json
 ```
 
 ### TRMNL Markup Editor Testing

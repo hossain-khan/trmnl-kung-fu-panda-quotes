@@ -150,7 +150,7 @@ trmnl-kung-fu-panda-quotes/
 **Configuration:**
 - **settings.yml**: TRMNL plugin metadata
   - Strategy: `polling` (TRMNL fetches new quotes via HTTP GET)
-  - URL: `https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote.json`
+  - URL: `https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes/api/random-quote.json`
   - Refresh: 1440 minutes (24 hours / daily updates)
   - Custom field: `kung_fu_panda_quotes` (TRMNL registry name)
 
