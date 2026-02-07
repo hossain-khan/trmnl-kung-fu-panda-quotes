@@ -1,103 +1,257 @@
-# TRMNL Plugin Template
+# Kung Fu Panda Quotes - TRMNL Plugin
 
-A complete, production-ready starter template for building custom plugins for [TRMNL](https://usetrmnl.com) devices. This template provides everything you need to create, test, and deploy a TRMNL plugin.
+Display daily wisdom and inspiration from the Kung Fu Panda trilogy on your TRMNL device!
 
-## 🚀 Quick Start
+## Overview
 
-### Prerequisites
+This plugin shows inspiring quotes from all four Kung Fu Panda movies featuring characters like Master Oogway, Po, Shifu, and more. Get a new quote each day to inspire and entertain.
 
-- Understanding of [TRMNL Framework](https://usetrmnl.com/framework)
-- Familiarity with [Liquid templating](https://shopify.github.io/liquid/)
-- A backend service for data fetching (for polling strategy)
+## Features
 
-### Getting Started
+- **80+ Quotes** from all four Kung Fu Panda movies  
+- **Multiple Layouts**: Full, Half Horizontal, Half Vertical, and Quadrant
+- **Beautifully Formatted**: Quotes displayed with proper attribution
+- **Movie Posters**: Different poster colors based on which movie the quote is from
+- **Daily Updates**: Configurable refresh frequency via TRMNL settings
+- **Theme Categories**: Quotes organized by theme (Wisdom, Humor, Combat, etc.)
 
-1. **Clone this repository** as your starting point:
+## Setup Instructions
+
+### Option 1: Deploy to GitHub Pages (Recommended)
+
+This is the simplest method and requires no server infrastructure.
+
+1. **Fork or clone this repository** to your GitHub account
    ```bash
-   git clone https://github.com/your-username/your-plugin-name.git
-   cd your-plugin-name
+   git clone https://github.com/YOUR_USERNAME/trmnl-kung-fu-panda-quotes.git
+   cd trmnl-kung-fu-panda-quotes
    ```
 
-2. **Customize the template files**:
-   - Update `settings.yml` with your plugin configuration
-   - Update `custom-fields.yml` with your form fields
-   - Edit templates in `templates/` folder to your design
+2. **Enable GitHub Pages**
+   - Go to Settings → Pages
+   - Select "Deploy from a branch"
+   - Choose branch: `main` (or your default branch)
+   - Folder: `/ (root)`
+   - Save
 
-3. **Update the copilot instructions**:
-   - Edit `.github/copilot-instructions.md` with your project details
-   - Follow the [Template Usage Guide](https://github.com/hossain-khan/trmnl-plugin-template/blob/main/.github/TEMPLATE_USAGE.md)
+3. **Generate the API endpoint**
+   ```bash
+   python3 generate_random_quote.py
+   ```
+   This creates `api/random-quote.json` with today's quote.
 
-4. **Test in TRMNL Markup Editor**:
-   - Copy a template to the [TRMNL Markup Editor](https://editor.usetrmnl.com)
-   - Preview across different device sizes
-   - Test with sample data
+4. **Commit and push the changes**
+   ```bash
+   git add api/random-quote.json
+   git commit -m "chore: update daily quote"
+   git push
+   ```
 
-## 📁 Project Structure
+5. **Update settings.yml**
+   Replace `YOUR_GITHUB_USERNAME` in `settings.yml` with your actual GitHub username:
+   ```yaml
+   polling_url: https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote.json
+   ```
+
+6. **Setup GitHub Actions for Daily Updates** (Optional)
+   This will automatically update the quote daily:
+   
+   Create `.github/workflows/update-daily-quote.yml`:
+   ```yaml
+   name: Update Daily Quote
+   
+   on:
+     schedule:
+       - cron: '0 6 * * *'  # Run at 6 AM UTC daily
+     workflow_dispatch:  # Allow manual trigger
+   
+   jobs:
+     update:
+       runs-on: ubuntu-latest
+       steps:
+         - uses: actions/checkout@v3
+         
+         - name: Set up Python
+           uses: actions/setup-python@v4
+           with:
+             python-version: '3.10'
+         
+         - name: Generate quote
+           run: python3 generate_random_quote.py
+         
+         - name: Commit changes
+           run: |
+             git config --local user.email "action@github.com"
+             git config --local user.name "GitHub Action"
+             git add api/random-quote.json
+             git commit -m "chore: update daily quote [automated]" || echo "No changes to commit"
+             git push
+   ```
+
+### Option 2: Deploy to Cloudflare Workers
+
+For a serverless, always-on solution:
+
+1. **Install Wrangler CLI**
+   ```bash
+   npm install -g wrangler
+   ```
+
+2. **Create a Cloudflare Workers project and deploy to serve quotes**
+
+3. **Update settings.yml** with your Cloudflare Worker URL
+
+### Option 3: Self-Hosted Server
+
+Deploy to your own server with Node.js, Python, or any other backend.
+
+## Adding to TRMNL
+
+1. **In TRMNL App:**
+   - Select "Add Custom Plugin"
+   - Choose "Polling" strategy
+   - Paste your API endpoint URL
+   - Set refresh frequency (default: 1440 minutes / 24 hours for daily)
+   - Select desired layouts
+   - Save
+
+2. **Configure Instance Name** (in TRMNL settings)
+   - Default: "Kung Fu Panda Quotes"
+   - Customize to personalize your display
+
+## Quote Data Format
+
+Each quote in `quotes.json` includes:
+```json
+{
+  "id": 1,
+  "text": "Yesterday is history, tomorrow is a mystery, but today is a gift.",
+  "author": "Master Oogway",
+  "movie": "Kung Fu Panda",
+  "theme": "Wisdom"
+}
+```
+
+**Themes Available:**
+- Wisdom
+- Humor
+- Combat
+- Growth
+- Identity
+- Confidence
+- Iconic
+- Villainy
+
+## Customizing Quotes
+
+Want to modify the quotes? Edit `quotes.json` directly:
+
+1. Add new quotes with proper structure
+2. Regenerate the API: `python3 generate_random_quote.py`
+3. Push your changes to your deployment platform
+
+## Template Variables
+
+Templates receive the following data:
+- `text` - The quote text
+- `author` - Character who said it
+- `movie` - Which Kung Fu Panda movie
+- `theme` - Quote category
+- `updated_on` - ISO timestamp of when quote was generated
+- `trmnl.plugin_settings.instance_name` - Customized instance name
+
+## Layouts
+
+### Full Layout
+- Grid with poster image on left, quote on right
+- Best for: Full-screen displays
+- Shows: Quote, character name, movie attribution
+
+### Half Horizontal Layout
+- Quote on left, character details on right (stacks vertically on portrait)
+- Best for: Side-by-side displays
+- Shows: Quote, character, movie, theme
+
+### Half Vertical Layout
+- Quote fills space, character info at bottom
+- Best for: Top-bottom split displays
+- Shows: Quote, character, movie
+
+### Quadrant Layout
+- Quote centered and scaled to fit
+- Best for: Compact quarter-size displays
+- Shows: Quote text only
+
+## Troubleshooting
+
+### Quote not updating
+- Check that your API endpoint is accessible from the internet
+- Verify the URL in TRMNL settings
+- Ensure `api/random-quote.json` exists on your server
+- If using GitHub Actions, check that the workflow is enabled
+
+### Movie poster not showing
+- Verify the `movie` field in `quotes.json` matches expected values
+- Check that `shared.liquid` has been properly deployed
+
+### Text overflow in quadrant layout
+- Use `data-value-fit` to auto-scale text
+- Test with shorter quotes
+- Verify device size setting in TRMNL
+
+## Development
+
+### Local Testing
+1. Generate a quote file:
+   ```bash
+   python3 generate_random_quote.py
+   ```
+
+2. Preview in TRMNL Markup Editor using sample data
+
+### Adding More Quotes
+1. Edit `quotes.json`
+2. Follow the existing format
+3. Regenerate: `python3 generate_random_quote.py`
+4. Test in TRMNL Markup Editor
+5. Commit and push
+
+## Project Structure
 
 ```
-your-plugin-name/
+trmnl-kung-fu-panda-quotes/
+├── settings.yml                    # Plugin configuration
+├── custom-fields.yml               # Form field definitions
+├── quotes.json                     # All quotes
+├── generate_random_quote.py        # Quote generation script
 ├── .github/
-│   ├── copilot-instructions.md    # AI assistant context (customize this!)
-│   └── TEMPLATE_USAGE.md           # Instructions for using the template
-├── assets/
-│   ├── icon/                       # Your plugin icon(s)
-│   └── demo/                       # Demo screenshots
+│   └── copilot-instructions.md     # AI context
 ├── templates/
-│   ├── shared.liquid               # Reusable components
+│   ├── shared.liquid               # Reusable components & assets
 │   ├── full.liquid                 # Full-screen layout
 │   ├── half_horizontal.liquid      # Side-by-side layout
 │   ├── half_vertical.liquid        # Stacked layout
-│   └── quadrant.liquid             # Compact corner layout
-├── settings.yml                    # Plugin configuration
-├── custom-fields.yml               # Form field definitions
-├── LICENSE                         # License (MIT by default)
-└── README.md                       # This file
+│   └── quadrant.liquid             # Compact layout
+├── api/
+│   └── random-quote.json           # Generated daily quote
+├── assets/                         # Icons & images
+├── README.md                       # This file
+└── LICENSE
 ```
 
-## 🎨 Template Files
+## License
 
-### Core Templates
+This plugin uses content from the Kung Fu Panda film franchise. See [LICENSE](LICENSE) for details.
 
-- **`shared.liquid`**: Reusable components and utility templates
-  - Error state component
-  - Data display components
-  - Metric cards
-  - Status badges
-  - Title bar template
+## Credits
 
-- **`full.liquid`**: Full-screen plugin display
-  - Best for main data presentation
-  - Padding: `p--2` (standard)
-  - Includes optional secondary content area
+- **Quotes**: Kung Fu Panda films (DreamWorks Animation)
+- **Plugin Framework**: [TRMNL](https://usetrmnl.com)
+- **Inspired by**: MAX PAYNE Quotes Plugin pattern
 
-- **`half_horizontal.liquid`**: Side-by-side layout
-  - Best for comparative displays
-  - Main content on left/right side
-  - Responsive: switches to vertical on portrait
-  - Constrained secondary content
+---
 
-- **`half_vertical.liquid`**: Stacked layout
-  - Best for primary + secondary content
-  - Primary content fills space
-  - Secondary content at bottom
-  - Compact spacing
-
-- **`quadrant.liquid`**: Quarter-size compact display
-  - Minimal information only
-  - Tight padding (`p--1`)
-  - Every pixel counts
-
-### Layout Previews
-
-| Full Layout | Half Horizontal |
-|---|---|
-| ![Full Layout Preview](assets/demo/preview-full.png) | ![Half Horizontal Preview](assets/demo/preview-half-horizontal.png) |
-| **Half Vertical** | **Quadrant** |
-| ![Half Vertical Preview](assets/demo/preview-half-vertical.png) | ![Quadrant Preview](assets/demo/preview-quadrant.png) |
-
-## ⚙️ Configuration Files
-
-### `settings.yml`
+**Daily Wisdom**: Every morning your TRMNL displays a new Kung Fu Panda quote. From Master Oogway's profound wisdom to Po's humorous confidence, let these quotes inspire your day!
 
 Configure your plugin's behavior:
 

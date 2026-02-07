@@ -1,57 +1,53 @@
 {% comment %}
-  ============================================================================
-  FULL.LIQUID - Full-screen Layout Template
-  ============================================================================
-  Use this template for displaying content across the entire TRMNL screen.
+  Full Layout - Kung Fu Panda Quotes Plugin
   
-  Best For:
-  - Detailed information displays
-  - Main data presentation
-  - Full-screen widgets
+  Displays a full-screen quote with character name and movie title
+  Shows opening/closing quote marks and properly formatted text
   
-  Device Sizes: Works across all devices (sm, md, lg)
-  Padding: p--2 (standard)
-  
-  Structure:
-  - Main content area with flex: 1 for vertical centering
-  - Title bar at bottom for branding
-  - Error state fallback for unconfigured plugins
-  ============================================================================
+  Template Variables Expected:
+  - text: The quote text
+  - author: Character who said the quote
+  - movie: Which Kung Fu Panda movie (1, 2, 3, or 4)
+  - theme: Optional theme category
 {% endcomment %}
 
 <div class="layout">
-  {% comment %} Check if data is available {% endcomment %}
-  {% if has_data %}
-  
-  <div class="flex flex--col gap--medium h--full">
-    {% comment %} Main content area - centered vertically {% endcomment %}
-    <div class="flex flex--center-x flex--center-y" style="flex: 1;">
-      <div class="text--center">
-        {% comment %} 
-          Example: Display your primary data here
-          Replace with actual data from your data source
-          
-          Tip: Use data-value-fit for long headlines that need to scale
-          Tip: Use value--tnums for precise numeric alignment
-        {% endcomment %}
-        <div class="value value--large md:value--xxlarge lg:value--xxxlarge" data-value-fit="true" data-value-fit-max-height="220">
-          42
-        </div>
-        <div class="title title--small md:title--medium lg:title--large">
-          Example Value
-        </div>
-        <div class="description md:label" data-clamp="2">
-          This is a template example with better best practices
-        </div>
-      </div>
+  <div class="grid gap--large">
+    <div class="col--span-1 col col--center">
+      {% comment %} Display poster based on movie {% endcomment %}
+      {% if movie contains "Kung Fu Panda 4" %}
+        <img class="image" src="{{ poster_kfp_4 }}" />
+      {% elsif movie contains "Kung Fu Panda 3" %}
+        <img class="image" src="{{ poster_kfp_3 }}" />
+      {% elsif movie contains "Kung Fu Panda 2" %}
+        <img class="image" src="{{ poster_kfp_2 }}" />
+      {% else %}
+        <img class="image" src="{{ poster_kfp_1 }}" />
+      {% endif %}
     </div>
+    <div class="col--span-2 col col--center text--black">
+      {% comment %} Quote text with styling {% endcomment %}
+      <span class="value value--xxxlarge" style="font-family: 'Courier New', monospace; font-weight: normal; word-wrap: break-word; overflow-wrap: break-word;" data-value-fit="true" data-value-fit-max-height="280">
+        <img class="image" height="25px" width="25px" src='{{ opening_quote }}' style="vertical-align: top;">
+        {{ text }}
+        <img class="image" height="25px" width="25px" src='{{ closing_quote }}' style="vertical-align: top;">
+      </span>
+      {% comment %} Character attribution {% endcomment %}
+      <span class="title text--right pt--xsmall" style="font-family: 'Courier New', monospace;">— {{ author }}</span>
+    </div>
+  </div>
+</div>
 
-    {% comment %} Visual separator using modern divider component {% endcomment %}
-    <div class="divider"></div>
+<div class="title_bar">
+  <img class="image" src="{{ icon_kfp }}">
+  <span class="title">{{ trmnl.plugin_settings.instance_name }}</span>
+</div>
 
     {% comment %} Optional secondary content area with improved styling {% endcomment %}
     <div class="grid grid--cols-2 gap--medium md:gap--large">
       <div class="item">
+        <div class="meta"></div>
+    <div class="item">
         <div class="meta"></div>
         <div class="content text--center">
           <div class="value value--medium md:value--large">📊</div>
@@ -67,23 +63,3 @@
       </div>
     </div>
   </div>
-
-  {% else %}
-  
-  {% comment %} Display error state when plugin is unconfigured {% endcomment %}
-  <div class="flex flex--col flex--center-x flex--center-y gap--medium h--full">
-    <div class="value value--large md:value--xlarge text--center">⚙️</div>
-    <div class="title title--medium md:title--large text--center">Setup Required</div>
-    <div class="description md:title md:title--small text--center">
-      Please configure this plugin with your API key and settings to begin.
-    </div>
-  </div>
-  
-  {% endif %}
-</div>
-
-{% comment %} Title bar at bottom {% endcomment %}
-<div class="title_bar">
-  <span class="title md:title--large">Example Plugin</span>
-  <span class="instance">Full Layout</span>
-</div>
