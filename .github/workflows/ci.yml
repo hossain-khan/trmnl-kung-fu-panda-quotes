@@ -156,8 +156,8 @@ jobs:
         run: |
           echo "✓ All validation checks passed!"
           echo "  - quotes.json structure is valid"
-          - "  - All quotes have required fields"
-          - "  - Python script syntax is valid"
-          - "  - Quote generation works correctly"
-          - "  - API endpoint is properly formatted"
-          - "  - JSON serialization works"
+          echo "  - All quotes have required fields"
+          echo "  - Python script syntax is valid"
+          echo "  - Quote generation works correctly"
+          echo "  - API endpoint is properly formatted"
+          echo "  - JSON serialization works"
