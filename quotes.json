@@ -5,5 +5,558 @@
     "author": "Master Oogway",
     "movie": "Kung Fu Panda",
     "theme": "Wisdom"
+  },
+  {
+    "id": 2,
+    "text": "There is no secret ingredient. It's just you.",
+    "author": "Mr. Ping",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 3,
+    "text": "One often meets his destiny on the road he takes to avoid it.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 4,
+    "text": "Skadoosh.",
+    "author": "Po",
+    "movie": "Kung Fu Panda",
+    "theme": "Iconic"
+  },
+  {
+    "id": 5,
+    "text": "There are no accidents.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 6,
+    "text": "If you only do what you can do, you will never be more than you are now.",
+    "author": "Master Shifu",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Growth"
+  },
+  {
+    "id": 7,
+    "text": "Your story may not have such a happy beginning, but that does not make you who you are. It is the rest of your story, who you choose to be.",
+    "author": "Soothsayer",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Identity"
+  },
+  {
+    "id": 8,
+    "text": "Inner peace... inner peace...",
+    "author": "Master Shifu",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Humor"
+  },
+  {
+    "id": 9,
+    "text": "I'm not a big fat panda. I'm THE big fat panda.",
+    "author": "Po",
+    "movie": "Kung Fu Panda",
+    "theme": "Confidence"
+  },
+  {
+    "id": 10,
+    "text": "Finally, a worthy opponent! Our battle will be legendary!",
+    "author": "Tai Lung",
+    "movie": "Kung Fu Panda",
+    "theme": "Combat"
+  },
+  {
+    "id": 11,
+    "text": "The more you take, the less you have.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 12,
+    "text": "I don't need a sword. I don't need a shield. I don't need armor. I just need this.",
+    "author": "Po",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Confidence"
+  },
+  {
+    "id": 13,
+    "text": "You must let go of the illusion of control.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 14,
+    "text": "You are the master of your destiny: No one and nothing can come in between you and your destiny except you. Take destiny by the horns and have fun.",
+    "author": "Po",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Growth"
+  },
+  {
+    "id": 15,
+    "text": "Happiness must be taken, and I will take mine.",
+    "author": "Lord Shen",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Villainy"
+  },
+  {
+    "id": 16,
+    "text": "Quit, don't quit? Noodles, don't noodles?",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Humor"
+  },
+  {
+    "id": 17,
+    "text": "The real warrior never quits.",
+    "author": "Po",
+    "movie": "Kung Fu Panda",
+    "theme": "Combat"
+  },
+  {
+    "id": 18,
+    "text": "It matters not what someone is born, but what they grow to be.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Identity"
+  },
+  {
+    "id": 19,
+    "text": "My time has come.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Iconic"
+  },
+  {
+    "id": 20,
+    "text": "Everything is possible when you have inner peace.",
+    "author": "Master Shifu",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 21,
+    "text": "I am the Dragon Warrior!",
+    "author": "Po",
+    "movie": "Kung Fu Panda",
+    "theme": "Iconic"
+  },
+  {
+    "id": 22,
+    "text": "Your mind is like this water, my friend. When it is agitated, it becomes difficult to see. But if you allow it to settle, the answer becomes clear.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 23,
+    "text": "Before the battle of the fist, comes the battle of the mind.",
+    "author": "Master Shifu",
+    "movie": "Kung Fu Panda",
+    "theme": "Combat"
+  },
+  {
+    "id": 24,
+    "text": "Every master must find his path to inner peace.",
+    "author": "Master Shifu",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Growth"
+  },
+  {
+    "id": 25,
+    "text": "Who are you? ... I've been asking the same question. Am I the son of a panda? The son of a goose? A student? A teacher? Turns out, I'm all of them.",
+    "author": "Po",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Identity"
+  },
+  {
+    "id": 26,
+    "text": "You can chain my body, but you will never chain my spirit!",
+    "author": "Po",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Combat"
+  },
+  {
+    "id": 27,
+    "text": "Ah, Shifu. There is just news. There is no good or bad.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 28,
+    "text": "Look at this tree, Shifu. I cannot make it blossom when it suits me, nor make it bear fruit before its time.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 29,
+    "text": "I'm not hungry... Master.",
+    "author": "Po",
+    "movie": "Kung Fu Panda",
+    "theme": "Growth"
+  },
+  {
+    "id": 30,
+    "text": "My friend, the panda will never fulfill his destiny, nor you yours, until you let go of the illusion of control.",
+    "author": "Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 31,
+    "text": "Quit, don't quit. Noodles, don't noodles... You are too concerned with what was and what will be. There's a saying: Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.",
+    "author": "Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 32,
+    "text": "The secret ingredient is... nothing!",
+    "author": "Mr. Ping",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 33,
+    "text": "To make something special you just have to believe it's special.",
+    "author": "Mr. Ping",
+    "movie": "Kung Fu Panda",
+    "theme": "Growth"
+  },
+  {
+    "id": 34,
+    "text": "There is no charge for awesomeness... or attractiveness.",
+    "author": "Po",
+    "movie": "Kung Fu Panda",
+    "theme": "Humor"
+  },
+  {
+    "id": 35,
+    "text": "Legend tells of a legendary warrior whose kung fu skills were the stuff of legend.",
+    "author": "Po",
+    "movie": "Kung Fu Panda",
+    "theme": "Humor"
+  },
+  {
+    "id": 36,
+    "text": "He was so deadly, in fact, that his enemies would go blind from over-exposure to pure awesomeness!",
+    "author": "Po",
+    "movie": "Kung Fu Panda",
+    "theme": "Humor"
+  },
+  {
+    "id": 37,
+    "text": "Your story may not have such a happy beginning, but that doesn't make you who you are. It is the rest of your story, who you choose to be.",
+    "author": "Soothsayer",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Identity"
+  },
+  {
+    "id": 38,
+    "text": "No they don't. Wounds heal.",
+    "author": "Shen",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Combat"
+  },
+  {
+    "id": 39,
+    "text": "You gotta let go of that stuff from the past because it just doesn't matter. The only thing that matters is what you choose to be now.",
+    "author": "Po",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Growth"
+  },
+  {
+    "id": 40,
+    "text": "How can kung fu stop something that stops kung fu?",
+    "author": "Po",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Humor"
+  },
+  {
+    "id": 41,
+    "text": "Ah. My old enemy... stairs!",
+    "author": "Po",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Humor"
+  },
+  {
+    "id": 42,
+    "text": "I'm not freaking out, I'm freaking in.",
+    "author": "Po",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Humor"
+  },
+  {
+    "id": 43,
+    "text": "If you only do what you can do, you'll never be better than what you are.",
+    "author": "Shifu",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Growth"
+  },
+  {
+    "id": 44,
+    "text": "But I like who I am!",
+    "author": "Po",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Confidence"
+  },
+  {
+    "id": 45,
+    "text": "You don't even know who you are!",
+    "author": "Shifu",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Identity"
+  },
+  {
+    "id": 46,
+    "text": "Time is just an illusion, there is only the now.",
+    "author": "Shifu",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 47,
+    "text": "I am not trying to turn you into me, I am turning you into you.",
+    "author": "Shifu",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Growth"
+  },
+  {
+    "id": 48,
+    "text": "Sometimes we do the wrong things for the good reasons.",
+    "author": "Mr. Ping",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 49,
+    "text": "I've been asking myself that question. Am I the son of a panda? The son of a goose? A student? A teacher? I'm all of those things. I am the Dragon Warrior!",
+    "author": "Po",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Identity"
+  },
+  {
+    "id": 50,
+    "text": "Now, who wants to do the right thing for the wrong reasons?",
+    "author": "Zhen",
+    "movie": "Kung Fu Panda 4",
+    "theme": "Humor"
+  },
+  {
+    "id": 51,
+    "text": "That is awesome! I mean, it's disturbing, but it's awesome!",
+    "author": "Po",
+    "movie": "Kung Fu Panda 4",
+    "theme": "Humor"
+  },
+  {
+    "id": 52,
+    "text": "I'm only hungry for one thing... Vengeance!",
+    "author": "Granny Boar",
+    "movie": "Kung Fu Panda 4",
+    "theme": "Combat"
+  },
+  {
+    "id": 53,
+    "text": "Worrying doesn't make the broth boil any faster.",
+    "author": "Mr. Ping",
+    "movie": "Kung Fu Panda 4",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 54,
+    "text": "Oogway made a mistake choosing you as the Dragon Warrior. I just didn't realize how big a mistake it was until now.",
+    "author": "Tai Lung",
+    "movie": "Kung Fu Panda 4",
+    "theme": "Combat"
+  },
+  {
+    "id": 55,
+    "text": "Yesterday is history, tomorrow is a mystery.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 56,
+    "text": "Today is a gift. That is why it is called the present.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 57,
+    "text": "Your mind is like this water.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 58,
+    "text": "If you only do what you can do, you will never be more.",
+    "author": "Master Shifu",
+    "movie": "Kung Fu Panda",
+    "theme": "Growth"
+  },
+  {
+    "id": 59,
+    "text": "There is no charge for awesomeness.",
+    "author": "Po",
+    "movie": "Kung Fu Panda",
+    "theme": "Humor"
+  },
+  {
+    "id": 60,
+    "text": "Inner peace. Inner peace.",
+    "author": "Po",
+    "movie": "Kung Fu Panda",
+    "theme": "Humor"
+  },
+  {
+    "id": 61,
+    "text": "You just need to believe.",
+    "author": "Master Shifu",
+    "movie": "Kung Fu Panda",
+    "theme": "Growth"
+  },
+  {
+    "id": 62,
+    "text": "One often meets his destiny on the road he avoids it.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 63,
+    "text": "You are too concerned with what was and what will be.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 64,
+    "text": "There is always something more to learn.",
+    "author": "Master Shifu",
+    "movie": "Kung Fu Panda",
+    "theme": "Growth"
+  },
+  {
+    "id": 65,
+    "text": "You gotta let go of the past.",
+    "author": "Po",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Growth"
+  },
+  {
+    "id": 66,
+    "text": "The panda lives.",
+    "author": "Lord Shen",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Combat"
+  },
+  {
+    "id": 67,
+    "text": "Inner peace comes from accepting your past.",
+    "author": "Soothsayer",
+    "movie": "Kung Fu Panda 2",
+    "theme": "Growth"
+  },
+  {
+    "id": 68,
+    "text": "It was never my destiny to stop you.",
+    "author": "Master Oogway",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 69,
+    "text": "You must believe.",
+    "author": "Po",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Growth"
+  },
+  {
+    "id": 70,
+    "text": "Chi is a part of you.",
+    "author": "Master Shifu",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Wisdom"
+  },
+  {
+    "id": 71,
+    "text": "I am not a big fat panda. I am THE big fat panda!",
+    "author": "Po",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Confidence"
+  },
+  {
+    "id": 72,
+    "text": "You have to let go of who you were.",
+    "author": "Master Shifu",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Growth"
+  },
+  {
+    "id": 73,
+    "text": "Everything he has created!",
+    "author": "Kai",
+    "movie": "Kung Fu Panda 3",
+    "theme": "Combat"
+  },
+  {
+    "id": 74,
+    "text": "I came from humble beginnings.",
+    "author": "The Chameleon",
+    "movie": "Kung Fu Panda 4",
+    "theme": "Identity"
+  },
+  {
+    "id": 75,
+    "text": "Maybe Oogway was right about you.",
+    "author": "Tai Lung",
+    "movie": "Kung Fu Panda 4",
+    "theme": "Combat"
+  },
+  {
+    "id": 76,
+    "text": "You are not as useless as you look.",
+    "author": "Tai Lung",
+    "movie": "Kung Fu Panda 4",
+    "theme": "Humor"
+  },
+  {
+    "id": 77,
+    "text": "Change is part of the journey.",
+    "author": "Zhen",
+    "movie": "Kung Fu Panda 4",
+    "theme": "Growth"
+  },
+  {
+    "id": 78,
+    "text": "You are ready.",
+    "author": "Po",
+    "movie": "Kung Fu Panda 4",
+    "theme": "Confidence"
+  },
+  {
+    "id": 79,
+    "text": "The journey makes you stronger.",
+    "author": "Po",
+    "movie": "Kung Fu Panda 4",
+    "theme": "Growth"
+  },
+  {
+    "id": 80,
+    "text": "It is time to become who you are meant to be.",
+    "author": "Po",
+    "movie": "Kung Fu Panda 4",
+    "theme": "Identity"
   }
 ]
