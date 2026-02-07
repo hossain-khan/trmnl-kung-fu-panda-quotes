@@ -14,7 +14,14 @@
   
   These capture blocks contain base64-encoded images and can be used
   inline without external dependencies.
+  
+  NOTE: Poster images are large and maintained separately in shared-posters.liquid.
+  Do NOT edit shared-posters.liquid directly. Instead, run:
+    python3 embed_posters.py
+  This script encodes poster images from assets/posters-small into the template.
 {% endcomment %}
+
+{% render 'shared-posters' %}
 
 {%- capture icon_kfp -%}
 data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSIjRkZGRkZGIi8+Cjwvc3ZnPg==
