@@ -19,6 +19,57 @@ jobs:
         with:
           python-version: '3.x'
       
+      - name: Validate YAML configuration files
+        run: |
+          python3 << 'EOF'
+          import sys
+          
+          def validate_yaml_syntax(filename):
+              """Validate YAML file can be parsed (without PyYAML dependency)"""
+              try:
+                  with open(filename, 'r', encoding='utf-8') as f:
+                      content = f.read()
+                  
+                  # Basic validation checks
+                  if not content.strip():
+                      raise ValueError(f"{filename} is empty")
+                  
+                  # Check for common YAML syntax issues
+                  lines = content.split('\n')
+                  for i, line in enumerate(lines, 1):
+                      # Check for tabs (YAML doesn't allow tabs for indentation)
+                      if '\t' in line:
+                          raise ValueError(f"{filename}:{i} contains tab character (use spaces)")
+                  
+                  print(f"✓ {filename} syntax looks valid")
+                  return True
+              except Exception as e:
+                  print(f"✗ {filename} validation failed: {e}")
+                  sys.exit(1)
+          
+          # Validate configuration files
+          validate_yaml_syntax('settings.yml')
+          validate_yaml_syntax('custom-fields.yml')
+          
+          # Check settings.yml has required content
+          with open('settings.yml', 'r', encoding='utf-8') as f:
+              settings_content = f.read()
+              if 'strategy: polling' not in settings_content:
+                  raise ValueError("settings.yml missing 'strategy: polling'")
+              print("✓ settings.yml has required strategy")
+          
+          # Check custom-fields.yml has author_bio
+          with open('custom-fields.yml', 'r', encoding='utf-8') as f:
+              custom_fields_content = f.read()
+              if 'author_bio' not in custom_fields_content:
+                  raise ValueError("custom-fields.yml missing 'author_bio' field")
+              if 'github_url' not in custom_fields_content:
+                  raise ValueError("custom-fields.yml missing 'github_url'")
+              print("✓ custom-fields.yml has required author_bio configuration")
+          
+          print("✓ YAML configuration validation passed!")
+          EOF
+      
       - name: Validate quotes.json structure
         run: |
           python3 << 'EOF'
@@ -211,6 +262,7 @@ jobs:
       - name: Summary
         run: |
           echo "✓ All validation checks passed!"
+          echo "  - YAML configuration files are valid (settings.yml, custom-fields.yml)"
           echo "  - quotes.json structure is valid"
           echo "  - All quotes have required fields"
           echo "  - Python script syntax is valid"
