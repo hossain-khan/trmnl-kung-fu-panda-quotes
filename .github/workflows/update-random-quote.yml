@@ -39,11 +39,10 @@ jobs:
             echo "No changes to commit"
           else
             git add api/random-quote-*.json
-            git commit -m "automated: update daily quotes for all themes 🥋
-
-Generated new random quotes for:
-- All themes
-- Wisdom, Humor, Growth, Combat
-- Identity, Confidence, Iconic, Villainy"
+            git commit -m "automated: update daily quotes for all themes 🥋" \
+                       -m "Generated new random quotes for:" \
+                       -m "- All themes" \
+                       -m "- Wisdom, Humor, Growth, Combat" \
+                       -m "- Identity, Confidence, Iconic, Villainy"
             git push
           fi
