@@ -14,11 +14,8 @@
     <strong>Features:</strong><br>
     🐼 80+ authentic quotes from all 4 Kung Fu Panda movies<br>
     🎭 8 themed collections: Wisdom, Humor, Growth, Combat, Identity, Confidence, Iconic, Villainy<br>
-    🎨 Beautiful WebP movie poster displays optimized for e-ink<br>
-    📱 Responsive layouts for all TRMNL view sizes (full, half-horizontal, half-vertical, quadrant)<br>
-    🗨️ Styled typography with Courier New monospace font<br>
+    🎨 Beautiful movie poster displays optimized for e-ink<br>
     🔄 Daily automatic quote updates with intelligent rotation<br>
-    🎲 Theme-based filtering for personalized quote selection
     <br><br>
     <strong>Setup:</strong><br>
     1. Install or Fork this recipe<br>
@@ -27,8 +24,6 @@
     4. Add to your playlist and experience daily wisdom from the Valley of Peace
     <br><br>
     Experience the timeless wisdom of Master Oogway, the humor of Po, the discipline of Master Shifu, and memorable quotes from all your favorite characters across the entire franchise.
-    <br><br>
-    <strong>Quote Database:</strong> 80+ quotes from Kung Fu Panda (2008), Kung Fu Panda 2 (2011), Kung Fu Panda 3 (2016), and Kung Fu Panda 4 (2024)
     <br><br>
     <em>"Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present."</em> - Master Oogway
   github_url: "https://github.com/hossain-khan/trmnl-kung-fu-panda-quotes"
