@@ -70,7 +70,7 @@ def embed_posters():
     
     for i in range(1, 5):
         pattern = rf'({{%- capture poster_kfp_{i} -%}})[\s\S]*?({{%- endcapture -%}})'
-        replacement = rf'\1data:{mime_types[i]};base64,{posters[i]}\2'
+        replacement = rf'\1\ndata:{mime_types[i]};base64,{posters[i]}\n\2'
         content = re.sub(pattern, replacement, content)
     
     # Write updated file
