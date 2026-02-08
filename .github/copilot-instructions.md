@@ -20,7 +20,7 @@ The Kung Fu Panda Quotes plugin displays daily quotes from the Kung Fu Panda fil
 
 **✅ Complete:**
 - All 4 responsive layouts designed and deployed (full, half_horizontal, half_vertical, quadrant)
-- Quote database with 80+ quotes from all four films organized by theme
+- Quote database with 81 quotes from all four films organized by theme
 - Shared template with base64-encoded SVG assets (icon, quote marks) + real JPEG posters
 - Python automation script (`generate_random_quote.py`) for daily quote generation
 - Poster embedding script (`embed_posters.py`) to manage large base64-encoded images
@@ -46,7 +46,7 @@ For developers working on this Kung Fu Panda Quotes plugin:
 1. **Understand the Project**: Read this entire file for comprehensive context on architecture and patterns
 2. **Review Documentation**:
    - [README.md](../../README.md) - Plugin overview, setup instructions, and deployment options
-   - [quotes.json](../../quotes.json) - All 80 quotes with structure and examples
+   - [quotes.json](../../quotes.json) - All 81 quotes with structure and examples
 3. **Test Templates**: 
    - Copy `templates/full.liquid` + `templates/shared.liquid` to [TRMNL Markup Editor](https://editor.usetrmnl.com)
    - Use sample data from [assets/demo/sample-data.json](../../assets/demo/sample-data.json)
@@ -80,7 +80,7 @@ trmnl-kung-fu-panda-quotes/
 │   └── random-quote-*.json      # Theme-specific quote files (9 total)
 ├── settings.yml                  # TRMNL plugin configuration
 ├── custom-fields.yml            # User-facing form fields
-├── quotes.json                   # Quote database (80+ quotes from all 4 films)
+├── quotes.json                   # Quote database (81 quotes from all 4 films)
 ├── generate_random_quote.py      # Python script for daily quote generation
 ├── embed_posters.py              # Python script to encode & embed poster images
 ├── README.md                     # Setup & deployment instructions
@@ -91,7 +91,7 @@ trmnl-kung-fu-panda-quotes/
 ### Key Implementation Files
 
 **Data Source:**
-- **quotes.json**: Array of 80+ quotes with structure:
+- **quotes.json**: Array of 81 quotes with structure:
   ```json
   {
     "id": 1,
@@ -1049,10 +1049,7 @@ quotes.json → generate_random_quote.py → api/random-quote-*.json (GitHub Pag
 ## Future Considerations
 
 **Enhancement Ideas:**
-- **Theme Filtering**: Allow users to select quote themes (Wisdom-only, Humor-only, etc.)
 - **Character Selection**: Let users filter by specific characters
-- **Real Poster Images**: Replace SVG placeholders with actual movie poster JPEGs/PNGs
-- **Quote History**: Track and display previously shown quotes
 - **Custom Quotes**: Community submissions feature for user-created quotes
 - **Multi-Language Support**: Translate quotes and UI to other languages
 - **Author Filter**: Show quotes only from specific characters
@@ -1060,6 +1057,7 @@ quotes.json → generate_random_quote.py → api/random-quote-*.json (GitHub Pag
 - **Email Digest**: Send weekly quote collection to users
 - **Social Sharing**: Share favorite quotes on social media
 - **Mobile Webapp**: Browse full quote database via web interface
+- **Multi-Select Themes**: Allow users to select multiple themes at once (requires dynamic backend like Cloudflare Workers)
 
 ---
 

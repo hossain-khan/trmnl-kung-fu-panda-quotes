@@ -32,8 +32,10 @@ This guide will walk you through setting up the Kung Fu Panda Quotes plugin for 
 
 Your quotes will be available at:
 ```
-https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-all.json
+https://YOUR_GITHUB_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-all.json
 ```
+
+> **Note**: Replace `YOUR_GITHUB_USERNAME` with your actual GitHub username.
 
 ### Step 3: Generate Quote Files
 
@@ -62,17 +64,19 @@ git push
 2. Go to **Plugins** → **Add Plugin** → **Custom Plugin**
 3. Configure:
    - **Strategy**: Polling
-   - **URL**: `https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-##{{ theme }}.json`
+   - **URL**: `https://YOUR_GITHUB_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-##{{ theme }}.json`
    - **Refresh**: 1440 minutes (24 hours)
 4. Select your preferred layouts (Full, Half Horizontal, Half Vertical, Quadrant)
 5. Choose your **Quote Theme** from the dropdown
 6. Save!
 
+> **Note**: Replace `YOUR_GITHUB_USERNAME` with your actual GitHub username in the URL.
+
 ## Understanding the Setup
 
 ### How It Works
 
-1. **Quote Database**: `quotes.json` contains 80+ quotes from all Kung Fu Panda movies
+1. **Quote Database**: `quotes.json` contains 81 quotes from all Kung Fu Panda movies
 2. **Generation Script**: `generate_random_quote.py` randomly selects quotes and creates theme-specific JSON files
 3. **GitHub Pages**: Serves the static JSON files to TRMNL
 4. **Theme Filtering**: The `##{{ theme }}` variable in the URL is replaced by TRMNL with the user's selection
@@ -198,10 +202,12 @@ python3 test_quote_history.py
 
 After pushing to GitHub, test your endpoints:
 ```
-https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-all.json
-https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-wisdom.json
-https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-humor.json
+https://YOUR_GITHUB_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-all.json
+https://YOUR_GITHUB_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-wisdom.json
+https://YOUR_GITHUB_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-humor.json
 ```
+
+> **Note**: Replace `YOUR_GITHUB_USERNAME` with your actual GitHub username.
 
 ### TRMNL Markup Editor Testing
 

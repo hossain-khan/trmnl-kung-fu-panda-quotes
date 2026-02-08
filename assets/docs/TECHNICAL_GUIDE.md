@@ -21,7 +21,7 @@ quotes.json (master) → generate_random_quote.py → 9 theme-specific JSON file
 
 ### Components
 
-- **quotes.json**: Master database of 81+ quotes from all 4 films
+- **quotes.json**: Master database of 81 quotes from all 4 films
 - **generate_random_quote.py**: Python script to generate theme-specific quote files
 - **api/random-quote-*.json**: 9 generated files (all, wisdom, humor, growth, combat, identity, confidence, iconic, villainy)
 - **templates/*.liquid**: 4 responsive layouts (full, half_horizontal, half_vertical, quadrant)
@@ -133,7 +133,7 @@ quotes.json (master) → generate_random_quote.py → 9 theme-specific JSON file
      const theme = url.searchParams.get('theme') || 'all'
      
      // Fetch quotes.json from GitHub Pages
-     const response = await fetch('https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/quotes.json')
+     const response = await fetch('https://YOUR_GITHUB_USERNAME.github.io/trmnl-kung-fu-panda-quotes/quotes.json')
      const quotes = await response.json()
      
      // Filter by theme
@@ -200,7 +200,7 @@ app.listen(3000);
 trmnl-kung-fu-panda-quotes/
 ├── settings.yml                    # TRMNL plugin configuration
 ├── custom-fields.yml               # User form fields (theme selector)
-├── quotes.json                     # Master quote database (81+ quotes)
+├── quotes.json                     # Master quote database (81 quotes)
 ├── generate_random_quote.py        # Quote generation script
 ├── test_quote_history.py           # Test script for quote history
 ├── embed_posters.py                # Script to embed poster images
@@ -424,7 +424,7 @@ All templates use [TRMNL Framework v2](https://usetrmnl.com/framework) utilities
 
 - [ ] **JSON Validation**
   ```bash
-  cat quotes.json | jq 'length'  # Should return 81+
+  cat quotes.json | jq 'length'  # Should return 81
   cat quotes.json | jq '.[].id'  # Check IDs are sequential
   ```
 
@@ -449,7 +449,7 @@ All templates use [TRMNL Framework v2](https://usetrmnl.com/framework) utilities
 - [ ] **GitHub Pages**
   ```bash
   # After pushing to GitHub, test endpoints
-  curl https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-all.json
+  curl https://YOUR_GITHUB_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-all.json
   ```
 
 - [ ] **TRMNL Integration**

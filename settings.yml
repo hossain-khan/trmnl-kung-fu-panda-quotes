@@ -4,6 +4,7 @@ no_screen_padding: 'no'
 dark_mode: 'no'
 static_data: ''
 polling_verb: get
+# Note: If you fork this repository, update the URL below with your GitHub username
 polling_url: https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-##{{ theme }}.json
 polling_headers: ''
 polling_body: ''
