@@ -133,7 +133,7 @@ quotes.json (master) → generate_random_quote.py → 9 theme-specific JSON file
      const theme = url.searchParams.get('theme') || 'all'
      
      // Fetch quotes.json from GitHub Pages
-     const response = await fetch('https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/quotes.json')
+     const response = await fetch('https://YOUR_GITHUB_USERNAME.github.io/trmnl-kung-fu-panda-quotes/quotes.json')
      const quotes = await response.json()
      
      // Filter by theme
@@ -449,7 +449,7 @@ All templates use [TRMNL Framework v2](https://usetrmnl.com/framework) utilities
 - [ ] **GitHub Pages**
   ```bash
   # After pushing to GitHub, test endpoints
-  curl https://YOUR_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-all.json
+  curl https://YOUR_GITHUB_USERNAME.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-all.json
   ```
 
 - [ ] **TRMNL Integration**

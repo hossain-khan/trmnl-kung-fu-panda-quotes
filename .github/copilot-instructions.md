@@ -1049,10 +1049,7 @@ quotes.json → generate_random_quote.py → api/random-quote-*.json (GitHub Pag
 ## Future Considerations
 
 **Enhancement Ideas:**
-- **Theme Filtering**: Allow users to select quote themes (Wisdom-only, Humor-only, etc.)
 - **Character Selection**: Let users filter by specific characters
-- **Real Poster Images**: Replace SVG placeholders with actual movie poster JPEGs/PNGs
-- **Quote History**: Track and display previously shown quotes
 - **Custom Quotes**: Community submissions feature for user-created quotes
 - **Multi-Language Support**: Translate quotes and UI to other languages
 - **Author Filter**: Show quotes only from specific characters
@@ -1060,6 +1057,7 @@ quotes.json → generate_random_quote.py → api/random-quote-*.json (GitHub Pag
 - **Email Digest**: Send weekly quote collection to users
 - **Social Sharing**: Share favorite quotes on social media
 - **Mobile Webapp**: Browse full quote database via web interface
+- **Multi-Select Themes**: Allow users to select multiple themes at once (requires dynamic backend like Cloudflare Workers)
 
 ---
 
