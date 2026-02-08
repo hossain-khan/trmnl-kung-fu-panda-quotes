@@ -447,47 +447,7 @@
             </div>
         </section>
 
-        <section>
-            <h2>⚙️ Configuration</h2>
-            <div class="info-box">
-                <p><strong>Polling URL Format:</strong></p>
-                <code>https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-##{{ theme }}.json</code>
-                
-                <p style="margin-top: 15px;"><strong>Theme Selection:</strong> Users can choose from 9 themes in TRMNL plugin settings:
-                <ul style="margin-top: 10px;">
-                    <li><strong>All Themes</strong> (default) - Mixed quotes from all categories</li>
-                    <li><strong>Wisdom</strong> - Philosophical quotes from Master Oogway, Shifu</li>
-                    <li><strong>Humor</strong> - Funny moments and comedic quotes</li>
-                    <li><strong>Growth</strong> - Self-improvement and personal development</li>
-                    <li><strong>Combat</strong> - Action-packed kung fu quotes</li>
-                    <li><strong>Identity</strong> - Finding yourself and your purpose</li>
-                    <li><strong>Confidence</strong> - Believing in yourself</li>
-                    <li><strong>Iconic</strong> - Most memorable lines</li>
-                    <li><strong>Villainy</strong> - Quotes from the antagonists</li>
-                </ul>
-                </p>
-                
-                <p style="margin-top: 15px;"><strong>Quote History Tracking:</strong> Automatically prevents repeat quotes within 30 days. The system tracks displayed quotes and ensures you get fresh content each day, with smart fallback when all quotes have been shown.</p>
-                
-                <p style="margin-top: 15px;"><strong>Refresh Rate:</strong> 1440 minutes (24 hours) - Get a new quote every day</p>
-                
-                <p style="margin-top: 15px;"><strong>Available Layouts:</strong>
-                <ul style="margin-top: 10px;">
-                    <li>Full - Quote with movie poster (full screen)</li>
-                    <li>Half Horizontal - Quote and character details side-by-side</li>
-                    <li>Half Vertical - Quote and details stacked vertically</li>
-                    <li>Quadrant - Minimal quote-only display</li>
-                </ul>
-                </p>
-            </div>
-        </section>
 
-        <section>
-            <h2>📜 Sample Quotes</h2>
-            <div id="quotes-container">
-                <p class="loading">Loading quotes...</p>
-            </div>
-        </section>
 
         <section>
             <h2>📚 Resources</h2>
@@ -554,36 +514,6 @@
             .catch(error => {
                 console.error('Error loading today\'s quote:', error);
                 document.getElementById('todays-quote-container').innerHTML = '<p class="loading">Error loading today\'s quote. Please refresh the page.</p>';
-            });
-        
-        // Load and display sample quotes
-        fetch(baseUrl + 'quotes.json')
-            .then(response => response.json())
-            .then(data => {
-                const container = document.getElementById('quotes-container');
-                container.innerHTML = '';
-                
-                // Display first 6 quotes as samples
-                data.slice(0, 6).forEach(quote => {
-                    const quoteDiv = document.createElement('div');
-                    quoteDiv.className = 'quote-card';
-                    quoteDiv.innerHTML = `
-                        <div class="text">"${quote.text}"</div>
-                        <div class="meta">— ${quote.author} • ${quote.movie}</div>
-                        <span class="theme">${quote.theme}</span>
-                    `;
-                    container.appendChild(quoteDiv);
-                });
-                
-                const moreQuotes = document.createElement('p');
-                moreQuotes.style.textAlign = 'center';
-                moreQuotes.style.marginTop = '20px';
-                moreQuotes.innerHTML = `<a href="quotes.json">View all ${data.length} quotes →</a>`;
-                container.appendChild(moreQuotes);
-            })
-            .catch(error => {
-                console.error('Error loading quotes:', error);
-                document.getElementById('quotes-container').innerHTML = '<p class="loading">Error loading quotes.</p>';
             });
     </script>
 </body>
