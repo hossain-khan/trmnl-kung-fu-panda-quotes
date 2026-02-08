@@ -16,11 +16,26 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # IMPORTANT: persist-credentials: false prevents the default GITHUB_TOKEN from being cached.
+          # This is crucial because the default GITHUB_TOKEN doesn't trigger other workflows for security reasons.
+          # By disabling credential persistence, we ensure that ONLY our PAT token is used for git operations.
+          persist-credentials: false
         
-      - name: Configure Git
+      - name: Configure Git with PAT token
         run: |
+          # Set up git user identity for commits
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
+          
+          # Configure git to use the PAT token for authentication.
+          # This is necessary because persist-credentials: false removed the default GITHUB_TOKEN.
+          # Without this, git push will fail with "No such device or address" error.
+          # The PAT token (secrets.WORKFLOW_TOKEN) has 'repo' and 'workflow' scopes,
+          # which allows it to:
+          # 1. Push changes to the repository
+          # 2. Trigger downstream workflows (unlike the default GITHUB_TOKEN)
+          git remote set-url origin https://x-access-token:${{ secrets.WORKFLOW_TOKEN }}@github.com/${{ github.repository }}.git
         
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -34,15 +49,16 @@ jobs:
           ls -la api/random-quote-*.json
         
       - name: Commit and push changes
-        run: |
-          if [ -z "$(git status --porcelain)" ]; then
-            echo "No changes to commit"
-          else
-            git add api/random-quote-*.json
-            git commit -m "automated: update daily quotes for all themes 🥋" \
-                       -m "Generated new random quotes for:" \
-                       -m "- All themes" \
-                       -m "- Wisdom, Humor, Growth, Combat" \
-                       -m "- Identity, Confidence, Iconic, Villainy"
-            git push
-          fi
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'automated: update daily quotes for all themes 🥋'
+          file_pattern: 'api/random-quote-*.json .quote-history.json'
+          commit_user_name: 'GitHub Action'
+          commit_user_email: 'action@github.com'
+          commit_author: 'GitHub Action <action@github.com>'
+        env:
+          # Use PAT instead of default GITHUB_TOKEN to trigger the GitHub Pages deployment workflow (static.yml).
+          # The default GITHUB_TOKEN is prevented from triggering other workflows as a security measure to prevent infinite loops.
+          # By using a PAT with 'workflow' scope, our push event will properly trigger the static.yml workflow,
+          # which deploys the updated quotes to GitHub Pages in real-time.
+          GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
