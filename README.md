@@ -27,31 +27,31 @@ Get inspired every day with memorable quotes from all four Kung Fu Panda movies.
 ![Half Horizontal Layout](assets/demo/preview-half-horizontal.png)
 ![Half Vertical Layout](assets/demo/preview-half-vertical.png)
 ![Quadrant Layout](assets/demo/preview-quadrant.png)
+![Full Layout Preview D](assets/demo/preview-full-e.png)
 
 </details>
 
 ## 🚀 Installation
 
-### Add to Your TRMNL Device
+<a href="https://trmnl.com/recipes/240176">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/trmnl-brand/trmnl-badge-show-it-on-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/trmnl-brand/trmnl-badge-show-it-on-light.svg">
+    <img alt="Show it on TRMNL" src="assets/trmnl-brand/trmnl-badge-show-it-on-dark.svg" height="40">
+  </picture>
+</a>
 
-1. **Open TRMNL App**
-   - Navigate to "Plugins" section
-   - Tap "Add Plugin"
+**[→ Install Kung Fu Panda Quotes Recipe](https://trmnl.com/recipes/240176)**
 
-2. **Search for Plugin**
-   - Search: "Kung Fu Panda Quotes"
-   - Or browse Entertainment category
+### Quick Setup
 
+1. **Click the badge above** or visit [TRMNL Recipes](https://trmnl.com/recipes/240176)
+2. **Tap Install** to add to your TRMNL account
 3. **Configure Your Preferences**
-   - **Quote Theme**: Choose your favorite style
-     - All Themes (default)
-     - Wisdom, Humor, Growth, Combat, Identity, Confidence, Iconic, or Villainy
+   - **Quote Theme**: Choose your favorite style (Wisdom, Humor, Growth, etc.)
    - **Layout**: Select display format for your screen
    - **Instance Name**: (Optional) Customize the title
-
-4. **Save & Enjoy**
-   - Your TRMNL will display a new quote daily
-   - Quotes automatically refresh every 24 hours
+4. **Add to Playlist** and enjoy daily quotes!
 
 > **Note**: After installation, you can change your theme preference anytime in plugin settings!
 
