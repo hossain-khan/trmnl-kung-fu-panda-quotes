@@ -147,5 +147,3 @@ __pycache__/
 *.so
 .Python
 
-# Quote history tracking (local state, not committed)
-.quote-history.json
