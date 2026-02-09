@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda 4",
       "theme": "Wisdom",
       "selected_on": "2026-02-09T14:59:47.234968Z"
+    },
+    {
+      "id": 76,
+      "text": "You aren't completely useless after all.",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Humor",
+      "selected_on": "2026-02-09T15:03:32.748437Z"
+    },
+    {
+      "id": 38,
+      "text": "No they don't. Wounds heal.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Combat",
+      "selected_on": "2026-02-09T15:03:32.749167Z"
+    },
+    {
+      "id": 44,
+      "text": "But I like who I am!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Confidence",
+      "selected_on": "2026-02-09T15:03:32.749726Z"
+    },
+    {
+      "id": 65,
+      "text": "You gotta let go of the past.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Growth",
+      "selected_on": "2026-02-09T15:03:32.750280Z"
+    },
+    {
+      "id": 16,
+      "text": "Quit, don't quit. Noodles, don't noodles.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Humor",
+      "selected_on": "2026-02-09T15:03:32.750855Z"
+    },
+    {
+      "id": 19,
+      "text": "My time has come.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-02-09T15:03:32.751432Z"
+    },
+    {
+      "id": 25,
+      "text": "Who are you? ... I've been asking the same question. Am I the son of a panda? The son of a goose? A student? A teacher? Turns out, I'm all of them.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-02-09T15:03:32.751999Z"
+    },
+    {
+      "id": 15,
+      "text": "Happiness must be taken, and I will take mine.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-02-09T15:03:32.752578Z"
+    },
+    {
+      "id": 62,
+      "text": "One often meets his destiny on the road he takes to avoid it.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-02-09T15:03:32.753150Z"
     }
   ]
 }
