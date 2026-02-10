@@ -23,7 +23,7 @@ Get inspired every day with memorable quotes from all four Kung Fu Panda movies.
 <details>
 <summary>View more previews</summary>
 
-![Full Layout Preview](assets/demo/preview-full-a.png)
+![Full Layout Preview](assets/demo/preview-full-c.png)
 ![Half Horizontal Layout](assets/demo/preview-half-horizontal.png)
 ![Half Vertical Layout](assets/demo/preview-half-vertical.png)
 ![Quadrant Layout](assets/demo/preview-quadrant.png)
