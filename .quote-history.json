@@ -1,92 +1,20 @@
 {
   "quotes": [
     {
-      "id": 15,
-      "text": "Happiness must be taken, and I will take mine.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-02-09T15:06:48.864827Z"
-    },
-    {
-      "id": 20,
-      "text": "Anything is possible when you have inner peace.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Wisdom",
-      "selected_on": "2026-02-09T15:06:48.865339Z"
-    },
-    {
-      "id": 10,
-      "text": "Finally, a worthy opponent! Our battle will be legendary!",
-      "author": "Tai Lung",
-      "movie": "Kung Fu Panda",
-      "theme": "Combat",
-      "selected_on": "2026-02-10T06:20:39.331871Z"
-    },
-    {
-      "id": 23,
-      "text": "Before the battle of the fist, comes the battle of the mind.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda",
-      "theme": "Combat",
-      "selected_on": "2026-02-10T06:20:39.332424Z"
-    },
-    {
-      "id": 9,
-      "text": "I'm not a big fat panda. I'm THE big fat panda.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Confidence",
-      "selected_on": "2026-02-10T06:20:39.332871Z"
-    },
-    {
-      "id": 29,
-      "text": "I'm not hungry... Master.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Growth",
-      "selected_on": "2026-02-10T06:20:39.333270Z"
-    },
-    {
-      "id": 35,
-      "text": "Legend tells of a legendary warrior whose kung fu skills were the stuff of legend.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Humor",
-      "selected_on": "2026-02-10T06:20:39.333661Z"
-    },
-    {
-      "id": 21,
-      "text": "I am the Dragon Warrior!",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-02-10T06:20:39.334060Z"
-    },
-    {
-      "id": 67,
-      "text": "So, who are you, panda?",
-      "author": "Soothsayer",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Identity",
-      "selected_on": "2026-02-10T06:20:39.334465Z"
-    },
-    {
       "id": 18,
       "text": "The dead exist in the past, and I must tend to the future.",
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-02-10T06:20:39.334906Z"
+      "selected_on": "2026-02-11T06:19:33.828610Z"
     },
     {
-      "id": 2,
-      "text": "There is no secret ingredient.",
-      "author": "Mr. Ping",
+      "id": 30,
+      "text": "My friend, the panda will never fulfill his destiny, nor you yours, until you let go of the illusion of control.",
+      "author": "Master Oogway",
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
-      "selected_on": "2026-02-10T06:20:39.335332Z"
+      "selected_on": "2026-02-11T06:19:33.829165Z"
     }
   ]
 }
