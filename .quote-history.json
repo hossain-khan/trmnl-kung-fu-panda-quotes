@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
       "selected_on": "2026-02-11T06:19:33.829165Z"
+    },
+    {
+      "id": 68,
+      "text": "It was never my destiny to stop you.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Wisdom",
+      "selected_on": "2026-02-12T06:19:08.982719Z"
+    },
+    {
+      "id": 66,
+      "text": "The panda lives.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Combat",
+      "selected_on": "2026-02-12T06:19:08.983347Z"
+    },
+    {
+      "id": 78,
+      "text": "You are ready.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Confidence",
+      "selected_on": "2026-02-12T06:19:08.983822Z"
+    },
+    {
+      "id": 29,
+      "text": "I'm not hungry... Master.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Growth",
+      "selected_on": "2026-02-12T06:19:08.984310Z"
+    },
+    {
+      "id": 76,
+      "text": "You aren't completely useless after all.",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Humor",
+      "selected_on": "2026-02-12T06:19:08.984761Z"
+    },
+    {
+      "id": 4,
+      "text": "Skadoosh.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-02-12T06:19:08.985377Z"
+    },
+    {
+      "id": 25,
+      "text": "Who are you? ... I've been asking the same question. Am I the son of a panda? The son of a goose? A student? A teacher? Turns out, I'm all of them.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-02-12T06:19:08.986139Z"
+    },
+    {
+      "id": 15,
+      "text": "Happiness must be taken, and I will take mine.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-02-12T06:19:08.986878Z"
+    },
+    {
+      "id": 31,
+      "text": "Quit, don't quit. Noodles, don't noodles... You are too concerned with what was and what will be. There's a saying: Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-02-12T06:19:08.987663Z"
     }
   ]
 }
