@@ -1,3 +1,5 @@
+![Forks](https://trmnl-badges.gohk.xyz/badge/forks?recipe=240176) ![Installs](https://trmnl-badges.gohk.xyz/badge/installs?recipe=240176)
+
 # Kung Fu Panda Quotes
 
 Display daily wisdom and inspiration from the Kung Fu Panda films on your TRMNL device!
