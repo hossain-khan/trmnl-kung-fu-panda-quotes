@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda 2",
       "theme": "Wisdom",
       "selected_on": "2026-02-14T06:09:27.118422Z"
+    },
+    {
+      "id": 61,
+      "text": "You just need to believe.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Growth",
+      "selected_on": "2026-02-14T10:46:07.606256Z"
+    },
+    {
+      "id": 26,
+      "text": "You can chain my body, but you will never chain my warrior spirit!",
+      "author": "Crane",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Combat",
+      "selected_on": "2026-02-14T10:46:07.606825Z"
+    },
+    {
+      "id": 71,
+      "text": "I am not a big fat panda. I am THE big fat panda!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Confidence",
+      "selected_on": "2026-02-14T10:46:07.607323Z"
+    },
+    {
+      "id": 29,
+      "text": "I'm not hungry... Master.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Growth",
+      "selected_on": "2026-02-14T10:46:07.607996Z"
+    },
+    {
+      "id": 42,
+      "text": "I'm not freaking out, I'm freaking in.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Humor",
+      "selected_on": "2026-02-14T10:46:07.608739Z"
+    },
+    {
+      "id": 21,
+      "text": "I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-02-14T10:46:07.609319Z"
+    },
+    {
+      "id": 45,
+      "text": "You don't even know who you are!",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-02-14T10:46:07.609972Z"
+    },
+    {
+      "id": 15,
+      "text": "Happiness must be taken, and I will take mine.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-02-14T10:46:07.610527Z"
+    },
+    {
+      "id": 28,
+      "text": "Look at this tree, Shifu. I cannot make it blossom when it suits me, nor make it bear fruit before its time.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-02-14T10:46:07.611134Z"
     }
   ]
 }
