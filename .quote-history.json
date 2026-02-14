@@ -1,60 +1,44 @@
 {
   "quotes": [
     {
-      "id": 15,
-      "text": "Happiness must be taken, and I will take mine.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-02-13T06:17:00.683130Z"
-    },
-    {
-      "id": 27,
-      "text": "Ah, Shifu. There is just news. There is no good or bad.",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
-      "theme": "Wisdom",
-      "selected_on": "2026-02-13T06:17:00.683651Z"
-    },
-    {
-      "id": 21,
-      "text": "I am the Dragon Warrior!",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-02-14T04:56:07.251420Z"
-    },
-    {
-      "id": 12,
-      "text": "My fist hungers for justice! That was my... fist.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Combat",
-      "selected_on": "2026-02-14T04:56:07.252042Z"
-    },
-    {
-      "id": 78,
-      "text": "You are ready.",
-      "author": "Po",
+      "id": 52,
+      "text": "I'm only hungry for one thing... Vengeance!",
+      "author": "Granny Boar",
       "movie": "Kung Fu Panda 4",
+      "theme": "Combat",
+      "selected_on": "2026-02-14T05:09:44.969276Z"
+    },
+    {
+      "id": 23,
+      "text": "Before the battle of the fist, comes the battle of the mind.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda",
+      "theme": "Combat",
+      "selected_on": "2026-02-14T05:09:44.969850Z"
+    },
+    {
+      "id": 9,
+      "text": "I'm not a big fat panda. I'm THE big fat panda.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
       "theme": "Confidence",
-      "selected_on": "2026-02-14T04:56:07.252593Z"
+      "selected_on": "2026-02-14T05:09:44.970379Z"
     },
     {
-      "id": 29,
-      "text": "I'm not hungry... Master.",
+      "id": 39,
+      "text": "You gotta let go of that stuff from the past because it just doesn't matter. The only thing that matters is what you choose to be now.",
       "author": "Po",
-      "movie": "Kung Fu Panda",
+      "movie": "Kung Fu Panda 2",
       "theme": "Growth",
-      "selected_on": "2026-02-14T04:56:07.253138Z"
+      "selected_on": "2026-02-14T05:09:44.970938Z"
     },
     {
-      "id": 59,
-      "text": "There's no charge for awesomeness.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
+      "id": 50,
+      "text": "Now, who wants to do the right thing for the wrong reasons?",
+      "author": "Zhen",
+      "movie": "Kung Fu Panda 4",
       "theme": "Humor",
-      "selected_on": "2026-02-14T04:56:07.253675Z"
+      "selected_on": "2026-02-14T05:09:44.971449Z"
     },
     {
       "id": 19,
@@ -62,15 +46,15 @@
       "author": "Master Oogway",
       "movie": "Kung Fu Panda",
       "theme": "Iconic",
-      "selected_on": "2026-02-14T04:56:07.254233Z"
+      "selected_on": "2026-02-14T05:09:44.972034Z"
     },
     {
-      "id": 49,
-      "text": "I've been asking myself that question. Am I the son of a panda? The son of a goose? A student? A teacher? I'm all of those things. I am the Dragon Warrior!",
+      "id": 25,
+      "text": "Who are you? ... I've been asking the same question. Am I the son of a panda? The son of a goose? A student? A teacher? Turns out, I'm all of them.",
       "author": "Po",
       "movie": "Kung Fu Panda 3",
       "theme": "Identity",
-      "selected_on": "2026-02-14T04:56:07.254777Z"
+      "selected_on": "2026-02-14T05:09:44.972527Z"
     },
     {
       "id": 18,
@@ -78,15 +62,15 @@
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-02-14T04:56:07.255323Z"
+      "selected_on": "2026-02-14T05:09:44.973038Z"
     },
     {
-      "id": 48,
-      "text": "Sometimes we do the wrong things for the good reasons.",
-      "author": "Mr. Ping",
-      "movie": "Kung Fu Panda 3",
+      "id": 28,
+      "text": "Look at this tree, Shifu. I cannot make it blossom when it suits me, nor make it bear fruit before its time.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
       "theme": "Wisdom",
-      "selected_on": "2026-02-14T04:56:07.255980Z"
+      "selected_on": "2026-02-14T05:09:44.973574Z"
     }
   ]
 }
