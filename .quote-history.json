@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
       "selected_on": "2026-02-13T06:17:00.683651Z"
+    },
+    {
+      "id": 21,
+      "text": "I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-02-14T04:56:07.251420Z"
+    },
+    {
+      "id": 12,
+      "text": "My fist hungers for justice! That was my... fist.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Combat",
+      "selected_on": "2026-02-14T04:56:07.252042Z"
+    },
+    {
+      "id": 78,
+      "text": "You are ready.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Confidence",
+      "selected_on": "2026-02-14T04:56:07.252593Z"
+    },
+    {
+      "id": 29,
+      "text": "I'm not hungry... Master.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Growth",
+      "selected_on": "2026-02-14T04:56:07.253138Z"
+    },
+    {
+      "id": 59,
+      "text": "There's no charge for awesomeness.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Humor",
+      "selected_on": "2026-02-14T04:56:07.253675Z"
+    },
+    {
+      "id": 19,
+      "text": "My time has come.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-02-14T04:56:07.254233Z"
+    },
+    {
+      "id": 49,
+      "text": "I've been asking myself that question. Am I the son of a panda? The son of a goose? A student? A teacher? I'm all of those things. I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-02-14T04:56:07.254777Z"
+    },
+    {
+      "id": 18,
+      "text": "The dead exist in the past, and I must tend to the future.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-02-14T04:56:07.255323Z"
+    },
+    {
+      "id": 48,
+      "text": "Sometimes we do the wrong things for the good reasons.",
+      "author": "Mr. Ping",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Wisdom",
+      "selected_on": "2026-02-14T04:56:07.255980Z"
     }
   ]
 }
