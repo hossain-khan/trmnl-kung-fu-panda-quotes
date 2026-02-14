@@ -76,7 +76,7 @@ git push
 
 ### How It Works
 
-1. **Quote Database**: `quotes.json` contains 81 quotes from all Kung Fu Panda movies
+1. **Quote Database**: `quotes.json` contains 61 verified quotes from all Kung Fu Panda movies
 2. **Generation Script**: `generate_random_quote.py` randomly selects quotes and creates theme-specific JSON files
 3. **GitHub Pages**: Serves the static JSON files to TRMNL
 4. **Theme Filtering**: The `##{{ theme }}` variable in the URL is replaced by TRMNL with the user's selection
