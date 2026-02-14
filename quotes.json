@@ -280,13 +280,6 @@
     "theme": "Humor"
   },
   {
-    "id": 43,
-    "text": "If you only do what you can do, you will never be more than you are now.",
-    "author": "Master Shifu",
-    "movie": "Kung Fu Panda 3",
-    "theme": "Growth"
-  },
-  {
     "id": 44,
     "text": "But I like who I am!",
     "author": "Po",
@@ -378,13 +371,6 @@
     "theme": "Humor"
   },
   {
-    "id": 60,
-    "text": "Inner peace. Inner peace.",
-    "author": "Master Shifu",
-    "movie": "Kung Fu Panda 2",
-    "theme": "Humor"
-  },
-  {
     "id": 61,
     "text": "You just need to believe.",
     "author": "Master Oogway",
@@ -456,7 +442,7 @@
   },
   {
     "id": 75,
-    "text": "Maybe Oogway was right about you. You're aren't completely useless after all.",
+    "text": "Maybe Oogway was right about you. You aren't completely useless after all.",
     "author": "Tai Lung",
     "movie": "Kung Fu Panda 4",
     "theme": "Humor"
@@ -481,13 +467,6 @@
     "author": "Po",
     "movie": "Kung Fu Panda 4",
     "theme": "Growth"
-  },
-  {
-    "id": 80,
-    "text": "It is time to become who you are meant to be.",
-    "author": "Po",
-    "movie": "Kung Fu Panda 4",
-    "theme": "Identity"
   },
   {
     "id": 81,
