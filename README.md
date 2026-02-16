@@ -1,4 +1,4 @@
-![Forks](https://trmnl-badges.gohk.xyz/badge/forks?recipe=240176) ![Installs](https://trmnl-badges.gohk.xyz/badge/installs?recipe=240176)
+[![Installs](https://trmnl-badges.gohk.xyz/badge/installs?recipe=240176)](https://trmnl.com/recipes/240176) [![Forks](https://trmnl-badges.gohk.xyz/badge/forks?recipe=240176)](https://trmnl.com/recipes/240176)
 
 # Kung Fu Panda Quotes
 
