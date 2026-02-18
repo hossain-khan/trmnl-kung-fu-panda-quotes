@@ -1,92 +1,20 @@
 {
   "quotes": [
     {
-      "id": 15,
-      "text": "Happiness must be taken, and I will take mine.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-02-16T06:18:22.954998Z"
-    },
-    {
-      "id": 3,
-      "text": "One often meets his destiny on the road he takes to avoid it.",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
-      "theme": "Wisdom",
-      "selected_on": "2026-02-16T06:18:22.955471Z"
-    },
-    {
-      "id": 1,
-      "text": "Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
-      "theme": "Wisdom",
-      "selected_on": "2026-02-17T06:16:11.663441Z"
-    },
-    {
-      "id": 17,
-      "text": "The real warrior never quits.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Combat",
-      "selected_on": "2026-02-17T06:16:11.664043Z"
-    },
-    {
-      "id": 9,
-      "text": "I'm not a big fat panda. I'm THE big fat panda.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Confidence",
-      "selected_on": "2026-02-17T06:16:11.664558Z"
-    },
-    {
-      "id": 79,
-      "text": "The journey makes you stronger.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Growth",
-      "selected_on": "2026-02-17T06:16:11.665076Z"
-    },
-    {
-      "id": 59,
-      "text": "There's no charge for awesomeness.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Humor",
-      "selected_on": "2026-02-17T06:16:11.665570Z"
-    },
-    {
-      "id": 19,
-      "text": "My time has come. You must now continue your journey without me. You must believe...",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-02-17T06:16:11.666108Z"
-    },
-    {
-      "id": 45,
-      "text": "You don't even know who you are!",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Identity",
-      "selected_on": "2026-02-17T06:16:11.666628Z"
-    },
-    {
       "id": 18,
       "text": "The dead exist in the past, and I must tend to the future.",
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-02-17T06:16:11.667164Z"
+      "selected_on": "2026-02-18T06:18:43.909322Z"
     },
     {
-      "id": 53,
-      "text": "Worrying doesn't make the broth boil any faster.",
-      "author": "Mr. Ping",
-      "movie": "Kung Fu Panda 4",
+      "id": 62,
+      "text": "One often meets his destiny on the road he takes to avoid it.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
       "theme": "Wisdom",
-      "selected_on": "2026-02-17T06:16:11.667684Z"
+      "selected_on": "2026-02-18T06:18:43.909832Z"
     }
   ]
 }
