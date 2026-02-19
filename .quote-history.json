@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
       "selected_on": "2026-02-18T06:18:43.909832Z"
+    },
+    {
+      "id": 42,
+      "text": "I'm not freaking out, I'm freaking in.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Humor",
+      "selected_on": "2026-02-19T06:18:01.618913Z"
+    },
+    {
+      "id": 52,
+      "text": "I'm only hungry for one thing... Vengeance!",
+      "author": "Granny Boar",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Combat",
+      "selected_on": "2026-02-19T06:18:01.619438Z"
+    },
+    {
+      "id": 9,
+      "text": "I'm not a big fat panda. I'm THE big fat panda.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Confidence",
+      "selected_on": "2026-02-19T06:18:01.620052Z"
+    },
+    {
+      "id": 58,
+      "text": "If you only do what you can do, you will never be more than you are now.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Growth",
+      "selected_on": "2026-02-19T06:18:01.620561Z"
+    },
+    {
+      "id": 50,
+      "text": "Now, who wants to do the right thing for the wrong reasons?",
+      "author": "Zhen",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Humor",
+      "selected_on": "2026-02-19T06:18:01.621186Z"
+    },
+    {
+      "id": 21,
+      "text": "I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-02-19T06:18:01.621722Z"
+    },
+    {
+      "id": 49,
+      "text": "I've been asking myself that question. Am I the son of a panda? The son of a goose? A student? A teacher? I'm all of those things. I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-02-19T06:18:01.622221Z"
+    },
+    {
+      "id": 15,
+      "text": "Happiness must be taken, and I will take mine.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-02-19T06:18:01.622771Z"
+    },
+    {
+      "id": 46,
+      "text": "Time is just an illusion, there is only the now.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Wisdom",
+      "selected_on": "2026-02-19T06:18:01.623272Z"
     }
   ]
 }
