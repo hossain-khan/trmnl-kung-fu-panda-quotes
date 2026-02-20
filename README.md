@@ -10,7 +10,7 @@ Get inspired every day with memorable quotes from all four Kung Fu Panda movies.
 
 ## ✨ Features
 
-- 🎬 **81 Quotes** from all four Kung Fu Panda movies
+- 🎬 **58 Quotes** from all four Kung Fu Panda movies
 - 🎯 **Theme Filtering**: Choose your preferred quote style
   - Wisdom, Humor, Growth, Combat, Identity, Confidence, Iconic, Villainy
 - 📜 **Smart Rotation**: Never see the same quote twice within 30 days
