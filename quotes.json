@@ -224,15 +224,8 @@
     "theme": "Humor"
   },
   {
-    "id": 37,
-    "text": "Your story may not have such a happy beginning, but that doesn't make you who you are. It is the rest of your story, who you choose to be.",
-    "author": "Soothsayer",
-    "movie": "Kung Fu Panda 2",
-    "theme": "Identity"
-  },
-  {
     "id": 38,
-    "text": "No they don't. Wounds heal.",
+    "text": "No, they don't. Wounds heal. I don't care what scars do!",
     "author": "Lord Shen",
     "movie": "Kung Fu Panda 2",
     "theme": "Combat"
@@ -267,7 +260,7 @@
   },
   {
     "id": 44,
-    "text": "But I like who I am!",
+    "text": "I like who I am!",
     "author": "Po",
     "movie": "Kung Fu Panda 3",
     "theme": "Confidence"
@@ -336,39 +329,11 @@
     "theme": "Combat"
   },
   {
-    "id": 57,
-    "text": "Your mind is like this water, my friend. When it is agitated, it becomes difficult to see. But if you allow it to settle, the answer becomes clear.",
-    "author": "Master Oogway",
-    "movie": "Kung Fu Panda",
-    "theme": "Wisdom"
-  },
-  {
-    "id": 58,
-    "text": "If you only do what you can do, you will never be more than you are now.",
-    "author": "Master Shifu",
-    "movie": "Kung Fu Panda 3",
-    "theme": "Growth"
-  },
-  {
     "id": 61,
-    "text": "You just need to believe.",
+    "text": "No, you just need to believe. Promise me, Shifu, promise me you will believe.",
     "author": "Master Oogway",
     "movie": "Kung Fu Panda",
     "theme": "Growth"
-  },
-  {
-    "id": 62,
-    "text": "One often meets his destiny on the road he takes to avoid it.",
-    "author": "Master Oogway",
-    "movie": "Kung Fu Panda",
-    "theme": "Wisdom"
-  },
-  {
-    "id": 63,
-    "text": "You are too concerned with what was and what will be.",
-    "author": "Master Oogway",
-    "movie": "Kung Fu Panda",
-    "theme": "Wisdom"
   },
   {
     "id": 64,
@@ -378,15 +343,8 @@
     "theme": "Growth"
   },
   {
-    "id": 65,
-    "text": "You gotta let go of the past.",
-    "author": "Po",
-    "movie": "Kung Fu Panda 2",
-    "theme": "Growth"
-  },
-  {
     "id": 68,
-    "text": "It was never my destiny to stop you.",
+    "text": "It was never my destiny to stop you. I have set another on that path.",
     "author": "Master Oogway",
     "movie": "Kung Fu Panda 3",
     "theme": "Wisdom"
@@ -399,15 +357,8 @@
     "theme": "Wisdom"
   },
   {
-    "id": 71,
-    "text": "I am not a big fat panda. I am THE big fat panda!",
-    "author": "Po",
-    "movie": "Kung Fu Panda 3",
-    "theme": "Confidence"
-  },
-  {
     "id": 72,
-    "text": "You have to let go of who you were.",
+    "text": "You have to let go of who you were, and embrace who you are.",
     "author": "Master Shifu",
     "movie": "Kung Fu Panda 3",
     "theme": "Growth"
@@ -435,7 +386,7 @@
   },
   {
     "id": 78,
-    "text": "You are ready.",
+    "text": "You are ready. I've never been more sure of anything.",
     "author": "Po",
     "movie": "Kung Fu Panda 4",
     "theme": "Confidence"

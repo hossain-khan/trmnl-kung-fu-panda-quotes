@@ -87,6 +87,30 @@
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
       "selected_on": "2026-02-20T14:29:27.069960Z"
+    },
+    {
+      "id": 50,
+      "text": "Now, who wants to do the right thing for the wrong reasons?",
+      "author": "Zhen",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Humor",
+      "selected_on": "2026-02-20T14:46:02.633453Z"
+    },
+    {
+      "id": 27,
+      "text": "Ah, Shifu. There is just news. There is no good or bad.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-02-20T14:46:06.524414Z"
+    },
+    {
+      "id": 77,
+      "text": "Change is part of the journey.",
+      "author": "Zhen",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Growth",
+      "selected_on": "2026-02-20T14:46:06.553382Z"
     }
   ]
 }
