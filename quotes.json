@@ -7,13 +7,6 @@
     "theme": "Wisdom"
   },
   {
-    "id": 2,
-    "text": "There is no secret ingredient.",
-    "author": "Mr. Ping",
-    "movie": "Kung Fu Panda",
-    "theme": "Wisdom"
-  },
-  {
     "id": 3,
     "text": "One often meets his destiny on the road he takes to avoid it.",
     "author": "Master Oogway",
@@ -187,13 +180,6 @@
     "author": "Master Oogway",
     "movie": "Kung Fu Panda",
     "theme": "Wisdom"
-  },
-  {
-    "id": 29,
-    "text": "I'm not hungry... Master.",
-    "author": "Po",
-    "movie": "Kung Fu Panda",
-    "theme": "Growth"
   },
   {
     "id": 30,
