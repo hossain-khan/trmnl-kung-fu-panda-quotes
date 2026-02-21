@@ -18,7 +18,7 @@ tap_action_url: ""
 # Developer Notes:
 # 
 # 1. POLLING STRATEGY (used in this template)
-#    - TRMNL sends GET requests to polling_url at refresh_frequency intervals
+#    - TRMNL sends GET requests to polling_url at refresh_interval intervals
 #    - Your backend should return JSON with template variables
 #    - Example response:
 #    {

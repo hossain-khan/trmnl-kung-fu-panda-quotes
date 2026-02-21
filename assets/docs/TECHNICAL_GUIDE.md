@@ -21,7 +21,7 @@ quotes.json (master) → generate_random_quote.py → 9 theme-specific JSON file
 
 ### Components
 
-- **quotes.json**: Master database of 81 quotes from all 4 films
+- **quotes.json**: Master database of 58 quotes from all 4 films
 - **generate_random_quote.py**: Python script to generate theme-specific quote files
 - **api/random-quote-*.json**: 9 generated files (all, wisdom, humor, growth, combat, identity, confidence, iconic, villainy)
 - **templates/*.liquid**: 4 responsive layouts (full, half_horizontal, half_vertical, quadrant)
@@ -93,12 +93,12 @@ quotes.json (master) → generate_random_quote.py → 9 theme-specific JSON file
      update:
        runs-on: ubuntu-latest
        steps:
-         - uses: actions/checkout@v3
+         - uses: actions/checkout@v4
          
          - name: Set up Python
-           uses: actions/setup-python@v4
+           uses: actions/setup-python@v5
            with:
-             python-version: '3.10'
+             python-version: '3.x'
          
          - name: Generate all theme quotes
            run: python3 generate_random_quote.py
@@ -200,7 +200,7 @@ app.listen(3000);
 trmnl-kung-fu-panda-quotes/
 ├── settings.yml                    # TRMNL plugin configuration
 ├── custom-fields.yml               # User form fields (theme selector)
-├── quotes.json                     # Master quote database (81 quotes)
+├── quotes.json                     # Master quote database (58 quotes)
 ├── generate_random_quote.py        # Quote generation script
 ├── test_quote_history.py           # Test script for quote history
 ├── embed_posters.py                # Script to embed poster images
@@ -272,7 +272,7 @@ trmnl-kung-fu-panda-quotes/
 1. **Edit quotes.json**
    ```json
    {
-     "id": 82,
+     "id": 59,
      "text": "Your new quote here",
      "author": "Character Name",
      "movie": "Kung Fu Panda",
@@ -424,7 +424,7 @@ All templates use [TRMNL Framework v2](https://usetrmnl.com/framework) utilities
 
 - [ ] **JSON Validation**
   ```bash
-  cat quotes.json | jq 'length'  # Should return 81
+  cat quotes.json | jq 'length'  # Should return 58
   cat quotes.json | jq '.[].id'  # Check IDs are sequential
   ```
 
@@ -513,7 +513,7 @@ Configure TRMNL plugin behavior:
 name: "Kung Fu Panda Quotes"
 strategy: "polling"
 polling_url: "https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes/api/random-quote-##{{ theme }}.json"
-refresh_frequency: 1440  # minutes (24 hours)
+refresh_interval: 1440  # minutes (24 hours)
 layouts:
   - full
   - half_horizontal
@@ -533,7 +533,7 @@ custom_fields: kung_fu_panda_quotes
   - Use `##{{ field_name }}` for dynamic substitution
   - TRMNL replaces with user's form field value
 
-- `refresh_frequency`: Update interval in minutes
+- `refresh_interval`: Update interval in minutes
   - Minimum: 1 minute
   - Maximum: 1440 minutes (24 hours)
   - Default: 1440 (daily updates)

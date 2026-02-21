@@ -1,23 +1,24 @@
 {
-  "name": "trmnl-plugin-template",
+  "name": "trmnl-kung-fu-panda-quotes",
   "version": "1.0.0",
-  "description": "A production-ready template for creating TRMNL plugins",
+  "description": "TRMNL plugin displaying daily wisdom and humor from all four Kung Fu Panda films",
   "keywords": [
     "trmnl",
     "plugin",
     "e-ink",
-    "template",
+    "kung-fu-panda",
+    "quotes",
     "liquid"
   ],
-  "author": "Your Name",
+  "author": "Community Contributors",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/your-plugin-name.git"
+    "url": "https://github.com/hossain-khan/trmnl-kung-fu-panda-quotes.git"
   },
-  "homepage": "https://github.com/your-username/your-plugin-name",
+  "homepage": "https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes",
   "bugs": {
-    "url": "https://github.com/your-username/your-plugin-name/issues"
+    "url": "https://github.com/hossain-khan/trmnl-kung-fu-panda-quotes/issues"
   },
   "scripts": {
     "validate": "echo 'No build step required for plugin templates'"
