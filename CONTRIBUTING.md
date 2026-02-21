@@ -162,7 +162,7 @@ When contributing new quotes from Kung Fu Panda movies:
 2. **Add to `quotes.json`** with complete information:
    ```json
    {
-     "id": 85,
+     "id": 59,
      "text": "Your quote here",
      "author": "Character Name",
      "movie": "Kung Fu Panda 1|2|3|4",

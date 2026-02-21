@@ -87,6 +87,14 @@
       "movie": "Kung Fu Panda 3",
       "theme": "Wisdom",
       "selected_on": "2026-02-21T06:08:05.344652Z"
+    },
+    {
+      "id": 22,
+      "text": "Every master must find his path to inner peace.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Growth",
+      "selected_on": "2026-02-21T21:40:21.743346Z"
     }
   ]
 }
