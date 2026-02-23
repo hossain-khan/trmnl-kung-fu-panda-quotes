@@ -1,172 +1,20 @@
 {
   "quotes": [
     {
-      "id": 18,
-      "text": "The dead exist in the past, and I must tend to the future.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-02-20T15:00:40.151494Z"
-    },
-    {
-      "id": 30,
-      "text": "My friend, the panda will never fulfill his destiny, nor you yours, until you let go of the illusion of control.",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
-      "theme": "Wisdom",
-      "selected_on": "2026-02-20T15:00:40.152190Z"
-    },
-    {
-      "id": 5,
-      "text": "If you only do what you can do, you will never be more than you are now.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Growth",
-      "selected_on": "2026-02-21T06:08:05.339904Z"
-    },
-    {
-      "id": 9,
-      "text": "Finally, a worthy opponent! Our battle will be legendary!",
-      "author": "Tai Lung",
-      "movie": "Kung Fu Panda",
-      "theme": "Combat",
-      "selected_on": "2026-02-21T06:08:05.340426Z"
-    },
-    {
-      "id": 38,
-      "text": "I like who I am!",
-      "author": "Po",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Confidence",
-      "selected_on": "2026-02-21T06:08:05.340914Z"
-    },
-    {
-      "id": 13,
-      "text": "See, that's the thing, Shen. Scars heal.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Growth",
-      "selected_on": "2026-02-21T06:08:05.341410Z"
-    },
-    {
-      "id": 54,
-      "text": "Maybe Oogway was right about you. You aren't completely useless after all.",
-      "author": "Tai Lung",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Humor",
-      "selected_on": "2026-02-21T06:08:05.341884Z"
-    },
-    {
-      "id": 17,
-      "text": "My time has come. You must now continue your journey without me. You must believe...",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-02-21T06:08:05.342380Z"
-    },
-    {
-      "id": 53,
-      "text": "I too came from humble beginnings.",
-      "author": "The Chameleon",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Identity",
-      "selected_on": "2026-02-21T06:08:05.343121Z"
-    },
-    {
-      "id": 14,
-      "text": "Happiness must be taken, and I will take mine.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-02-21T06:08:05.343858Z"
-    },
-    {
-      "id": 42,
-      "text": "Sometimes we do the wrong things for the good reasons.",
-      "author": "Mr. Ping",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Wisdom",
-      "selected_on": "2026-02-21T06:08:05.344652Z"
-    },
-    {
-      "id": 22,
-      "text": "Every master must find his path to inner peace.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Growth",
-      "selected_on": "2026-02-21T21:40:21.743346Z"
-    },
-    {
-      "id": 24,
-      "text": "You can chain my body, but you will never chain my warrior spirit!",
-      "author": "Crane",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Combat",
-      "selected_on": "2026-02-22T06:11:12.524441Z"
-    },
-    {
-      "id": 21,
-      "text": "Before the battle of the fist, comes the battle of the mind.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda",
-      "theme": "Combat",
-      "selected_on": "2026-02-22T06:11:12.525042Z"
-    },
-    {
-      "id": 8,
-      "text": "I'm not a big fat panda. I'm THE big fat panda.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Confidence",
-      "selected_on": "2026-02-22T06:11:12.528119Z"
-    },
-    {
-      "id": 49,
-      "text": "There is always something more to learn.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda",
-      "theme": "Growth",
-      "selected_on": "2026-02-22T06:11:12.528705Z"
-    },
-    {
-      "id": 44,
-      "text": "Now, who wants to do the right thing for the wrong reasons?",
-      "author": "Zhen",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Humor",
-      "selected_on": "2026-02-22T06:11:12.529289Z"
-    },
-    {
-      "id": 3,
-      "text": "Skadoosh.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-02-22T06:11:12.529836Z"
-    },
-    {
-      "id": 6,
-      "text": "Your story may not have such a happy beginning, but that doesn't make you who you are. It is the rest of your story, who you choose to be.",
-      "author": "Soothsayer",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Identity",
-      "selected_on": "2026-02-22T06:11:12.530417Z"
-    },
-    {
       "id": 16,
       "text": "The dead exist in the past, and I must tend to the future.",
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-02-22T06:11:12.530979Z"
+      "selected_on": "2026-02-23T06:18:44.667915Z"
     },
     {
-      "id": 50,
-      "text": "It was never my destiny to stop you. I have set another on that path.",
+      "id": 2,
+      "text": "One often meets his destiny on the road he takes to avoid it.",
       "author": "Master Oogway",
-      "movie": "Kung Fu Panda 3",
+      "movie": "Kung Fu Panda",
       "theme": "Wisdom",
-      "selected_on": "2026-02-22T06:11:12.531574Z"
+      "selected_on": "2026-02-23T06:18:44.668319Z"
     }
   ]
 }
