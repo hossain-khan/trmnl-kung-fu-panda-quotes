@@ -1,92 +1,20 @@
 {
   "quotes": [
     {
-      "id": 16,
-      "text": "The dead exist in the past, and I must tend to the future.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-02-27T06:12:55.331131Z"
-    },
-    {
-      "id": 50,
-      "text": "It was never my destiny to stop you. I have set another on that path.",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Wisdom",
-      "selected_on": "2026-02-27T06:12:55.331587Z"
-    },
-    {
-      "id": 36,
-      "text": "Ah. My old enemy... stairs!",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Humor",
-      "selected_on": "2026-02-28T06:03:39.394620Z"
-    },
-    {
-      "id": 24,
-      "text": "You can chain my body, but you will never chain my warrior spirit!",
-      "author": "Crane",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Combat",
-      "selected_on": "2026-02-28T06:03:39.395203Z"
-    },
-    {
-      "id": 8,
-      "text": "I'm not a big fat panda. I'm THE big fat panda.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Confidence",
-      "selected_on": "2026-02-28T06:03:39.395821Z"
-    },
-    {
-      "id": 55,
-      "text": "Change is part of the journey.",
-      "author": "Zhen",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Growth",
-      "selected_on": "2026-02-28T06:03:39.396340Z"
-    },
-    {
-      "id": 37,
-      "text": "I'm not freaking out, I'm freaking in.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Humor",
-      "selected_on": "2026-02-28T06:03:39.396889Z"
-    },
-    {
-      "id": 3,
-      "text": "Skadoosh.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-02-28T06:03:39.397391Z"
-    },
-    {
-      "id": 39,
-      "text": "You don't even know who you are!",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Identity",
-      "selected_on": "2026-02-28T06:03:39.397928Z"
-    },
-    {
       "id": 14,
       "text": "Happiness must be taken, and I will take mine.",
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-02-28T06:03:39.398434Z"
+      "selected_on": "2026-03-01T06:10:20.976443Z"
     },
     {
-      "id": 10,
-      "text": "When will you realize? The more you take, the less you have.",
-      "author": "Master Oogway",
+      "id": 51,
+      "text": "Chi is a part of you.",
+      "author": "Master Shifu",
       "movie": "Kung Fu Panda 3",
       "theme": "Wisdom",
-      "selected_on": "2026-02-28T06:03:39.398972Z"
+      "selected_on": "2026-03-01T06:10:20.976734Z"
     }
   ]
 }
