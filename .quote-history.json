@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda 3",
       "theme": "Wisdom",
       "selected_on": "2026-03-01T06:10:20.976734Z"
+    },
+    {
+      "id": 35,
+      "text": "How can kung fu stop something that stops kung fu?",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Humor",
+      "selected_on": "2026-03-02T06:13:16.460557Z"
+    },
+    {
+      "id": 24,
+      "text": "You can chain my body, but you will never chain my warrior spirit!",
+      "author": "Crane",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Combat",
+      "selected_on": "2026-03-02T06:13:16.461143Z"
+    },
+    {
+      "id": 38,
+      "text": "I like who I am!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Confidence",
+      "selected_on": "2026-03-02T06:13:16.461701Z"
+    },
+    {
+      "id": 41,
+      "text": "I'm not trying to turn you into me. I'm trying to turn you into you.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Growth",
+      "selected_on": "2026-03-02T06:13:16.462237Z"
+    },
+    {
+      "id": 44,
+      "text": "Now, who wants to do the right thing for the wrong reasons?",
+      "author": "Zhen",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Humor",
+      "selected_on": "2026-03-02T06:13:16.462793Z"
+    },
+    {
+      "id": 19,
+      "text": "I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-03-02T06:13:16.463354Z"
+    },
+    {
+      "id": 39,
+      "text": "You don't even know who you are!",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-03-02T06:13:16.463899Z"
+    },
+    {
+      "id": 16,
+      "text": "The dead exist in the past, and I must tend to the future.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-03-02T06:13:16.464464Z"
+    },
+    {
+      "id": 25,
+      "text": "Ah, Shifu. There is just news. There is no good or bad.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-03-02T06:13:16.465010Z"
     }
   ]
 }
