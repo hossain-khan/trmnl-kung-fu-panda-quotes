@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda 3",
       "theme": "Wisdom",
       "selected_on": "2026-03-13T06:11:36.911598Z"
+    },
+    {
+      "id": 23,
+      "text": "Who are you? ... I've been asking the same question. Am I the son of a panda? The son of a goose? A student? A teacher? Turns out, I'm all of them.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-03-14T06:09:53.785112Z"
+    },
+    {
+      "id": 47,
+      "text": "Oogway made a mistake choosing you as the Dragon Warrior. I just didn't realize how big a mistake it was until now.",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Combat",
+      "selected_on": "2026-03-14T06:09:53.785759Z"
+    },
+    {
+      "id": 56,
+      "text": "You are ready. I've never been more sure of anything.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Confidence",
+      "selected_on": "2026-03-14T06:09:53.786352Z"
+    },
+    {
+      "id": 52,
+      "text": "You have to let go of who you were, and embrace who you are.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Growth",
+      "selected_on": "2026-03-14T06:09:53.786876Z"
+    },
+    {
+      "id": 36,
+      "text": "Ah. My old enemy... stairs!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Humor",
+      "selected_on": "2026-03-14T06:09:53.787447Z"
+    },
+    {
+      "id": 17,
+      "text": "My time has come. You must now continue your journey without me. You must believe...",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-03-14T06:09:53.788416Z"
+    },
+    {
+      "id": 39,
+      "text": "You don't even know who you are!",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-03-14T06:09:53.789016Z"
+    },
+    {
+      "id": 16,
+      "text": "The dead exist in the past, and I must tend to the future.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-03-14T06:09:53.789617Z"
+    },
+    {
+      "id": 26,
+      "text": "Look at this tree, Shifu. I cannot make it blossom when it suits me, nor make it bear fruit before its time.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-03-14T06:09:53.790219Z"
     }
   ]
 }
