@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda 3",
       "theme": "Wisdom",
       "selected_on": "2026-03-17T06:17:55.340114Z"
+    },
+    {
+      "id": 12,
+      "text": "You must let go of the illusion of control.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-03-18T06:18:16.916546Z"
+    },
+    {
+      "id": 11,
+      "text": "My fist hungers for justice! That was my... fist.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Combat",
+      "selected_on": "2026-03-18T06:18:16.917124Z"
+    },
+    {
+      "id": 56,
+      "text": "You are ready. I've never been more sure of anything.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Confidence",
+      "selected_on": "2026-03-18T06:18:16.917623Z"
+    },
+    {
+      "id": 55,
+      "text": "Change is part of the journey.",
+      "author": "Zhen",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Growth",
+      "selected_on": "2026-03-18T06:18:16.918133Z"
+    },
+    {
+      "id": 54,
+      "text": "Maybe Oogway was right about you. You aren't completely useless after all.",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Humor",
+      "selected_on": "2026-03-18T06:18:16.918635Z"
+    },
+    {
+      "id": 3,
+      "text": "Skadoosh.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-03-18T06:18:16.919188Z"
+    },
+    {
+      "id": 53,
+      "text": "I too came from humble beginnings.",
+      "author": "The Chameleon",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Identity",
+      "selected_on": "2026-03-18T06:18:16.919700Z"
+    },
+    {
+      "id": 14,
+      "text": "Happiness must be taken, and I will take mine.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-03-18T06:18:16.920266Z"
+    },
+    {
+      "id": 42,
+      "text": "Sometimes we do the wrong things for the good reasons.",
+      "author": "Mr. Ping",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Wisdom",
+      "selected_on": "2026-03-18T06:18:16.920794Z"
     }
   ]
 }
