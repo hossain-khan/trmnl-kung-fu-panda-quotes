@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda 4",
       "theme": "Wisdom",
       "selected_on": "2026-03-21T06:07:55.414874Z"
+    },
+    {
+      "id": 1,
+      "text": "Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-03-22T06:12:30.410331Z"
+    },
+    {
+      "id": 9,
+      "text": "Finally, a worthy opponent! Our battle will be legendary!",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda",
+      "theme": "Combat",
+      "selected_on": "2026-03-22T06:12:30.410900Z"
+    },
+    {
+      "id": 8,
+      "text": "I'm not a big fat panda. I'm THE big fat panda.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Confidence",
+      "selected_on": "2026-03-22T06:12:30.411447Z"
+    },
+    {
+      "id": 49,
+      "text": "There is always something more to learn.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda",
+      "theme": "Growth",
+      "selected_on": "2026-03-22T06:12:30.411980Z"
+    },
+    {
+      "id": 58,
+      "text": "I see you like to chew. Maybe you should chew... ON MY FIST!",
+      "author": "Gang Boss",
+      "movie": "Kung Fu Panda",
+      "theme": "Humor",
+      "selected_on": "2026-03-22T06:12:30.412521Z"
+    },
+    {
+      "id": 19,
+      "text": "I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-03-22T06:12:30.413030Z"
+    },
+    {
+      "id": 6,
+      "text": "Your story may not have such a happy beginning, but that doesn't make you who you are. It is the rest of your story, who you choose to be.",
+      "author": "Soothsayer",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Identity",
+      "selected_on": "2026-03-22T06:12:30.413555Z"
+    },
+    {
+      "id": 16,
+      "text": "The dead exist in the past, and I must tend to the future.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-03-22T06:12:30.414100Z"
+    },
+    {
+      "id": 18,
+      "text": "Anything is possible when you have inner peace.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Wisdom",
+      "selected_on": "2026-03-22T06:12:30.414669Z"
     }
   ]
 }
