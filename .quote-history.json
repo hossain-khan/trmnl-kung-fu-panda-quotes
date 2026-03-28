@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda 3",
       "theme": "Wisdom",
       "selected_on": "2026-03-27T06:20:55.770382Z"
+    },
+    {
+      "id": 57,
+      "text": "The journey makes you stronger.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Growth",
+      "selected_on": "2026-03-28T06:15:47.135934Z"
+    },
+    {
+      "id": 21,
+      "text": "Before the battle of the fist, comes the battle of the mind.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda",
+      "theme": "Combat",
+      "selected_on": "2026-03-28T06:15:47.136474Z"
+    },
+    {
+      "id": 38,
+      "text": "I like who I am!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Confidence",
+      "selected_on": "2026-03-28T06:15:47.136951Z"
+    },
+    {
+      "id": 55,
+      "text": "Change is part of the journey.",
+      "author": "Zhen",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Growth",
+      "selected_on": "2026-03-28T06:15:47.137447Z"
+    },
+    {
+      "id": 35,
+      "text": "How can kung fu stop something that stops kung fu?",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Humor",
+      "selected_on": "2026-03-28T06:15:47.137918Z"
+    },
+    {
+      "id": 19,
+      "text": "I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-03-28T06:15:47.138455Z"
+    },
+    {
+      "id": 39,
+      "text": "You don't even know who you are!",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-03-28T06:15:47.138939Z"
+    },
+    {
+      "id": 14,
+      "text": "Happiness must be taken, and I will take mine.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-03-28T06:15:47.139447Z"
+    },
+    {
+      "id": 40,
+      "text": "Time is just an illusion, there is only the now.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Wisdom",
+      "selected_on": "2026-03-28T06:15:47.139934Z"
     }
   ]
 }
