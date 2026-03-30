@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda 2",
       "theme": "Wisdom",
       "selected_on": "2026-03-29T06:19:22.470611Z"
+    },
+    {
+      "id": 40,
+      "text": "Time is just an illusion, there is only the now.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Wisdom",
+      "selected_on": "2026-03-30T06:30:17.902779Z"
+    },
+    {
+      "id": 11,
+      "text": "My fist hungers for justice! That was my... fist.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Combat",
+      "selected_on": "2026-03-30T06:30:17.903344Z"
+    },
+    {
+      "id": 38,
+      "text": "I like who I am!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Confidence",
+      "selected_on": "2026-03-30T06:30:17.903804Z"
+    },
+    {
+      "id": 49,
+      "text": "There is always something more to learn.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda",
+      "theme": "Growth",
+      "selected_on": "2026-03-30T06:30:17.904286Z"
+    },
+    {
+      "id": 37,
+      "text": "I'm not freaking out, I'm freaking in.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Humor",
+      "selected_on": "2026-03-30T06:30:17.904742Z"
+    },
+    {
+      "id": 17,
+      "text": "My time has come. You must now continue your journey without me. You must believe...",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-03-30T06:30:17.905228Z"
+    },
+    {
+      "id": 39,
+      "text": "You don't even know who you are!",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-03-30T06:30:17.905691Z"
+    },
+    {
+      "id": 14,
+      "text": "Happiness must be taken, and I will take mine.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-03-30T06:30:17.906195Z"
+    },
+    {
+      "id": 12,
+      "text": "You must let go of the illusion of control.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-03-30T06:30:17.906667Z"
     }
   ]
 }
