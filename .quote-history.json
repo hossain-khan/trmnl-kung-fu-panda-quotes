@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
       "selected_on": "2026-03-31T06:23:27.755406Z"
+    },
+    {
+      "id": 48,
+      "text": "No, you just need to believe. Promise me, Shifu, promise me you will believe.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Growth",
+      "selected_on": "2026-04-01T06:28:19.858055Z"
+    },
+    {
+      "id": 9,
+      "text": "Finally, a worthy opponent! Our battle will be legendary!",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda",
+      "theme": "Combat",
+      "selected_on": "2026-04-01T06:28:19.858642Z"
+    },
+    {
+      "id": 8,
+      "text": "I'm not a big fat panda. I'm THE big fat panda.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Confidence",
+      "selected_on": "2026-04-01T06:28:19.859213Z"
+    },
+    {
+      "id": 13,
+      "text": "See, that's the thing, Shen. Scars heal.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Growth",
+      "selected_on": "2026-04-01T06:28:19.859751Z"
+    },
+    {
+      "id": 7,
+      "text": "Inner peace... inner peace...",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Humor",
+      "selected_on": "2026-04-01T06:28:19.860320Z"
+    },
+    {
+      "id": 17,
+      "text": "My time has come. You must now continue your journey without me. You must believe...",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-04-01T06:28:19.860865Z"
+    },
+    {
+      "id": 43,
+      "text": "I've been asking myself that question. Am I the son of a panda? The son of a goose? A student? A teacher? I'm all of those things. I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-04-01T06:28:19.861481Z"
+    },
+    {
+      "id": 16,
+      "text": "The dead exist in the past, and I must tend to the future.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-04-01T06:28:19.862035Z"
+    },
+    {
+      "id": 27,
+      "text": "My friend, the panda will never fulfill his destiny, nor you yours, until you let go of the illusion of control.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-04-01T06:28:19.862594Z"
     }
   ]
 }
