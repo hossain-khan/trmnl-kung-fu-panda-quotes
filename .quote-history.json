@@ -1,92 +1,20 @@
 {
   "quotes": [
     {
-      "id": 16,
-      "text": "The dead exist in the past, and I must tend to the future.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-04-24T06:32:38.662620Z"
-    },
-    {
-      "id": 2,
-      "text": "One often meets his destiny on the road he takes to avoid it.",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
-      "theme": "Wisdom",
-      "selected_on": "2026-04-24T06:32:38.663075Z"
-    },
-    {
-      "id": 36,
-      "text": "Ah. My old enemy... stairs!",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Humor",
-      "selected_on": "2026-04-25T06:25:30.236185Z"
-    },
-    {
-      "id": 24,
-      "text": "You can chain my body, but you will never chain my warrior spirit!",
-      "author": "Crane",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Combat",
-      "selected_on": "2026-04-25T06:25:30.236673Z"
-    },
-    {
-      "id": 56,
-      "text": "You are ready. I've never been more sure of anything.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Confidence",
-      "selected_on": "2026-04-25T06:25:30.237091Z"
-    },
-    {
-      "id": 41,
-      "text": "I'm not trying to turn you into me. I'm trying to turn you into you.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Growth",
-      "selected_on": "2026-04-25T06:25:30.237486Z"
-    },
-    {
-      "id": 35,
-      "text": "How can kung fu stop something that stops kung fu?",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Humor",
-      "selected_on": "2026-04-25T06:25:30.237924Z"
-    },
-    {
-      "id": 17,
-      "text": "My time has come. You must now continue your journey without me. You must believe...",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-04-25T06:25:30.238332Z"
-    },
-    {
-      "id": 23,
-      "text": "Who are you? ... I've been asking the same question. Am I the son of a panda? The son of a goose? A student? A teacher? Turns out, I'm all of them.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Identity",
-      "selected_on": "2026-04-25T06:25:30.238669Z"
-    },
-    {
       "id": 14,
       "text": "Happiness must be taken, and I will take mine.",
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-04-25T06:25:30.239174Z"
+      "selected_on": "2026-04-26T06:32:17.779204Z"
     },
     {
-      "id": 4,
-      "text": "There are no accidents.",
+      "id": 20,
+      "text": "Your mind is like this water, my friend. When it is agitated, it becomes difficult to see. But if you allow it to settle, the answer becomes clear.",
       "author": "Master Oogway",
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
-      "selected_on": "2026-04-25T06:25:30.239586Z"
+      "selected_on": "2026-04-26T06:32:17.779660Z"
     }
   ]
 }
