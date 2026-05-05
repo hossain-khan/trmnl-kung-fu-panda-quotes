@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
       "selected_on": "2026-05-04T06:53:56.562641Z"
+    },
+    {
+      "id": 20,
+      "text": "Your mind is like this water, my friend. When it is agitated, it becomes difficult to see. But if you allow it to settle, the answer becomes clear.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-05-05T06:39:07.324339Z"
+    },
+    {
+      "id": 15,
+      "text": "The real warrior never quits.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Combat",
+      "selected_on": "2026-05-05T06:39:07.324884Z"
+    },
+    {
+      "id": 56,
+      "text": "You are ready. I've never been more sure of anything.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Confidence",
+      "selected_on": "2026-05-05T06:39:07.325370Z"
+    },
+    {
+      "id": 52,
+      "text": "You have to let go of who you were, and embrace who you are.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Growth",
+      "selected_on": "2026-05-05T06:39:07.325868Z"
+    },
+    {
+      "id": 54,
+      "text": "Maybe Oogway was right about you. You aren't completely useless after all.",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Humor",
+      "selected_on": "2026-05-05T06:39:07.326358Z"
+    },
+    {
+      "id": 3,
+      "text": "Skadoosh.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-05-05T06:39:07.326863Z"
+    },
+    {
+      "id": 6,
+      "text": "Your story may not have such a happy beginning, but that doesn't make you who you are. It is the rest of your story, who you choose to be.",
+      "author": "Soothsayer",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Identity",
+      "selected_on": "2026-05-05T06:39:07.327348Z"
+    },
+    {
+      "id": 16,
+      "text": "The dead exist in the past, and I must tend to the future.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-05-05T06:39:07.327860Z"
+    },
+    {
+      "id": 28,
+      "text": "Quit, don't quit. Noodles, don't noodles... You are too concerned with what was and what will be. There's a saying: Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-05-05T06:39:07.328352Z"
     }
   ]
 }
