@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
       "selected_on": "2026-05-16T06:41:18.576926Z"
+    },
+    {
+      "id": 30,
+      "text": "There's no charge for awesomeness... or attractiveness.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Humor",
+      "selected_on": "2026-05-17T06:51:42.703536Z"
+    },
+    {
+      "id": 11,
+      "text": "My fist hungers for justice! That was my... fist.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Combat",
+      "selected_on": "2026-05-17T06:51:42.704111Z"
+    },
+    {
+      "id": 38,
+      "text": "I like who I am!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Confidence",
+      "selected_on": "2026-05-17T06:51:42.704605Z"
+    },
+    {
+      "id": 57,
+      "text": "The journey makes you stronger.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Growth",
+      "selected_on": "2026-05-17T06:51:42.705068Z"
+    },
+    {
+      "id": 36,
+      "text": "Ah. My old enemy... stairs!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Humor",
+      "selected_on": "2026-05-17T06:51:42.705558Z"
+    },
+    {
+      "id": 3,
+      "text": "Skadoosh.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-05-17T06:51:42.706025Z"
+    },
+    {
+      "id": 43,
+      "text": "I've been asking myself that question. Am I the son of a panda? The son of a goose? A student? A teacher? I'm all of those things. I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-05-17T06:51:42.706534Z"
+    },
+    {
+      "id": 14,
+      "text": "Happiness must be taken, and I will take mine.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-05-17T06:51:42.707017Z"
+    },
+    {
+      "id": 51,
+      "text": "Chi is a part of you.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Wisdom",
+      "selected_on": "2026-05-17T06:51:42.707528Z"
     }
   ]
 }
