@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda 3",
       "theme": "Wisdom",
       "selected_on": "2026-06-07T07:16:14.827469Z"
+    },
+    {
+      "id": 45,
+      "text": "I'm only hungry for one thing... Vengeance!",
+      "author": "Granny Boar",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Combat",
+      "selected_on": "2026-06-08T07:30:40.487218Z"
+    },
+    {
+      "id": 9,
+      "text": "Finally, a worthy opponent! Our battle will be legendary!",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda",
+      "theme": "Combat",
+      "selected_on": "2026-06-08T07:30:40.487866Z"
+    },
+    {
+      "id": 38,
+      "text": "I like who I am!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Confidence",
+      "selected_on": "2026-06-08T07:30:40.488386Z"
+    },
+    {
+      "id": 49,
+      "text": "There is always something more to learn.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda",
+      "theme": "Growth",
+      "selected_on": "2026-06-08T07:30:40.488934Z"
+    },
+    {
+      "id": 54,
+      "text": "Maybe Oogway was right about you. You aren't completely useless after all.",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Humor",
+      "selected_on": "2026-06-08T07:30:40.489525Z"
+    },
+    {
+      "id": 3,
+      "text": "Skadoosh.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-06-08T07:30:40.490056Z"
+    },
+    {
+      "id": 53,
+      "text": "I too came from humble beginnings.",
+      "author": "The Chameleon",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Identity",
+      "selected_on": "2026-06-08T07:30:40.490653Z"
+    },
+    {
+      "id": 14,
+      "text": "Happiness must be taken, and I will take mine.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-06-08T07:30:40.491222Z"
+    },
+    {
+      "id": 42,
+      "text": "Sometimes we do the wrong things for the good reasons.",
+      "author": "Mr. Ping",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Wisdom",
+      "selected_on": "2026-06-08T07:30:40.491779Z"
     }
   ]
 }
