@@ -1,92 +1,20 @@
 {
   "quotes": [
     {
-      "id": 14,
-      "text": "Happiness must be taken, and I will take mine.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-06-13T07:11:21.751278Z"
-    },
-    {
-      "id": 51,
-      "text": "Chi is a part of you.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Wisdom",
-      "selected_on": "2026-06-13T07:11:21.751758Z"
-    },
-    {
-      "id": 31,
-      "text": "Legend tells of a legendary warrior whose kung fu skills were the stuff of legend.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Humor",
-      "selected_on": "2026-06-14T07:28:15.703588Z"
-    },
-    {
-      "id": 24,
-      "text": "You can chain my body, but you will never chain my warrior spirit!",
-      "author": "Crane",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Combat",
-      "selected_on": "2026-06-14T07:28:15.704362Z"
-    },
-    {
-      "id": 56,
-      "text": "You are ready. I've never been more sure of anything.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Confidence",
-      "selected_on": "2026-06-14T07:28:15.705078Z"
-    },
-    {
-      "id": 49,
-      "text": "There is always something more to learn.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda",
-      "theme": "Growth",
-      "selected_on": "2026-06-14T07:28:15.705766Z"
-    },
-    {
-      "id": 37,
-      "text": "I'm not freaking out, I'm freaking in.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Humor",
-      "selected_on": "2026-06-14T07:28:15.706491Z"
-    },
-    {
-      "id": 3,
-      "text": "Skadoosh.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-06-14T07:28:15.707208Z"
-    },
-    {
-      "id": 53,
-      "text": "I too came from humble beginnings.",
-      "author": "The Chameleon",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Identity",
-      "selected_on": "2026-06-14T07:28:15.707947Z"
-    },
-    {
       "id": 16,
       "text": "The dead exist in the past, and I must tend to the future.",
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-06-14T07:28:15.708721Z"
+      "selected_on": "2026-06-15T07:45:58.097285Z"
     },
     {
-      "id": 26,
-      "text": "Look at this tree, Shifu. I cannot make it blossom when it suits me, nor make it bear fruit before its time.",
+      "id": 25,
+      "text": "Ah, Shifu. There is just news. There is no good or bad.",
       "author": "Master Oogway",
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
-      "selected_on": "2026-06-14T07:28:15.709500Z"
+      "selected_on": "2026-06-15T07:45:58.097660Z"
     }
   ]
 }
