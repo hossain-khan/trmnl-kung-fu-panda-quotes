@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
       "selected_on": "2026-06-15T07:45:58.097660Z"
+    },
+    {
+      "id": 23,
+      "text": "Who are you? ... I've been asking the same question. Am I the son of a panda? The son of a goose? A student? A teacher? Turns out, I'm all of them.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-06-16T07:47:44.967220Z"
+    },
+    {
+      "id": 47,
+      "text": "Oogway made a mistake choosing you as the Dragon Warrior. I just didn't realize how big a mistake it was until now.",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Combat",
+      "selected_on": "2026-06-16T07:47:44.967776Z"
+    },
+    {
+      "id": 56,
+      "text": "You are ready. I've never been more sure of anything.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Confidence",
+      "selected_on": "2026-06-16T07:47:44.968231Z"
+    },
+    {
+      "id": 34,
+      "text": "You gotta let go of that stuff from the past because it just doesn't matter. The only thing that matters is what you choose to be now.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Growth",
+      "selected_on": "2026-06-16T07:47:44.968789Z"
+    },
+    {
+      "id": 54,
+      "text": "Maybe Oogway was right about you. You aren't completely useless after all.",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Humor",
+      "selected_on": "2026-06-16T07:47:44.969283Z"
+    },
+    {
+      "id": 19,
+      "text": "I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-06-16T07:47:44.969787Z"
+    },
+    {
+      "id": 53,
+      "text": "I too came from humble beginnings.",
+      "author": "The Chameleon",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Identity",
+      "selected_on": "2026-06-16T07:47:44.970265Z"
+    },
+    {
+      "id": 14,
+      "text": "Happiness must be taken, and I will take mine.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-06-16T07:47:44.970772Z"
+    },
+    {
+      "id": 4,
+      "text": "There are no accidents.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-06-16T07:47:44.971241Z"
     }
   ]
 }
