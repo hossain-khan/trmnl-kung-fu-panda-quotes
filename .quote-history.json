@@ -6,87 +6,15 @@
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-06-23T07:06:07.540638Z"
+      "selected_on": "2026-06-25T07:03:10.851833Z"
     },
     {
-      "id": 4,
-      "text": "There are no accidents.",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
-      "theme": "Wisdom",
-      "selected_on": "2026-06-23T07:06:07.541099Z"
-    },
-    {
-      "id": 11,
-      "text": "My fist hungers for justice! That was my... fist.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Combat",
-      "selected_on": "2026-06-24T07:03:22.554334Z"
-    },
-    {
-      "id": 21,
-      "text": "Before the battle of the fist, comes the battle of the mind.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda",
-      "theme": "Combat",
-      "selected_on": "2026-06-24T07:03:22.554908Z"
-    },
-    {
-      "id": 56,
-      "text": "You are ready. I've never been more sure of anything.",
-      "author": "Po",
+      "id": 46,
+      "text": "Worrying doesn't make the broth boil any faster.",
+      "author": "Mr. Ping",
       "movie": "Kung Fu Panda 4",
-      "theme": "Confidence",
-      "selected_on": "2026-06-24T07:03:22.555443Z"
-    },
-    {
-      "id": 13,
-      "text": "See, that's the thing, Shen. Scars heal.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Growth",
-      "selected_on": "2026-06-24T07:03:22.555981Z"
-    },
-    {
-      "id": 32,
-      "text": "He was so deadly, in fact, his enemies would go blind from over-exposure to pure awesomeness!",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Humor",
-      "selected_on": "2026-06-24T07:03:22.556504Z"
-    },
-    {
-      "id": 3,
-      "text": "Skadoosh.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-06-24T07:03:22.557045Z"
-    },
-    {
-      "id": 23,
-      "text": "Who are you? ... I've been asking the same question. Am I the son of a panda? The son of a goose? A student? A teacher? Turns out, I'm all of them.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Identity",
-      "selected_on": "2026-06-24T07:03:22.557598Z"
-    },
-    {
-      "id": 16,
-      "text": "The dead exist in the past, and I must tend to the future.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-06-24T07:03:22.558139Z"
-    },
-    {
-      "id": 1,
-      "text": "Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
       "theme": "Wisdom",
-      "selected_on": "2026-06-24T07:03:22.558693Z"
+      "selected_on": "2026-06-25T07:03:10.852312Z"
     }
   ]
 }
