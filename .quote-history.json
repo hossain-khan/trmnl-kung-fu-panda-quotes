@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
       "selected_on": "2026-06-27T06:58:10.823351Z"
+    },
+    {
+      "id": 44,
+      "text": "Now, who wants to do the right thing for the wrong reasons?",
+      "author": "Zhen",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Humor",
+      "selected_on": "2026-06-28T07:14:07.108858Z"
+    },
+    {
+      "id": 24,
+      "text": "You can chain my body, but you will never chain my warrior spirit!",
+      "author": "Crane",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Combat",
+      "selected_on": "2026-06-28T07:14:07.109416Z"
+    },
+    {
+      "id": 38,
+      "text": "I like who I am!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Confidence",
+      "selected_on": "2026-06-28T07:14:07.109897Z"
+    },
+    {
+      "id": 52,
+      "text": "You have to let go of who you were, and embrace who you are.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Growth",
+      "selected_on": "2026-06-28T07:14:07.110404Z"
+    },
+    {
+      "id": 37,
+      "text": "I'm not freaking out, I'm freaking in.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Humor",
+      "selected_on": "2026-06-28T07:14:07.110882Z"
+    },
+    {
+      "id": 3,
+      "text": "Skadoosh.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-06-28T07:14:07.111380Z"
+    },
+    {
+      "id": 39,
+      "text": "You don't even know who you are!",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-06-28T07:14:07.111867Z"
+    },
+    {
+      "id": 14,
+      "text": "Happiness must be taken, and I will take mine.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-06-28T07:14:07.112393Z"
+    },
+    {
+      "id": 10,
+      "text": "When will you realize? The more you take, the less you have.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Wisdom",
+      "selected_on": "2026-06-28T07:14:07.112889Z"
     }
   ]
 }
