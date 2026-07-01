@@ -1,92 +1,20 @@
 {
   "quotes": [
     {
-      "id": 16,
-      "text": "The dead exist in the past, and I must tend to the future.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-06-29T07:30:28.057844Z"
-    },
-    {
-      "id": 18,
-      "text": "Anything is possible when you have inner peace.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Wisdom",
-      "selected_on": "2026-06-29T07:30:28.058264Z"
-    },
-    {
-      "id": 52,
-      "text": "You have to let go of who you were, and embrace who you are.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Growth",
-      "selected_on": "2026-06-30T07:09:37.863373Z"
-    },
-    {
-      "id": 47,
-      "text": "Oogway made a mistake choosing you as the Dragon Warrior. I just didn't realize how big a mistake it was until now.",
-      "author": "Tai Lung",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Combat",
-      "selected_on": "2026-06-30T07:09:37.864077Z"
-    },
-    {
-      "id": 8,
-      "text": "I'm not a big fat panda. I'm THE big fat panda.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Confidence",
-      "selected_on": "2026-06-30T07:09:37.864678Z"
-    },
-    {
-      "id": 22,
-      "text": "Every master must find his path to inner peace.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Growth",
-      "selected_on": "2026-06-30T07:09:37.865253Z"
-    },
-    {
-      "id": 37,
-      "text": "I'm not freaking out, I'm freaking in.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Humor",
-      "selected_on": "2026-06-30T07:09:37.865845Z"
-    },
-    {
-      "id": 17,
-      "text": "My time has come. You must now continue your journey without me. You must believe...",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-06-30T07:09:37.866404Z"
-    },
-    {
-      "id": 53,
-      "text": "I too came from humble beginnings.",
-      "author": "The Chameleon",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Identity",
-      "selected_on": "2026-06-30T07:09:37.867015Z"
-    },
-    {
       "id": 14,
       "text": "Happiness must be taken, and I will take mine.",
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-06-30T07:09:37.867624Z"
+      "selected_on": "2026-07-01T07:21:17.794025Z"
     },
     {
-      "id": 12,
-      "text": "You must let go of the illusion of control.",
+      "id": 10,
+      "text": "When will you realize? The more you take, the less you have.",
       "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
+      "movie": "Kung Fu Panda 3",
       "theme": "Wisdom",
-      "selected_on": "2026-06-30T07:09:37.868229Z"
+      "selected_on": "2026-07-01T07:21:17.794450Z"
     }
   ]
 }
