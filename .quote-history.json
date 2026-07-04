@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
       "selected_on": "2026-07-03T06:59:30.149653Z"
+    },
+    {
+      "id": 22,
+      "text": "Every master must find his path to inner peace.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Growth",
+      "selected_on": "2026-07-04T06:55:38.120295Z"
+    },
+    {
+      "id": 33,
+      "text": "No, they don't. Wounds heal. I don't care what scars do!",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Combat",
+      "selected_on": "2026-07-04T06:55:38.120841Z"
+    },
+    {
+      "id": 56,
+      "text": "You are ready. I've never been more sure of anything.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Confidence",
+      "selected_on": "2026-07-04T06:55:38.121331Z"
+    },
+    {
+      "id": 55,
+      "text": "Change is part of the journey.",
+      "author": "Zhen",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Growth",
+      "selected_on": "2026-07-04T06:55:38.121787Z"
+    },
+    {
+      "id": 30,
+      "text": "There's no charge for awesomeness... or attractiveness.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Humor",
+      "selected_on": "2026-07-04T06:55:38.122267Z"
+    },
+    {
+      "id": 19,
+      "text": "I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-07-04T06:55:38.122736Z"
+    },
+    {
+      "id": 6,
+      "text": "Your story may not have such a happy beginning, but that doesn't make you who you are. It is the rest of your story, who you choose to be.",
+      "author": "Soothsayer",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Identity",
+      "selected_on": "2026-07-04T06:55:38.123203Z"
+    },
+    {
+      "id": 16,
+      "text": "The dead exist in the past, and I must tend to the future.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-07-04T06:55:38.123709Z"
+    },
+    {
+      "id": 29,
+      "text": "The secret ingredient is... nothing! To make something special you just have to believe it's special.",
+      "author": "Mr. Ping",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-07-04T06:55:38.124180Z"
     }
   ]
 }
