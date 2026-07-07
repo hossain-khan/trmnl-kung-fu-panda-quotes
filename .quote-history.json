@@ -1,92 +1,20 @@
 {
   "quotes": [
     {
-      "id": 14,
-      "text": "Happiness must be taken, and I will take mine.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-07-05T07:00:42.067168Z"
-    },
-    {
-      "id": 10,
-      "text": "When will you realize? The more you take, the less you have.",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Wisdom",
-      "selected_on": "2026-07-05T07:00:42.067598Z"
-    },
-    {
-      "id": 30,
-      "text": "There's no charge for awesomeness... or attractiveness.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Humor",
-      "selected_on": "2026-07-06T07:22:45.599470Z"
-    },
-    {
-      "id": 11,
-      "text": "My fist hungers for justice! That was my... fist.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Combat",
-      "selected_on": "2026-07-06T07:22:45.600071Z"
-    },
-    {
-      "id": 8,
-      "text": "I'm not a big fat panda. I'm THE big fat panda.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Confidence",
-      "selected_on": "2026-07-06T07:22:45.600597Z"
-    },
-    {
-      "id": 52,
-      "text": "You have to let go of who you were, and embrace who you are.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Growth",
-      "selected_on": "2026-07-06T07:22:45.601070Z"
-    },
-    {
-      "id": 44,
-      "text": "Now, who wants to do the right thing for the wrong reasons?",
-      "author": "Zhen",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Humor",
-      "selected_on": "2026-07-06T07:22:45.601575Z"
-    },
-    {
-      "id": 3,
-      "text": "Skadoosh.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-07-06T07:22:45.602038Z"
-    },
-    {
-      "id": 43,
-      "text": "I've been asking myself that question. Am I the son of a panda? The son of a goose? A student? A teacher? I'm all of those things. I am the Dragon Warrior!",
-      "author": "Po",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Identity",
-      "selected_on": "2026-07-06T07:22:45.602570Z"
-    },
-    {
       "id": 16,
       "text": "The dead exist in the past, and I must tend to the future.",
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-07-06T07:22:45.603103Z"
+      "selected_on": "2026-07-07T07:04:58.306094Z"
     },
     {
-      "id": 20,
-      "text": "Your mind is like this water, my friend. When it is agitated, it becomes difficult to see. But if you allow it to settle, the answer becomes clear.",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
+      "id": 18,
+      "text": "Anything is possible when you have inner peace.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 2",
       "theme": "Wisdom",
-      "selected_on": "2026-07-06T07:22:45.603626Z"
+      "selected_on": "2026-07-07T07:04:58.306621Z"
     }
   ]
 }
