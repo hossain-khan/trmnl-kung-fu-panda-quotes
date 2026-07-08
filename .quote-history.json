@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda 2",
       "theme": "Wisdom",
       "selected_on": "2026-07-07T07:04:58.306621Z"
+    },
+    {
+      "id": 15,
+      "text": "The real warrior never quits.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Combat",
+      "selected_on": "2026-07-08T06:44:48.000090Z"
+    },
+    {
+      "id": 33,
+      "text": "No, they don't. Wounds heal. I don't care what scars do!",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Combat",
+      "selected_on": "2026-07-08T06:44:48.000694Z"
+    },
+    {
+      "id": 38,
+      "text": "I like who I am!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Confidence",
+      "selected_on": "2026-07-08T06:44:48.001205Z"
+    },
+    {
+      "id": 13,
+      "text": "See, that's the thing, Shen. Scars heal.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Growth",
+      "selected_on": "2026-07-08T06:44:48.001725Z"
+    },
+    {
+      "id": 54,
+      "text": "Maybe Oogway was right about you. You aren't completely useless after all.",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Humor",
+      "selected_on": "2026-07-08T06:44:48.002219Z"
+    },
+    {
+      "id": 19,
+      "text": "I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-07-08T06:44:48.002725Z"
+    },
+    {
+      "id": 23,
+      "text": "Who are you? ... I've been asking the same question. Am I the son of a panda? The son of a goose? A student? A teacher? Turns out, I'm all of them.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-07-08T06:44:48.003229Z"
+    },
+    {
+      "id": 14,
+      "text": "Happiness must be taken, and I will take mine.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-07-08T06:44:48.003755Z"
+    },
+    {
+      "id": 26,
+      "text": "Look at this tree, Shifu. I cannot make it blossom when it suits me, nor make it bear fruit before its time.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-07-08T06:44:48.004282Z"
     }
   ]
 }
