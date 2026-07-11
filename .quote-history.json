@@ -6,87 +6,15 @@
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-07-09T07:17:09.414679Z"
+      "selected_on": "2026-07-11T06:40:08.065094Z"
     },
     {
-      "id": 25,
-      "text": "Ah, Shifu. There is just news. There is no good or bad.",
+      "id": 1,
+      "text": "Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.",
       "author": "Master Oogway",
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
-      "selected_on": "2026-07-09T07:17:09.415178Z"
-    },
-    {
-      "id": 41,
-      "text": "I'm not trying to turn you into me. I'm trying to turn you into you.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Growth",
-      "selected_on": "2026-07-10T07:04:20.671195Z"
-    },
-    {
-      "id": 15,
-      "text": "The real warrior never quits.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Combat",
-      "selected_on": "2026-07-10T07:04:20.672083Z"
-    },
-    {
-      "id": 8,
-      "text": "I'm not a big fat panda. I'm THE big fat panda.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Confidence",
-      "selected_on": "2026-07-10T07:04:20.672879Z"
-    },
-    {
-      "id": 55,
-      "text": "Change is part of the journey.",
-      "author": "Zhen",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Growth",
-      "selected_on": "2026-07-10T07:04:20.673766Z"
-    },
-    {
-      "id": 35,
-      "text": "How can kung fu stop something that stops kung fu?",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Humor",
-      "selected_on": "2026-07-10T07:04:20.674618Z"
-    },
-    {
-      "id": 3,
-      "text": "Skadoosh.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-07-10T07:04:20.675483Z"
-    },
-    {
-      "id": 53,
-      "text": "I too came from humble beginnings.",
-      "author": "The Chameleon",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Identity",
-      "selected_on": "2026-07-10T07:04:20.676371Z"
-    },
-    {
-      "id": 16,
-      "text": "The dead exist in the past, and I must tend to the future.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-07-10T07:04:20.677251Z"
-    },
-    {
-      "id": 51,
-      "text": "Chi is a part of you.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Wisdom",
-      "selected_on": "2026-07-10T07:04:20.678146Z"
+      "selected_on": "2026-07-11T06:40:08.065394Z"
     }
   ]
 }
