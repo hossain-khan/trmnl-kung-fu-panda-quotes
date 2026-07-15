@@ -6,87 +6,15 @@
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-07-13T06:58:35.556304Z"
+      "selected_on": "2026-07-15T06:39:19.540353Z"
     },
     {
-      "id": 42,
-      "text": "Sometimes we do the wrong things for the good reasons.",
-      "author": "Mr. Ping",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Wisdom",
-      "selected_on": "2026-07-13T06:58:35.556696Z"
-    },
-    {
-      "id": 36,
-      "text": "Ah. My old enemy... stairs!",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Humor",
-      "selected_on": "2026-07-14T06:38:49.897176Z"
-    },
-    {
-      "id": 11,
-      "text": "My fist hungers for justice! That was my... fist.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Combat",
-      "selected_on": "2026-07-14T06:38:49.897780Z"
-    },
-    {
-      "id": 38,
-      "text": "I like who I am!",
-      "author": "Po",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Confidence",
-      "selected_on": "2026-07-14T06:38:49.898382Z"
-    },
-    {
-      "id": 22,
-      "text": "Every master must find his path to inner peace.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Growth",
-      "selected_on": "2026-07-14T06:38:49.898917Z"
-    },
-    {
-      "id": 31,
-      "text": "Legend tells of a legendary warrior whose kung fu skills were the stuff of legend.",
-      "author": "Po",
+      "id": 4,
+      "text": "There are no accidents.",
+      "author": "Master Oogway",
       "movie": "Kung Fu Panda",
-      "theme": "Humor",
-      "selected_on": "2026-07-14T06:38:49.899547Z"
-    },
-    {
-      "id": 19,
-      "text": "I am the Dragon Warrior!",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-07-14T06:38:49.900117Z"
-    },
-    {
-      "id": 6,
-      "text": "Your story may not have such a happy beginning, but that doesn't make you who you are. It is the rest of your story, who you choose to be.",
-      "author": "Soothsayer",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Identity",
-      "selected_on": "2026-07-14T06:38:49.900685Z"
-    },
-    {
-      "id": 16,
-      "text": "The dead exist in the past, and I must tend to the future.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-07-14T06:38:49.901270Z"
-    },
-    {
-      "id": 46,
-      "text": "Worrying doesn't make the broth boil any faster.",
-      "author": "Mr. Ping",
-      "movie": "Kung Fu Panda 4",
       "theme": "Wisdom",
-      "selected_on": "2026-07-14T06:38:49.901854Z"
+      "selected_on": "2026-07-15T06:39:19.541036Z"
     }
   ]
 }
