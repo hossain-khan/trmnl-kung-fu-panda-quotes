@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
       "selected_on": "2026-07-21T06:45:56.623212Z"
+    },
+    {
+      "id": 29,
+      "text": "The secret ingredient is... nothing! To make something special you just have to believe it's special.",
+      "author": "Mr. Ping",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-07-22T06:46:45.209907Z"
+    },
+    {
+      "id": 9,
+      "text": "Finally, a worthy opponent! Our battle will be legendary!",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda",
+      "theme": "Combat",
+      "selected_on": "2026-07-22T06:46:45.210457Z"
+    },
+    {
+      "id": 56,
+      "text": "You are ready. I've never been more sure of anything.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Confidence",
+      "selected_on": "2026-07-22T06:46:45.210958Z"
+    },
+    {
+      "id": 41,
+      "text": "I'm not trying to turn you into me. I'm trying to turn you into you.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Growth",
+      "selected_on": "2026-07-22T06:46:45.211431Z"
+    },
+    {
+      "id": 32,
+      "text": "He was so deadly, in fact, his enemies would go blind from over-exposure to pure awesomeness!",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Humor",
+      "selected_on": "2026-07-22T06:46:45.211922Z"
+    },
+    {
+      "id": 17,
+      "text": "My time has come. You must now continue your journey without me. You must believe...",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-07-22T06:46:45.212396Z"
+    },
+    {
+      "id": 23,
+      "text": "Who are you? ... I've been asking the same question. Am I the son of a panda? The son of a goose? A student? A teacher? Turns out, I'm all of them.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-07-22T06:46:45.212906Z"
+    },
+    {
+      "id": 16,
+      "text": "The dead exist in the past, and I must tend to the future.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-07-22T06:46:45.213400Z"
+    },
+    {
+      "id": 46,
+      "text": "Worrying doesn't make the broth boil any faster.",
+      "author": "Mr. Ping",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Wisdom",
+      "selected_on": "2026-07-22T06:46:45.213900Z"
     }
   ]
 }
