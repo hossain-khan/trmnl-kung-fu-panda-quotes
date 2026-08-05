@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
       "selected_on": "2026-08-04T06:46:41.916223Z"
+    },
+    {
+      "id": 39,
+      "text": "You don't even know who you are!",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-08-05T06:47:44.864837Z"
+    },
+    {
+      "id": 47,
+      "text": "Oogway made a mistake choosing you as the Dragon Warrior. I just didn't realize how big a mistake it was until now.",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Combat",
+      "selected_on": "2026-08-05T06:47:44.865331Z"
+    },
+    {
+      "id": 38,
+      "text": "I like who I am!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Confidence",
+      "selected_on": "2026-08-05T06:47:44.865725Z"
+    },
+    {
+      "id": 41,
+      "text": "I'm not trying to turn you into me. I'm trying to turn you into you.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Growth",
+      "selected_on": "2026-08-05T06:47:44.866114Z"
+    },
+    {
+      "id": 54,
+      "text": "Maybe Oogway was right about you. You aren't completely useless after all.",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Humor",
+      "selected_on": "2026-08-05T06:47:44.866481Z"
+    },
+    {
+      "id": 17,
+      "text": "My time has come. You must now continue your journey without me. You must believe...",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-08-05T06:47:44.866849Z"
+    },
+    {
+      "id": 6,
+      "text": "Your story may not have such a happy beginning, but that doesn't make you who you are. It is the rest of your story, who you choose to be.",
+      "author": "Soothsayer",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Identity",
+      "selected_on": "2026-08-05T06:47:44.867251Z"
+    },
+    {
+      "id": 16,
+      "text": "The dead exist in the past, and I must tend to the future.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-08-05T06:47:44.867623Z"
+    },
+    {
+      "id": 40,
+      "text": "Time is just an illusion, there is only the now.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Wisdom",
+      "selected_on": "2026-08-05T06:47:44.868034Z"
     }
   ]
 }
