@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda 3",
       "theme": "Wisdom",
       "selected_on": "2026-08-06T06:49:20.267204Z"
+    },
+    {
+      "id": 46,
+      "text": "Worrying doesn't make the broth boil any faster.",
+      "author": "Mr. Ping",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Wisdom",
+      "selected_on": "2026-08-07T06:20:19.707483Z"
+    },
+    {
+      "id": 47,
+      "text": "Oogway made a mistake choosing you as the Dragon Warrior. I just didn't realize how big a mistake it was until now.",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Combat",
+      "selected_on": "2026-08-07T06:20:19.708285Z"
+    },
+    {
+      "id": 38,
+      "text": "I like who I am!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Confidence",
+      "selected_on": "2026-08-07T06:20:19.709078Z"
+    },
+    {
+      "id": 55,
+      "text": "Change is part of the journey.",
+      "author": "Zhen",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Growth",
+      "selected_on": "2026-08-07T06:20:19.709895Z"
+    },
+    {
+      "id": 37,
+      "text": "I'm not freaking out, I'm freaking in.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Humor",
+      "selected_on": "2026-08-07T06:20:19.710667Z"
+    },
+    {
+      "id": 19,
+      "text": "I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-08-07T06:20:19.711467Z"
+    },
+    {
+      "id": 23,
+      "text": "Who are you? ... I've been asking the same question. Am I the son of a panda? The son of a goose? A student? A teacher? Turns out, I'm all of them.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-08-07T06:20:19.712306Z"
+    },
+    {
+      "id": 16,
+      "text": "The dead exist in the past, and I must tend to the future.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-08-07T06:20:19.713176Z"
+    },
+    {
+      "id": 4,
+      "text": "There are no accidents.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-08-07T06:20:19.714001Z"
     }
   ]
 }
