@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda 3",
       "theme": "Wisdom",
       "selected_on": "2026-08-08T06:10:36.422014Z"
+    },
+    {
+      "id": 13,
+      "text": "See, that's the thing, Shen. Scars heal.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Growth",
+      "selected_on": "2026-08-09T06:11:36.926701Z"
+    },
+    {
+      "id": 45,
+      "text": "I'm only hungry for one thing... Vengeance!",
+      "author": "Granny Boar",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Combat",
+      "selected_on": "2026-08-09T06:11:36.927294Z"
+    },
+    {
+      "id": 38,
+      "text": "I like who I am!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Confidence",
+      "selected_on": "2026-08-09T06:11:36.927829Z"
+    },
+    {
+      "id": 41,
+      "text": "I'm not trying to turn you into me. I'm trying to turn you into you.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Growth",
+      "selected_on": "2026-08-09T06:11:36.928312Z"
+    },
+    {
+      "id": 36,
+      "text": "Ah. My old enemy... stairs!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Humor",
+      "selected_on": "2026-08-09T06:11:36.928830Z"
+    },
+    {
+      "id": 3,
+      "text": "Skadoosh.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-08-09T06:11:36.929304Z"
+    },
+    {
+      "id": 23,
+      "text": "Who are you? ... I've been asking the same question. Am I the son of a panda? The son of a goose? A student? A teacher? Turns out, I'm all of them.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-08-09T06:11:36.929831Z"
+    },
+    {
+      "id": 16,
+      "text": "The dead exist in the past, and I must tend to the future.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-08-09T06:11:36.930320Z"
+    },
+    {
+      "id": 25,
+      "text": "Ah, Shifu. There is just news. There is no good or bad.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-08-09T06:11:36.930826Z"
     }
   ]
 }
