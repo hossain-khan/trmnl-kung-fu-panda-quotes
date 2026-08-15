@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
       "selected_on": "2026-08-14T06:24:18.864494Z"
+    },
+    {
+      "id": 41,
+      "text": "I'm not trying to turn you into me. I'm trying to turn you into you.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Growth",
+      "selected_on": "2026-08-15T06:03:22.096700Z"
+    },
+    {
+      "id": 11,
+      "text": "My fist hungers for justice! That was my... fist.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Combat",
+      "selected_on": "2026-08-15T06:03:22.097385Z"
+    },
+    {
+      "id": 56,
+      "text": "You are ready. I've never been more sure of anything.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Confidence",
+      "selected_on": "2026-08-15T06:03:22.097996Z"
+    },
+    {
+      "id": 57,
+      "text": "The journey makes you stronger.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Growth",
+      "selected_on": "2026-08-15T06:03:22.098590Z"
+    },
+    {
+      "id": 35,
+      "text": "How can kung fu stop something that stops kung fu?",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Humor",
+      "selected_on": "2026-08-15T06:03:22.099210Z"
+    },
+    {
+      "id": 19,
+      "text": "I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-08-15T06:03:22.099812Z"
+    },
+    {
+      "id": 43,
+      "text": "I've been asking myself that question. Am I the son of a panda? The son of a goose? A student? A teacher? I'm all of those things. I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-08-15T06:03:22.100400Z"
+    },
+    {
+      "id": 16,
+      "text": "The dead exist in the past, and I must tend to the future.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-08-15T06:03:22.101019Z"
+    },
+    {
+      "id": 18,
+      "text": "Anything is possible when you have inner peace.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Wisdom",
+      "selected_on": "2026-08-15T06:03:22.101671Z"
     }
   ]
 }
