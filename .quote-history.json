@@ -1,20 +1,12 @@
 {
   "quotes": [
     {
-      "id": 14,
-      "text": "Happiness must be taken, and I will take mine.",
+      "id": 16,
+      "text": "The dead exist in the past, and I must tend to the future.",
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-08-16T06:04:15.094042Z"
-    },
-    {
-      "id": 18,
-      "text": "Anything is possible when you have inner peace.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Wisdom",
-      "selected_on": "2026-08-16T06:04:15.094510Z"
+      "selected_on": "2026-08-18T06:04:34.215198Z"
     },
     {
       "id": 27,
@@ -22,71 +14,7 @@
       "author": "Master Oogway",
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
-      "selected_on": "2026-08-17T06:05:59.162234Z"
-    },
-    {
-      "id": 45,
-      "text": "I'm only hungry for one thing... Vengeance!",
-      "author": "Granny Boar",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Combat",
-      "selected_on": "2026-08-17T06:05:59.163020Z"
-    },
-    {
-      "id": 38,
-      "text": "I like who I am!",
-      "author": "Po",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Confidence",
-      "selected_on": "2026-08-17T06:05:59.163736Z"
-    },
-    {
-      "id": 22,
-      "text": "Every master must find his path to inner peace.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Growth",
-      "selected_on": "2026-08-17T06:05:59.164457Z"
-    },
-    {
-      "id": 35,
-      "text": "How can kung fu stop something that stops kung fu?",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Humor",
-      "selected_on": "2026-08-17T06:05:59.165184Z"
-    },
-    {
-      "id": 17,
-      "text": "My time has come. You must now continue your journey without me. You must believe...",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-08-17T06:05:59.165945Z"
-    },
-    {
-      "id": 6,
-      "text": "Your story may not have such a happy beginning, but that doesn't make you who you are. It is the rest of your story, who you choose to be.",
-      "author": "Soothsayer",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Identity",
-      "selected_on": "2026-08-17T06:05:59.166709Z"
-    },
-    {
-      "id": 16,
-      "text": "The dead exist in the past, and I must tend to the future.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-08-17T06:05:59.167492Z"
-    },
-    {
-      "id": 42,
-      "text": "Sometimes we do the wrong things for the good reasons.",
-      "author": "Mr. Ping",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Wisdom",
-      "selected_on": "2026-08-17T06:05:59.168269Z"
+      "selected_on": "2026-08-18T06:04:34.215690Z"
     }
   ]
 }
