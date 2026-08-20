@@ -1,92 +1,20 @@
 {
   "quotes": [
     {
-      "id": 16,
-      "text": "The dead exist in the past, and I must tend to the future.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-08-18T06:04:34.215198Z"
-    },
-    {
-      "id": 27,
-      "text": "My friend, the panda will never fulfill his destiny, nor you yours, until you let go of the illusion of control.",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
-      "theme": "Wisdom",
-      "selected_on": "2026-08-18T06:04:34.215690Z"
-    },
-    {
-      "id": 32,
-      "text": "He was so deadly, in fact, his enemies would go blind from over-exposure to pure awesomeness!",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Humor",
-      "selected_on": "2026-08-19T06:05:06.325509Z"
-    },
-    {
-      "id": 47,
-      "text": "Oogway made a mistake choosing you as the Dragon Warrior. I just didn't realize how big a mistake it was until now.",
-      "author": "Tai Lung",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Combat",
-      "selected_on": "2026-08-19T06:05:06.326074Z"
-    },
-    {
-      "id": 38,
-      "text": "I like who I am!",
-      "author": "Po",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Confidence",
-      "selected_on": "2026-08-19T06:05:06.326653Z"
-    },
-    {
-      "id": 48,
-      "text": "No, you just need to believe. Promise me, Shifu, promise me you will believe.",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
-      "theme": "Growth",
-      "selected_on": "2026-08-19T06:05:06.327184Z"
-    },
-    {
-      "id": 35,
-      "text": "How can kung fu stop something that stops kung fu?",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Humor",
-      "selected_on": "2026-08-19T06:05:06.327722Z"
-    },
-    {
-      "id": 3,
-      "text": "Skadoosh.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-08-19T06:05:06.328235Z"
-    },
-    {
-      "id": 53,
-      "text": "I too came from humble beginnings.",
-      "author": "The Chameleon",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Identity",
-      "selected_on": "2026-08-19T06:05:06.328795Z"
-    },
-    {
       "id": 14,
       "text": "Happiness must be taken, and I will take mine.",
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-08-19T06:05:06.329344Z"
+      "selected_on": "2026-08-20T06:04:53.918347Z"
     },
     {
-      "id": 28,
-      "text": "Quit, don't quit. Noodles, don't noodles... You are too concerned with what was and what will be. There's a saying: Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
+      "id": 46,
+      "text": "Worrying doesn't make the broth boil any faster.",
+      "author": "Mr. Ping",
+      "movie": "Kung Fu Panda 4",
       "theme": "Wisdom",
-      "selected_on": "2026-08-19T06:05:06.329871Z"
+      "selected_on": "2026-08-20T06:04:53.918769Z"
     }
   ]
 }
