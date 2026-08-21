@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda 4",
       "theme": "Wisdom",
       "selected_on": "2026-08-20T06:04:53.918769Z"
+    },
+    {
+      "id": 37,
+      "text": "I'm not freaking out, I'm freaking in.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Humor",
+      "selected_on": "2026-08-21T06:05:26.473532Z"
+    },
+    {
+      "id": 11,
+      "text": "My fist hungers for justice! That was my... fist.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Combat",
+      "selected_on": "2026-08-21T06:05:26.474191Z"
+    },
+    {
+      "id": 56,
+      "text": "You are ready. I've never been more sure of anything.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Confidence",
+      "selected_on": "2026-08-21T06:05:26.474697Z"
+    },
+    {
+      "id": 48,
+      "text": "No, you just need to believe. Promise me, Shifu, promise me you will believe.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Growth",
+      "selected_on": "2026-08-21T06:05:26.475210Z"
+    },
+    {
+      "id": 58,
+      "text": "I see you like to chew. Maybe you should chew... ON MY FIST!",
+      "author": "Gang Boss",
+      "movie": "Kung Fu Panda",
+      "theme": "Humor",
+      "selected_on": "2026-08-21T06:05:26.475709Z"
+    },
+    {
+      "id": 17,
+      "text": "My time has come. You must now continue your journey without me. You must believe...",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-08-21T06:05:26.476219Z"
+    },
+    {
+      "id": 43,
+      "text": "I've been asking myself that question. Am I the son of a panda? The son of a goose? A student? A teacher? I'm all of those things. I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-08-21T06:05:26.476723Z"
+    },
+    {
+      "id": 16,
+      "text": "The dead exist in the past, and I must tend to the future.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-08-21T06:05:26.477249Z"
+    },
+    {
+      "id": 51,
+      "text": "Chi is a part of you.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Wisdom",
+      "selected_on": "2026-08-21T06:05:26.477766Z"
     }
   ]
 }
