@@ -1,92 +1,20 @@
 {
   "quotes": [
     {
-      "id": 16,
-      "text": "The dead exist in the past, and I must tend to the future.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-09-03T06:03:17.914075Z"
-    },
-    {
-      "id": 40,
-      "text": "Time is just an illusion, there is only the now.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Wisdom",
-      "selected_on": "2026-09-03T06:03:17.914573Z"
-    },
-    {
-      "id": 56,
-      "text": "You are ready. I've never been more sure of anything.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Confidence",
-      "selected_on": "2026-09-04T06:02:20.312569Z"
-    },
-    {
-      "id": 15,
-      "text": "The real warrior never quits.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Combat",
-      "selected_on": "2026-09-04T06:02:20.313177Z"
-    },
-    {
-      "id": 8,
-      "text": "I'm not a big fat panda. I'm THE big fat panda.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Confidence",
-      "selected_on": "2026-09-04T06:02:20.313692Z"
-    },
-    {
-      "id": 5,
-      "text": "If you only do what you can do, you will never be more than you are now.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Growth",
-      "selected_on": "2026-09-04T06:02:20.314216Z"
-    },
-    {
-      "id": 32,
-      "text": "He was so deadly, in fact, his enemies would go blind from over-exposure to pure awesomeness!",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Humor",
-      "selected_on": "2026-09-04T06:02:20.314724Z"
-    },
-    {
-      "id": 3,
-      "text": "Skadoosh.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-09-04T06:02:20.315235Z"
-    },
-    {
-      "id": 23,
-      "text": "Who are you? ... I've been asking the same question. Am I the son of a panda? The son of a goose? A student? A teacher? Turns out, I'm all of them.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Identity",
-      "selected_on": "2026-09-04T06:02:20.315746Z"
-    },
-    {
       "id": 14,
       "text": "Happiness must be taken, and I will take mine.",
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-09-04T06:02:20.316271Z"
+      "selected_on": "2026-09-05T06:02:13.441388Z"
     },
     {
-      "id": 4,
-      "text": "There are no accidents.",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
+      "id": 42,
+      "text": "Sometimes we do the wrong things for the good reasons.",
+      "author": "Mr. Ping",
+      "movie": "Kung Fu Panda 3",
       "theme": "Wisdom",
-      "selected_on": "2026-09-04T06:02:20.316788Z"
+      "selected_on": "2026-09-05T06:02:13.441809Z"
     }
   ]
 }
