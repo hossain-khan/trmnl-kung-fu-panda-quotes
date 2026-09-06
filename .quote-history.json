@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda 3",
       "theme": "Wisdom",
       "selected_on": "2026-09-05T06:02:13.441809Z"
+    },
+    {
+      "id": 55,
+      "text": "Change is part of the journey.",
+      "author": "Zhen",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Growth",
+      "selected_on": "2026-09-06T06:01:59.668183Z"
+    },
+    {
+      "id": 9,
+      "text": "Finally, a worthy opponent! Our battle will be legendary!",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda",
+      "theme": "Combat",
+      "selected_on": "2026-09-06T06:01:59.668737Z"
+    },
+    {
+      "id": 56,
+      "text": "You are ready. I've never been more sure of anything.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Confidence",
+      "selected_on": "2026-09-06T06:01:59.669134Z"
+    },
+    {
+      "id": 34,
+      "text": "You gotta let go of that stuff from the past because it just doesn't matter. The only thing that matters is what you choose to be now.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Growth",
+      "selected_on": "2026-09-06T06:01:59.669546Z"
+    },
+    {
+      "id": 30,
+      "text": "There's no charge for awesomeness... or attractiveness.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Humor",
+      "selected_on": "2026-09-06T06:01:59.669985Z"
+    },
+    {
+      "id": 3,
+      "text": "Skadoosh.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-09-06T06:01:59.670378Z"
+    },
+    {
+      "id": 23,
+      "text": "Who are you? ... I've been asking the same question. Am I the son of a panda? The son of a goose? A student? A teacher? Turns out, I'm all of them.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-09-06T06:01:59.670806Z"
+    },
+    {
+      "id": 16,
+      "text": "The dead exist in the past, and I must tend to the future.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-09-06T06:01:59.671282Z"
+    },
+    {
+      "id": 4,
+      "text": "There are no accidents.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-09-06T06:01:59.671682Z"
     }
   ]
 }
