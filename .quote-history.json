@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
       "selected_on": "2026-09-09T06:02:15.258166Z"
+    },
+    {
+      "id": 21,
+      "text": "Before the battle of the fist, comes the battle of the mind.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda",
+      "theme": "Combat",
+      "selected_on": "2026-09-10T06:02:23.870271Z"
+    },
+    {
+      "id": 9,
+      "text": "Finally, a worthy opponent! Our battle will be legendary!",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda",
+      "theme": "Combat",
+      "selected_on": "2026-09-10T06:02:23.870576Z"
+    },
+    {
+      "id": 38,
+      "text": "I like who I am!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Confidence",
+      "selected_on": "2026-09-10T06:02:23.871111Z"
+    },
+    {
+      "id": 22,
+      "text": "Every master must find his path to inner peace.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Growth",
+      "selected_on": "2026-09-10T06:02:23.871645Z"
+    },
+    {
+      "id": 36,
+      "text": "Ah. My old enemy... stairs!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Humor",
+      "selected_on": "2026-09-10T06:02:23.872250Z"
+    },
+    {
+      "id": 19,
+      "text": "I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-09-10T06:02:23.872685Z"
+    },
+    {
+      "id": 23,
+      "text": "Who are you? ... I've been asking the same question. Am I the son of a panda? The son of a goose? A student? A teacher? Turns out, I'm all of them.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-09-10T06:02:23.873331Z"
+    },
+    {
+      "id": 16,
+      "text": "The dead exist in the past, and I must tend to the future.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-09-10T06:02:23.873781Z"
+    },
+    {
+      "id": 50,
+      "text": "It was never my destiny to stop you. I have set another on that path.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Wisdom",
+      "selected_on": "2026-09-10T06:02:23.874357Z"
     }
   ]
 }
