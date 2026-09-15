@@ -1,12 +1,12 @@
 {
   "quotes": [
     {
-      "id": 14,
-      "text": "Happiness must be taken, and I will take mine.",
+      "id": 16,
+      "text": "The dead exist in the past, and I must tend to the future.",
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-09-13T06:02:17.971076Z"
+      "selected_on": "2026-09-15T06:02:45.181770Z"
     },
     {
       "id": 51,
@@ -14,79 +14,7 @@
       "author": "Master Shifu",
       "movie": "Kung Fu Panda 3",
       "theme": "Wisdom",
-      "selected_on": "2026-09-13T06:02:17.971854Z"
-    },
-    {
-      "id": 58,
-      "text": "I see you like to chew. Maybe you should chew... ON MY FIST!",
-      "author": "Gang Boss",
-      "movie": "Kung Fu Panda",
-      "theme": "Humor",
-      "selected_on": "2026-09-14T06:03:09.869315Z"
-    },
-    {
-      "id": 11,
-      "text": "My fist hungers for justice! That was my... fist.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Combat",
-      "selected_on": "2026-09-14T06:03:09.917296Z"
-    },
-    {
-      "id": 38,
-      "text": "I like who I am!",
-      "author": "Po",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Confidence",
-      "selected_on": "2026-09-14T06:03:09.974993Z"
-    },
-    {
-      "id": 48,
-      "text": "No, you just need to believe. Promise me, Shifu, promise me you will believe.",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
-      "theme": "Growth",
-      "selected_on": "2026-09-14T06:03:09.975267Z"
-    },
-    {
-      "id": 32,
-      "text": "He was so deadly, in fact, his enemies would go blind from over-exposure to pure awesomeness!",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Humor",
-      "selected_on": "2026-09-14T06:03:10.084854Z"
-    },
-    {
-      "id": 19,
-      "text": "I am the Dragon Warrior!",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-09-14T06:03:10.153612Z"
-    },
-    {
-      "id": 53,
-      "text": "I too came from humble beginnings.",
-      "author": "The Chameleon",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Identity",
-      "selected_on": "2026-09-14T06:03:10.163262Z"
-    },
-    {
-      "id": 16,
-      "text": "The dead exist in the past, and I must tend to the future.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-09-14T06:03:10.172878Z"
-    },
-    {
-      "id": 26,
-      "text": "Look at this tree, Shifu. I cannot make it blossom when it suits me, nor make it bear fruit before its time.",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
-      "theme": "Wisdom",
-      "selected_on": "2026-09-14T06:03:10.173387Z"
+      "selected_on": "2026-09-15T06:02:45.182255Z"
     }
   ]
 }
