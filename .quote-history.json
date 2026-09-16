@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda 3",
       "theme": "Wisdom",
       "selected_on": "2026-09-15T06:02:45.182255Z"
+    },
+    {
+      "id": 18,
+      "text": "Anything is possible when you have inner peace.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Wisdom",
+      "selected_on": "2026-09-16T06:02:29.088246Z"
+    },
+    {
+      "id": 15,
+      "text": "The real warrior never quits.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Combat",
+      "selected_on": "2026-09-16T06:02:29.088821Z"
+    },
+    {
+      "id": 56,
+      "text": "You are ready. I've never been more sure of anything.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Confidence",
+      "selected_on": "2026-09-16T06:02:29.089313Z"
+    },
+    {
+      "id": 5,
+      "text": "If you only do what you can do, you will never be more than you are now.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Growth",
+      "selected_on": "2026-09-16T06:02:29.089829Z"
+    },
+    {
+      "id": 32,
+      "text": "He was so deadly, in fact, his enemies would go blind from over-exposure to pure awesomeness!",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Humor",
+      "selected_on": "2026-09-16T06:02:29.090414Z"
+    },
+    {
+      "id": 3,
+      "text": "Skadoosh.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-09-16T06:02:29.090981Z"
+    },
+    {
+      "id": 53,
+      "text": "I too came from humble beginnings.",
+      "author": "The Chameleon",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Identity",
+      "selected_on": "2026-09-16T06:02:29.091509Z"
+    },
+    {
+      "id": 14,
+      "text": "Happiness must be taken, and I will take mine.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-09-16T06:02:29.092072Z"
+    },
+    {
+      "id": 10,
+      "text": "When will you realize? The more you take, the less you have.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Wisdom",
+      "selected_on": "2026-09-16T06:02:29.092573Z"
     }
   ]
 }
