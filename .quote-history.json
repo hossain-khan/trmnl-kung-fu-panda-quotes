@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
       "selected_on": "2026-09-17T06:02:30.838058Z"
+    },
+    {
+      "id": 35,
+      "text": "How can kung fu stop something that stops kung fu?",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Humor",
+      "selected_on": "2026-09-18T06:02:23.922510Z"
+    },
+    {
+      "id": 47,
+      "text": "Oogway made a mistake choosing you as the Dragon Warrior. I just didn't realize how big a mistake it was until now.",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Combat",
+      "selected_on": "2026-09-18T06:02:23.923055Z"
+    },
+    {
+      "id": 8,
+      "text": "I'm not a big fat panda. I'm THE big fat panda.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Confidence",
+      "selected_on": "2026-09-18T06:02:23.923555Z"
+    },
+    {
+      "id": 34,
+      "text": "You gotta let go of that stuff from the past because it just doesn't matter. The only thing that matters is what you choose to be now.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Growth",
+      "selected_on": "2026-09-18T06:02:23.924037Z"
+    },
+    {
+      "id": 30,
+      "text": "There's no charge for awesomeness... or attractiveness.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Humor",
+      "selected_on": "2026-09-18T06:02:23.924540Z"
+    },
+    {
+      "id": 19,
+      "text": "I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-09-18T06:02:23.925024Z"
+    },
+    {
+      "id": 23,
+      "text": "Who are you? ... I've been asking the same question. Am I the son of a panda? The son of a goose? A student? A teacher? Turns out, I'm all of them.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Identity",
+      "selected_on": "2026-09-18T06:02:23.925576Z"
+    },
+    {
+      "id": 16,
+      "text": "The dead exist in the past, and I must tend to the future.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-09-18T06:02:23.926081Z"
+    },
+    {
+      "id": 4,
+      "text": "There are no accidents.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-09-18T06:02:23.926611Z"
     }
   ]
 }
