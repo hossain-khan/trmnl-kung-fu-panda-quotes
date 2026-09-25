@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda 3",
       "theme": "Wisdom",
       "selected_on": "2026-09-24T06:02:36.142308Z"
+    },
+    {
+      "id": 3,
+      "text": "Skadoosh.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-09-25T06:02:35.669551Z"
+    },
+    {
+      "id": 21,
+      "text": "Before the battle of the fist, comes the battle of the mind.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda",
+      "theme": "Combat",
+      "selected_on": "2026-09-25T06:02:35.670036Z"
+    },
+    {
+      "id": 56,
+      "text": "You are ready. I've never been more sure of anything.",
+      "author": "Po",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Confidence",
+      "selected_on": "2026-09-25T06:02:35.670616Z"
+    },
+    {
+      "id": 52,
+      "text": "You have to let go of who you were, and embrace who you are.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Growth",
+      "selected_on": "2026-09-25T06:02:35.671165Z"
+    },
+    {
+      "id": 58,
+      "text": "I see you like to chew. Maybe you should chew... ON MY FIST!",
+      "author": "Gang Boss",
+      "movie": "Kung Fu Panda",
+      "theme": "Humor",
+      "selected_on": "2026-09-25T06:02:35.671671Z"
+    },
+    {
+      "id": 19,
+      "text": "I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-09-25T06:02:35.672213Z"
+    },
+    {
+      "id": 53,
+      "text": "I too came from humble beginnings.",
+      "author": "The Chameleon",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Identity",
+      "selected_on": "2026-09-25T06:02:35.672745Z"
+    },
+    {
+      "id": 14,
+      "text": "Happiness must be taken, and I will take mine.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-09-25T06:02:35.673278Z"
+    },
+    {
+      "id": 12,
+      "text": "You must let go of the illusion of control.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-09-25T06:02:35.673800Z"
     }
   ]
 }
