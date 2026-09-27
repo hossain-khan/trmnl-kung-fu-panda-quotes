@@ -1,20 +1,20 @@
 {
   "quotes": [
     {
-      "id": 16,
-      "text": "The dead exist in the past, and I must tend to the future.",
+      "id": 14,
+      "text": "Happiness must be taken, and I will take mine.",
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-09-26T06:02:12.175190Z"
+      "selected_on": "2026-09-27T06:02:21.819695Z"
     },
     {
-      "id": 25,
-      "text": "Ah, Shifu. There is just news. There is no good or bad.",
+      "id": 10,
+      "text": "When will you realize? The more you take, the less you have.",
       "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
+      "movie": "Kung Fu Panda 3",
       "theme": "Wisdom",
-      "selected_on": "2026-09-26T06:02:12.175756Z"
+      "selected_on": "2026-09-27T06:02:21.820259Z"
     }
   ]
 }
