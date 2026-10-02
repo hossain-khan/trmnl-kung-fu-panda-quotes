@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
       "selected_on": "2026-10-01T06:02:49.648643Z"
+    },
+    {
+      "id": 30,
+      "text": "There's no charge for awesomeness... or attractiveness.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Humor",
+      "selected_on": "2026-10-02T06:02:42.294560Z"
+    },
+    {
+      "id": 15,
+      "text": "The real warrior never quits.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Combat",
+      "selected_on": "2026-10-02T06:02:42.295075Z"
+    },
+    {
+      "id": 8,
+      "text": "I'm not a big fat panda. I'm THE big fat panda.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Confidence",
+      "selected_on": "2026-10-02T06:02:42.295750Z"
+    },
+    {
+      "id": 49,
+      "text": "There is always something more to learn.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda",
+      "theme": "Growth",
+      "selected_on": "2026-10-02T06:02:42.296515Z"
+    },
+    {
+      "id": 54,
+      "text": "Maybe Oogway was right about you. You aren't completely useless after all.",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Humor",
+      "selected_on": "2026-10-02T06:02:42.297076Z"
+    },
+    {
+      "id": 19,
+      "text": "I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-10-02T06:02:42.297650Z"
+    },
+    {
+      "id": 53,
+      "text": "I too came from humble beginnings.",
+      "author": "The Chameleon",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Identity",
+      "selected_on": "2026-10-02T06:02:42.298244Z"
+    },
+    {
+      "id": 16,
+      "text": "The dead exist in the past, and I must tend to the future.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-10-02T06:02:42.298809Z"
+    },
+    {
+      "id": 10,
+      "text": "When will you realize? The more you take, the less you have.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Wisdom",
+      "selected_on": "2026-10-02T06:02:42.299404Z"
     }
   ]
 }
