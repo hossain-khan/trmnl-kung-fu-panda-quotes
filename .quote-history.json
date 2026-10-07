@@ -1,92 +1,20 @@
 {
   "quotes": [
     {
-      "id": 16,
-      "text": "The dead exist in the past, and I must tend to the future.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-10-05T06:07:34.154769Z"
-    },
-    {
-      "id": 12,
-      "text": "You must let go of the illusion of control.",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
-      "theme": "Wisdom",
-      "selected_on": "2026-10-05T06:07:34.155312Z"
-    },
-    {
-      "id": 24,
-      "text": "You can chain my body, but you will never chain my warrior spirit!",
-      "author": "Crane",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Combat",
-      "selected_on": "2026-10-06T06:02:54.201788Z"
-    },
-    {
-      "id": 47,
-      "text": "Oogway made a mistake choosing you as the Dragon Warrior. I just didn't realize how big a mistake it was until now.",
-      "author": "Tai Lung",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Combat",
-      "selected_on": "2026-10-06T06:02:54.202439Z"
-    },
-    {
-      "id": 56,
-      "text": "You are ready. I've never been more sure of anything.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Confidence",
-      "selected_on": "2026-10-06T06:02:54.203107Z"
-    },
-    {
-      "id": 41,
-      "text": "I'm not trying to turn you into me. I'm trying to turn you into you.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Growth",
-      "selected_on": "2026-10-06T06:02:54.203660Z"
-    },
-    {
-      "id": 44,
-      "text": "Now, who wants to do the right thing for the wrong reasons?",
-      "author": "Zhen",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Humor",
-      "selected_on": "2026-10-06T06:02:54.206083Z"
-    },
-    {
-      "id": 3,
-      "text": "Skadoosh.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-10-06T06:02:54.206675Z"
-    },
-    {
-      "id": 53,
-      "text": "I too came from humble beginnings.",
-      "author": "The Chameleon",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Identity",
-      "selected_on": "2026-10-06T06:02:54.207353Z"
-    },
-    {
       "id": 14,
       "text": "Happiness must be taken, and I will take mine.",
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-10-06T06:02:54.208006Z"
+      "selected_on": "2026-10-07T06:02:08.470576Z"
     },
     {
-      "id": 29,
-      "text": "The secret ingredient is... nothing! To make something special you just have to believe it's special.",
-      "author": "Mr. Ping",
+      "id": 4,
+      "text": "There are no accidents.",
+      "author": "Master Oogway",
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
-      "selected_on": "2026-10-06T06:02:54.208629Z"
+      "selected_on": "2026-10-07T06:02:08.471016Z"
     }
   ]
 }
