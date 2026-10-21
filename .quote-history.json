@@ -1,92 +1,20 @@
 {
   "quotes": [
     {
-      "id": 16,
-      "text": "The dead exist in the past, and I must tend to the future.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-10-19T06:03:12.454390Z"
-    },
-    {
-      "id": 51,
-      "text": "Chi is a part of you.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Wisdom",
-      "selected_on": "2026-10-19T06:03:12.454846Z"
-    },
-    {
-      "id": 30,
-      "text": "There's no charge for awesomeness... or attractiveness.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Humor",
-      "selected_on": "2026-10-20T06:02:30.190703Z"
-    },
-    {
-      "id": 33,
-      "text": "No, they don't. Wounds heal. I don't care what scars do!",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Combat",
-      "selected_on": "2026-10-20T06:02:30.191212Z"
-    },
-    {
-      "id": 8,
-      "text": "I'm not a big fat panda. I'm THE big fat panda.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Confidence",
-      "selected_on": "2026-10-20T06:02:30.191674Z"
-    },
-    {
-      "id": 49,
-      "text": "There is always something more to learn.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda",
-      "theme": "Growth",
-      "selected_on": "2026-10-20T06:02:30.192105Z"
-    },
-    {
-      "id": 37,
-      "text": "I'm not freaking out, I'm freaking in.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Humor",
-      "selected_on": "2026-10-20T06:02:30.193295Z"
-    },
-    {
-      "id": 19,
-      "text": "I am the Dragon Warrior!",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-10-20T06:02:30.193982Z"
-    },
-    {
-      "id": 53,
-      "text": "I too came from humble beginnings.",
-      "author": "The Chameleon",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Identity",
-      "selected_on": "2026-10-20T06:02:30.194444Z"
-    },
-    {
       "id": 14,
       "text": "Happiness must be taken, and I will take mine.",
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-10-20T06:02:30.194978Z"
+      "selected_on": "2026-10-21T06:02:08.061280Z"
     },
     {
-      "id": 42,
-      "text": "Sometimes we do the wrong things for the good reasons.",
-      "author": "Mr. Ping",
-      "movie": "Kung Fu Panda 3",
+      "id": 20,
+      "text": "Your mind is like this water, my friend. When it is agitated, it becomes difficult to see. But if you allow it to settle, the answer becomes clear.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
       "theme": "Wisdom",
-      "selected_on": "2026-10-20T06:02:30.195418Z"
+      "selected_on": "2026-10-21T06:02:08.061820Z"
     }
   ]
 }
