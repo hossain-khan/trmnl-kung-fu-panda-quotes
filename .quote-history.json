@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda 2",
       "theme": "Wisdom",
       "selected_on": "2026-11-12T06:01:29.688178Z"
+    },
+    {
+      "id": 45,
+      "text": "I'm only hungry for one thing... Vengeance!",
+      "author": "Granny Boar",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Combat",
+      "selected_on": "2026-11-13T06:01:13.182239Z"
+    },
+    {
+      "id": 33,
+      "text": "No, they don't. Wounds heal. I don't care what scars do!",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Combat",
+      "selected_on": "2026-11-13T06:01:13.182826Z"
+    },
+    {
+      "id": 38,
+      "text": "I like who I am!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Confidence",
+      "selected_on": "2026-11-13T06:01:13.183320Z"
+    },
+    {
+      "id": 55,
+      "text": "Change is part of the journey.",
+      "author": "Zhen",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Growth",
+      "selected_on": "2026-11-13T06:01:13.183824Z"
+    },
+    {
+      "id": 31,
+      "text": "Legend tells of a legendary warrior whose kung fu skills were the stuff of legend.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Humor",
+      "selected_on": "2026-11-13T06:01:13.184336Z"
+    },
+    {
+      "id": 3,
+      "text": "Skadoosh.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-11-13T06:01:13.184815Z"
+    },
+    {
+      "id": 53,
+      "text": "I too came from humble beginnings.",
+      "author": "The Chameleon",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Identity",
+      "selected_on": "2026-11-13T06:01:13.185301Z"
+    },
+    {
+      "id": 14,
+      "text": "Happiness must be taken, and I will take mine.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-11-13T06:01:13.185779Z"
+    },
+    {
+      "id": 27,
+      "text": "My friend, the panda will never fulfill his destiny, nor you yours, until you let go of the illusion of control.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-11-13T06:01:13.343713Z"
     }
   ]
 }
