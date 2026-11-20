@@ -1,92 +1,20 @@
 {
   "quotes": [
     {
-      "id": 16,
-      "text": "The dead exist in the past, and I must tend to the future.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-11-18T06:01:24.635727Z"
-    },
-    {
-      "id": 42,
-      "text": "Sometimes we do the wrong things for the good reasons.",
-      "author": "Mr. Ping",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Wisdom",
-      "selected_on": "2026-11-18T06:01:24.636121Z"
-    },
-    {
-      "id": 3,
-      "text": "Skadoosh.",
-      "author": "Po",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-11-19T06:01:14.886074Z"
-    },
-    {
-      "id": 21,
-      "text": "Before the battle of the fist, comes the battle of the mind.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda",
-      "theme": "Combat",
-      "selected_on": "2026-11-19T06:01:14.886760Z"
-    },
-    {
-      "id": 38,
-      "text": "I like who I am!",
-      "author": "Po",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Confidence",
-      "selected_on": "2026-11-19T06:01:14.887316Z"
-    },
-    {
-      "id": 34,
-      "text": "You gotta let go of that stuff from the past because it just doesn't matter. The only thing that matters is what you choose to be now.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Growth",
-      "selected_on": "2026-11-19T06:01:14.887822Z"
-    },
-    {
-      "id": 36,
-      "text": "Ah. My old enemy... stairs!",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Humor",
-      "selected_on": "2026-11-19T06:01:14.888316Z"
-    },
-    {
-      "id": 17,
-      "text": "My time has come. You must now continue your journey without me. You must believe...",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-11-19T06:01:14.888871Z"
-    },
-    {
-      "id": 39,
-      "text": "You don't even know who you are!",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Identity",
-      "selected_on": "2026-11-19T06:01:14.889382Z"
-    },
-    {
       "id": 14,
       "text": "Happiness must be taken, and I will take mine.",
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-11-19T06:01:14.889961Z"
+      "selected_on": "2026-11-20T06:01:18.586967Z"
     },
     {
-      "id": 27,
-      "text": "My friend, the panda will never fulfill his destiny, nor you yours, until you let go of the illusion of control.",
+      "id": 4,
+      "text": "There are no accidents.",
       "author": "Master Oogway",
       "movie": "Kung Fu Panda",
       "theme": "Wisdom",
-      "selected_on": "2026-11-19T06:01:14.890493Z"
+      "selected_on": "2026-11-20T06:01:18.587515Z"
     }
   ]
 }
