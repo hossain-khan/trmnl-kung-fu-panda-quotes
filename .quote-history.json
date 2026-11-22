@@ -1,92 +1,20 @@
 {
   "quotes": [
     {
-      "id": 14,
-      "text": "Happiness must be taken, and I will take mine.",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Villainy",
-      "selected_on": "2026-11-20T06:01:18.586967Z"
-    },
-    {
-      "id": 4,
-      "text": "There are no accidents.",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
-      "theme": "Wisdom",
-      "selected_on": "2026-11-20T06:01:18.587515Z"
-    },
-    {
-      "id": 45,
-      "text": "I'm only hungry for one thing... Vengeance!",
-      "author": "Granny Boar",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Combat",
-      "selected_on": "2026-11-21T06:01:03.766097Z"
-    },
-    {
-      "id": 33,
-      "text": "No, they don't. Wounds heal. I don't care what scars do!",
-      "author": "Lord Shen",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Combat",
-      "selected_on": "2026-11-21T06:01:03.766848Z"
-    },
-    {
-      "id": 56,
-      "text": "You are ready. I've never been more sure of anything.",
-      "author": "Po",
-      "movie": "Kung Fu Panda 4",
-      "theme": "Confidence",
-      "selected_on": "2026-11-21T06:01:03.767408Z"
-    },
-    {
-      "id": 41,
-      "text": "I'm not trying to turn you into me. I'm trying to turn you into you.",
-      "author": "Master Shifu",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Growth",
-      "selected_on": "2026-11-21T06:01:03.767932Z"
-    },
-    {
-      "id": 36,
-      "text": "Ah. My old enemy... stairs!",
-      "author": "Po",
-      "movie": "Kung Fu Panda 2",
-      "theme": "Humor",
-      "selected_on": "2026-11-21T06:01:03.768471Z"
-    },
-    {
-      "id": 17,
-      "text": "My time has come. You must now continue your journey without me. You must believe...",
-      "author": "Master Oogway",
-      "movie": "Kung Fu Panda",
-      "theme": "Iconic",
-      "selected_on": "2026-11-21T06:01:03.768992Z"
-    },
-    {
-      "id": 43,
-      "text": "I've been asking myself that question. Am I the son of a panda? The son of a goose? A student? A teacher? I'm all of those things. I am the Dragon Warrior!",
-      "author": "Po",
-      "movie": "Kung Fu Panda 3",
-      "theme": "Identity",
-      "selected_on": "2026-11-21T06:01:03.769534Z"
-    },
-    {
       "id": 16,
       "text": "The dead exist in the past, and I must tend to the future.",
       "author": "Lord Shen",
       "movie": "Kung Fu Panda 2",
       "theme": "Villainy",
-      "selected_on": "2026-11-21T06:01:03.770075Z"
+      "selected_on": "2026-11-22T06:01:03.671063Z"
     },
     {
-      "id": 46,
-      "text": "Worrying doesn't make the broth boil any faster.",
-      "author": "Mr. Ping",
-      "movie": "Kung Fu Panda 4",
+      "id": 10,
+      "text": "When will you realize? The more you take, the less you have.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda 3",
       "theme": "Wisdom",
-      "selected_on": "2026-11-21T06:01:03.770660Z"
+      "selected_on": "2026-11-22T06:01:03.671370Z"
     }
   ]
 }
