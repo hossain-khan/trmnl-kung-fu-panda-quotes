@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda 3",
       "theme": "Wisdom",
       "selected_on": "2026-11-22T06:01:03.671370Z"
+    },
+    {
+      "id": 52,
+      "text": "You have to let go of who you were, and embrace who you are.",
+      "author": "Master Shifu",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Growth",
+      "selected_on": "2026-11-23T06:01:39.910400Z"
+    },
+    {
+      "id": 45,
+      "text": "I'm only hungry for one thing... Vengeance!",
+      "author": "Granny Boar",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Combat",
+      "selected_on": "2026-11-23T06:01:39.910967Z"
+    },
+    {
+      "id": 8,
+      "text": "I'm not a big fat panda. I'm THE big fat panda.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Confidence",
+      "selected_on": "2026-11-23T06:01:39.911426Z"
+    },
+    {
+      "id": 48,
+      "text": "No, you just need to believe. Promise me, Shifu, promise me you will believe.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Growth",
+      "selected_on": "2026-11-23T06:01:39.911800Z"
+    },
+    {
+      "id": 54,
+      "text": "Maybe Oogway was right about you. You aren't completely useless after all.",
+      "author": "Tai Lung",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Humor",
+      "selected_on": "2026-11-23T06:01:39.912139Z"
+    },
+    {
+      "id": 19,
+      "text": "I am the Dragon Warrior!",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-11-23T06:01:39.912516Z"
+    },
+    {
+      "id": 53,
+      "text": "I too came from humble beginnings.",
+      "author": "The Chameleon",
+      "movie": "Kung Fu Panda 4",
+      "theme": "Identity",
+      "selected_on": "2026-11-23T06:01:39.912868Z"
+    },
+    {
+      "id": 14,
+      "text": "Happiness must be taken, and I will take mine.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-11-23T06:01:39.913223Z"
+    },
+    {
+      "id": 50,
+      "text": "It was never my destiny to stop you. I have set another on that path.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Wisdom",
+      "selected_on": "2026-11-23T06:01:39.913590Z"
     }
   ]
 }
