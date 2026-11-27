@@ -15,6 +15,78 @@
       "movie": "Kung Fu Panda 2",
       "theme": "Wisdom",
       "selected_on": "2026-11-26T06:01:21.986407Z"
+    },
+    {
+      "id": 25,
+      "text": "Ah, Shifu. There is just news. There is no good or bad.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-11-27T06:01:19.813567Z"
+    },
+    {
+      "id": 15,
+      "text": "The real warrior never quits.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Combat",
+      "selected_on": "2026-11-27T06:01:19.814514Z"
+    },
+    {
+      "id": 38,
+      "text": "I like who I am!",
+      "author": "Po",
+      "movie": "Kung Fu Panda 3",
+      "theme": "Confidence",
+      "selected_on": "2026-11-27T06:01:19.815117Z"
+    },
+    {
+      "id": 48,
+      "text": "No, you just need to believe. Promise me, Shifu, promise me you will believe.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Growth",
+      "selected_on": "2026-11-27T06:01:19.815707Z"
+    },
+    {
+      "id": 31,
+      "text": "Legend tells of a legendary warrior whose kung fu skills were the stuff of legend.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Humor",
+      "selected_on": "2026-11-27T06:01:19.816303Z"
+    },
+    {
+      "id": 3,
+      "text": "Skadoosh.",
+      "author": "Po",
+      "movie": "Kung Fu Panda",
+      "theme": "Iconic",
+      "selected_on": "2026-11-27T06:01:19.816888Z"
+    },
+    {
+      "id": 6,
+      "text": "Your story may not have such a happy beginning, but that doesn't make you who you are. It is the rest of your story, who you choose to be.",
+      "author": "Soothsayer",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Identity",
+      "selected_on": "2026-11-27T06:01:19.817494Z"
+    },
+    {
+      "id": 14,
+      "text": "Happiness must be taken, and I will take mine.",
+      "author": "Lord Shen",
+      "movie": "Kung Fu Panda 2",
+      "theme": "Villainy",
+      "selected_on": "2026-11-27T06:01:19.818089Z"
+    },
+    {
+      "id": 1,
+      "text": "Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.",
+      "author": "Master Oogway",
+      "movie": "Kung Fu Panda",
+      "theme": "Wisdom",
+      "selected_on": "2026-11-27T06:01:19.818724Z"
     }
   ]
 }
